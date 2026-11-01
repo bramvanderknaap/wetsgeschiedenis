@@ -8,9 +8,11 @@ interface Props {
   /** Leden die oplichten omdat de lezer een passage aanwijst. */
   oplichten: string[];
   kiesLid: (lid?: string) => void;
+  /** Lidnummers zijn knoppen die de wetsgeschiedenis filteren (alleen als die open staat). */
+  filterbaar?: boolean;
 }
 
-export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid }: Props) {
+export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid, filterbaar = true }: Props) {
   if (artikel.leden.length === 0) {
     return (
       <p className="wt-leeg">
@@ -31,8 +33,9 @@ export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid }: Pr
         const gekozen = gekozenLid === lid.nummer;
         const licht = oplichten.includes(lid.nummer);
         return (
-          <li key={lid.nummer || "x"} className={`wt-lid${gekozen ? " wt-gekozen" : ""}${licht ? " wt-licht" : ""}`}>
-            {!zonderLeden && (
+          <li key={lid.nummer || "x"} className={`wt-lid${zonderLeden ? " wt-zonder-leden" : ""}${gekozen ? " wt-gekozen" : ""}${licht ? " wt-licht" : ""}`}>
+            {!zonderLeden && !filterbaar && <span className="wt-lid-knop wt-lid-vast">{lid.nummer}</span>}
+            {!zonderLeden && filterbaar && (
               <button
                 type="button"
                 className="wt-lid-knop"
@@ -53,7 +56,13 @@ export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid }: Pr
                 <ol className="wt-onderdelen">
                   {lid.onderdelen.map((o) => (
                     <li key={o.label || o.tekst.slice(0, 24)} className={o.label ? undefined : "wt-zonder-label"}>
-                      {o.label && <span className="wt-onderdeel-label">{o.label}.</span>} {o.tekst}
+                      {o.label ? (
+                        <>
+                          <span className="wt-onderdeel-label">{o.label}.</span> {o.tekst}
+                        </>
+                      ) : (
+                        o.tekst
+                      )}
                     </li>
                   ))}
                 </ol>

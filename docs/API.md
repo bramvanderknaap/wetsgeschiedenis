@@ -33,6 +33,7 @@ Alle antwoorden zijn JSON. Een onbekende wet of een onbekend artikel geeft `404`
 | GET | `/wetten` | `Wet[]` |
 | GET | `/wetten/{bwbId}` | `Wet` |
 | GET | `/wetten/{bwbId}/structuur` | `StructuurNode[]` (boom van hoofdstukken, paragrafen en artikelen, in wetsvolgorde) |
+| GET | `/wetten/{bwbId}/artikelen` | `Artikel[]`: alle artikelen in wetsvolgorde, voor de doorlopende leesweergave (zoals een wetbundel) |
 | GET | `/wetten/{bwbId}/artikelen/{nummer}` | `Artikel` (wettekst per lid, plus `vorige`/`volgende` voor bladeren) |
 | GET | `/wetten/{bwbId}/artikelen/{nummer}/passages` | `Passage[]`, gesorteerd op `score`, hoogste eerst |
 | GET | `/zoeken?q=…&wet={bwbId}` | `ZoekResultaat[]`, maximaal 20 |
@@ -90,6 +91,22 @@ Voor de voorbeelddata: maak een bestand naast `src/api/mock/uavg.ts` en zet het 
 ## Wetten met boeken en titels (zoals het BW)
 
 `StructuurSoort` kent `boek`, `deel`, `hoofdstuk`, `titel`, `afdeling`, `paragraaf` en `subparagraaf`. Een artikel als `7:17` kan dus gewoon onder Boek 7, Titel 1, Afdeling 3 staan.
+
+Op wetten.overheid.nl heeft elk boek van het BW een eigen BWB-id (Boek 6 is `BWBR0005289`, Boek 7 is `BWBR0005290`). Lever ze dus als losse wetten in `/wetten`, met de citeertitel zoals wetten.overheid.nl die geeft ("Burgerlijk Wetboek Boek 6"). De startpagina zet alle boeken van één wetboek dan zelf in één rij.
+
+## Staatsblad
+
+`Wet.staatsblad` is de publicatie van de oorspronkelijke wet: `{ "jaar": 2018, "nummer": 144, "datum": "2018-05-16" }`. De frontend maakt daar "Stb. 2018, 144" en de link naar officielebekendmakingen.nl van. Mag ontbreken (bijvoorbeeld bij het BW).
+
+De startpagina toont onder "Meest voorkomende staatsbladen" de wetten met een staatsblad, in de volgorde van `/wetten`. Wil je ze sorteren op hoe vaak ze worden geraadpleegd, zet de meest geraadpleegde dan vooraan.
+
+## Wetten zonder inhoud
+
+Een wet mag in `/wetten` staan voordat de tekst en de passages klaar zijn. Geef dan `aantalArtikelen: 0` en een lege lijst bij `/structuur` en `/artikelen`. De frontend toont "Nog niet ingeladen" en verwijst naar wetten.overheid.nl.
+
+## Grote wetten
+
+De leesweergave haalt alle artikelen van een wet in één keer op. Voor de UAVG (ruim 50 artikelen) is dat geen probleem. Voor een wet als het BW wordt dat te veel; dan kan er een parameter `?hoofdstuk=…` (of `?boek=…&titel=…`) bij die alleen dat deel levert. Laat het weten als je die bouwt, dan laadt de frontend per hoofdstuk.
 
 ## Versies van een wet
 

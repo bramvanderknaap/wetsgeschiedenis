@@ -1,4 +1,4 @@
-import type { DocumentSoort, Passage } from "../api/types";
+import type { DocumentSoort, Passage, Staatsblad } from "../api/types";
 
 export const SOORT_NAAM: Record<DocumentSoort, string> = {
   "memorie-van-toelichting": "Memorie van toelichting",
@@ -46,6 +46,29 @@ export function vindplaats(p: Pick<Passage, "document" | "pagina">): string {
     return `Handelingen ${d.kamer} ${d.vergaderjaar}${d.ondernummer ? `, nr. ${d.ondernummer}` : ""}${pagina}`;
   }
   return `Kamerstukken ${d.kamer} ${d.vergaderjaar}, ${d.dossier}, ${d.ondernummer}${pagina}`;
+}
+
+/** "Stb. 2018, 144" */
+export function staatsbladKort(s: Staatsblad) {
+  return `Stb. ${s.jaar}, ${s.nummer}`;
+}
+
+export function staatsbladUrl(s: Staatsblad) {
+  return `https://zoek.officielebekendmakingen.nl/stb-${s.jaar}-${s.nummer}.html`;
+}
+
+/** "https://wetten.overheid.nl/BWBR…" wordt "wetten.overheid.nl". */
+export function bronNaam(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^(www|zoek)\./, "");
+  } catch {
+    return url;
+  }
+}
+
+/** "34851" wordt "34 851", zoals Kamerstuknummers gedrukt worden. */
+export function dossierNr(d: string) {
+  return d.replace(/^(\d{2})(\d{3})$/, "$1 $2");
 }
 
 export function datumNL(iso: string) {

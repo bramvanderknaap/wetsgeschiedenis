@@ -1,8 +1,7 @@
 import { createBrowserRouter, createHashRouter, createMemoryRouter, Outlet, RouterProvider, ScrollRestoration } from "react-router-dom";
 import { Kopbalk } from "./components/Kopbalk";
 import { Home } from "./pages/Home";
-import { WetPagina } from "./pages/WetPagina";
-import { ArtikelPagina } from "./pages/ArtikelPagina";
+import { Bundel } from "./pages/Bundel";
 import { NietGevondenPagina } from "./pages/NietGevondenPagina";
 
 function Schil() {
@@ -25,8 +24,8 @@ const routes = [
     element: <Schil />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/wet/:bwbId", element: <WetPagina /> },
-      { path: "/wet/:bwbId/artikel/:nummer", element: <ArtikelPagina /> },
+      // Eén leesweergave per wet; het artikel in de URL bepaalt alleen waar je begint.
+      { path: "/wet/:bwbId", element: <Bundel />, children: [{ path: "artikel/:nummer", element: null }] },
       { path: "*", element: <NietGevondenPagina /> },
     ],
   },

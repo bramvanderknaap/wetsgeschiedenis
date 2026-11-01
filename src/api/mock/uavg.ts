@@ -16,6 +16,8 @@ export const uavg: MockWet = {
     dossiers: ["34851"],
     geldigVanaf: "2021-07-01",
     bronUrl: "https://wetten.overheid.nl/BWBR0040940/2021-07-01",
+    // Wet van 16 mei 2018, Stb. 2018, 144 (zoek.officielebekendmakingen.nl/stb-2018-144).
+    staatsblad: { jaar: 2018, nummer: 144, datum: "2018-05-16" },
   },
   structuur,
   documenten,
@@ -122,6 +124,98 @@ export const uavg: MockWet = {
           tekst:
             "Dit artikel is niet van toepassing op hulp- en adviesdiensten die rechtstreeks en kosteloos aan een minderjarige of een onder curatele gestelde worden aangeboden.",
         },
+      ],
+    },
+    "2": {
+      titel: "Materiële reikwijdte",
+      leden: [
+        { nummer: "1", tekst: "Deze wet en de daarop berustende bepalingen zijn van toepassing op de geheel of gedeeltelijk geautomatiseerde verwerking van persoonsgegevens, alsmede op de verwerking van persoonsgegevens die in een bestand zijn opgenomen of die bestemd zijn om daarin te worden opgenomen." },
+        { nummer: "2", tekst: "In afwijking van het eerste lid, is deze wet niet van toepassing op de verwerking van persoonsgegevens voor zover daarop de Wet basisregistratie personen, de Kieswet of de Wet raadgevend referendum van toepassing is." },
+        { nummer: "3", tekst: "Behoudens het bepaalde in artikel 3, is deze wet niet van toepassing op de verwerking van persoonsgegevens, bedoeld in artikel 2, tweede lid, van de verordening." },
+      ],
+    },
+    "2a": {
+      titel: "Inachtneming behoeften kleine, middelgrote en micro-ondernemingen",
+      leden: [
+        { nummer: "", tekst: "De Autoriteit persoonsgegevens neemt bij de toepassing van de verordening de specifieke behoeften van kleine, middelgrote en micro-ondernemingen als bedoeld in artikel 2 van de bijlage bij Aanbeveling 2003/361/EG van de Commissie van 6 mei 2003 betreffende de definitie van kleine, middelgrote en micro-ondernemingen (PbEU 2003 L124) in aanmerking." },
+      ],
+    },
+    "3": {
+      titel: "Schakelbepaling verwerkingen buiten werkingssfeer verordening",
+      leden: [
+        {
+          nummer: "1",
+          tekst: "Deze wet en de daarop berustende bepalingen zijn mede van toepassing op de verwerking van persoonsgegevens:",
+          onderdelen: [
+            { label: "a", tekst: "in het kader van activiteiten die buiten de werkingssfeer van het Unierecht vallen;" },
+            { label: "b", tekst: "door de krijgsmacht bij de uitvoering van activiteiten die binnen de werkingssfeer van titel V, hoofdstuk 2, van het Verdrag betreffende de Europese Unie vallen." },
+          ],
+        },
+        { nummer: "2", tekst: "De verordening is van overeenkomstige toepassing op de verwerking van persoonsgegevens, bedoeld in het eerste lid." },
+        {
+          nummer: "3",
+          tekst: "Het eerste en het tweede lid zijn niet van toepassing op:",
+          onderdelen: [
+            { label: "a", tekst: "de verwerking van persoonsgegevens door de krijgsmacht, voor zover Onze Minister van Defensie daartoe beslist met het oog op de inzet of het ter beschikking stellen van de krijgsmacht ter uitvoering van de in artikel 97 van de Grondwet omschreven taken;" },
+            { label: "b", tekst: "de verwerking van persoonsgegevens voor zover daarop de Wet op de inlichtingen- en veiligheidsdiensten 2017 van toepassing is." },
+          ],
+        },
+        { nummer: "4", tekst: "Van een besluit als bedoeld in het derde lid, onderdeel a, wordt zo spoedig mogelijk mededeling gedaan aan de Autoriteit persoonsgegevens." },
+      ],
+    },
+    "4": {
+      titel: "Territoriale reikwijdte",
+      leden: [
+        { nummer: "1", tekst: "Deze wet en de daarop berustende bepalingen zijn van toepassing op de verwerking van persoonsgegevens in het kader van activiteiten van een vestiging van een verwerkingsverantwoordelijke of een verwerker in Nederland." },
+        {
+          nummer: "2",
+          tekst: "Deze wet en de daarop berustende bepalingen zijn van toepassing op verwerking van persoonsgegevens van betrokkenen die zich in Nederland bevinden door een niet in de Europese Unie gevestigde verwerkingsverantwoordelijke of verwerker, wanneer de verwerking verband houdt met:",
+          onderdelen: [
+            { label: "a", tekst: "het aanbieden van goederen of diensten aan deze betrokkenen in Nederland, ongeacht of een betaling door de betrokkenen is vereist; of" },
+            { label: "b", tekst: "het monitoren van hun gedrag, voor zover dit gedrag in Nederland plaatsvindt." },
+          ],
+        },
+      ],
+    },
+    "25": {
+      titel: "Uitzonderingen inzake verwerking persoonsgegevens waaruit ras of etnische afkomst blijkt",
+      leden: [
+        {
+          nummer: "",
+          tekst: "Gelet op artikel 9, tweede lid, onderdeel g, van de verordening, is het verbod om persoonsgegevens te verwerken waaruit ras of etnische afkomst blijkt, niet van toepassing, indien de verwerking geschiedt:",
+          onderdelen: [
+            { label: "a", tekst: "met het oog op de identificatie van de betrokkene, en slechts voor zover de verwerking voor dat doel onvermijdelijk is; of" },
+            { label: "b", tekst: "met het doel personen van een bepaalde etnische of culturele minderheidsgroep een bevoorrechte positie toe te kennen teneinde feitelijke nadelen, verband houdende met de grond ras of etnische afkomst, op te heffen of te verminderen, en slechts voor zover: 1°. de verwerking voor dat doel noodzakelijk is; 2°. de gegevens betrekking hebben op het geboorteland van de betrokkene, diens ouders of diens grootouders, dan wel op andere, bij wet vastgestelde criteria op grond waarvan op objectieve wijze vastgesteld kan worden of iemand tot een bepaalde etnische of culturele minderheidsgroep behoort; en 3°. de betrokkene tegen de verwerking geen schriftelijk bezwaar heeft gemaakt." },
+          ],
+        },
+      ],
+    },
+    "26": {
+      titel: "Uitzonderingen inzake verwerking persoonsgegevens waaruit politieke opvattingen blijken voor vervulling openbare functies",
+      leden: [
+        { nummer: "", tekst: "Gelet op artikel 9, tweede lid, onderdeel g, van de verordening, is het verbod om persoonsgegevens te verwerken waaruit politieke opvattingen blijken, niet van toepassing, indien de verwerking geschiedt met het oog op de eisen die met betrekking tot politieke opvattingen in redelijkheid kunnen worden gesteld in verband met de vervulling van functies in bestuursorganen en adviescolleges." },
+      ],
+    },
+    "27": {
+      titel: "Uitzonderingen inzake verwerking persoonsgegevens waaruit religieuze of levensbeschouwelijke overtuigingen blijken voor geestelijke verzorging",
+      leden: [
+        { nummer: "1", tekst: "Gelet op artikel 9, tweede lid, onderdeel g, van de verordening, is het verbod om persoonsgegevens te verwerken waaruit religieuze of levensbeschouwelijke overtuigingen blijken, niet van toepassing, indien de verwerking geschiedt door andere instellingen dan de instellingen, bedoeld in artikel 22, tweede lid, onderdeel c, en voor zover de verwerking noodzakelijk is met het oog op de geestelijke verzorging van de betrokkene, tenzij deze daartegen schriftelijk bezwaar heeft gemaakt." },
+        { nummer: "2", tekst: "In de gevallen, bedoeld in het eerste lid, worden geen persoonsgegevens aan derden verstrekt zonder toestemming van de betrokkene." },
+      ],
+    },
+    "28": {
+      titel: "Uitzonderingen inzake genetische gegevens",
+      leden: [
+        { nummer: "1", tekst: "Gelet op artikel 9, tweede lid, onderdeel g, van de verordening, is het verbod om genetische gegevens te verwerken niet van toepassing, indien deze verwerking plaatsvindt met betrekking tot de betrokkene bij wie de desbetreffende gegevens zijn verkregen." },
+        {
+          nummer: "2",
+          tekst: "In andere gevallen dan bedoeld in het eerste lid, is het verbod om genetische gegevens te verwerken uitsluitend niet van toepassing, indien:",
+          onderdelen: [
+            { label: "a", tekst: "een zwaarwegend geneeskundig belang prevaleert; of" },
+            { label: "b", tekst: "de verwerking noodzakelijk is ten behoeve van wetenschappelijk onderzoek dat een algemeen belang dient of ten behoeve van statistiek, indien: 1°. de betrokkene uitdrukkelijke toestemming heeft gegeven; en 2°. bij de uitvoering is voorzien in zodanige waarborgen dat de persoonlijke levenssfeer van de betrokkene niet onevenredig wordt geschaad." },
+          ],
+        },
+        { nummer: "3", tekst: "Toestemming als bedoeld in het tweede lid, onderdeel b, is niet vereist, indien het vragen van uitdrukkelijke toestemming onmogelijk blijkt of een onevenredige inspanning vergt." },
       ],
     },
     "22": {

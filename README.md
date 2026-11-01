@@ -1,4 +1,4 @@
-# Wetsgeschiedenis
+# Wetsgeschiedenis zoeker
 
 Interface die per wetsartikel de nuttigste passages uit de parlementaire
 geschiedenis toont. Eerste wet: de Uitvoeringswet AVG (BWBR0040940).
@@ -19,9 +19,9 @@ Met de echte backend: kopieer `.env.example` naar `.env.local` en vul `VITE_API_
 | `src/api/types.ts` | Het datacontract (leidend voor de backend) |
 | `src/api/client.ts` | De interface die de schermen gebruiken; kiest tussen backend en voorbeelddata |
 | `src/api/http.ts` | Koppeling met de backend |
-| `src/api/mock/` | Voorbeelddata (UAVG) |
-| `src/pages/` | Schermen: wetten, inhoudsopgave, artikel |
-| `src/components/` | Onderdelen: zoekveld, wettekst, passage |
+| `src/api/mock/` | Voorbeelddata: de UAVG met tekst en passages; de andere wetten alleen met hun gegevens |
+| `src/pages/` | Schermen: startpagina en de wet als bundel |
+| `src/components/` | Onderdelen: zoekveld, keuzepad, artikel, wettekst, passage |
 | `docs/API.md` | Endpoints en afspraken voor de backend |
 
 ## Bouwen

@@ -14,6 +14,14 @@
 export type BwbId = string;
 export type ArtikelNummer = string;
 
+/** Vindplaats in het Staatsblad. De frontend maakt er "Stb. 2018, 144" en de link naar officielebekendmakingen.nl van. */
+export interface Staatsblad {
+  jaar: number;
+  nummer: number;
+  /** Datum van de wet ("Wet van 16 mei 2018"), ISO 8601. */
+  datum?: string;
+}
+
 /** Eén wet in de catalogus. */
 export interface Wet {
   bwbId: BwbId;
@@ -27,6 +35,8 @@ export interface Wet {
   geldigVanaf?: string;
   /** Link naar de wet op wetten.overheid.nl. */
   bronUrl: string;
+  /** Publicatie van de oorspronkelijke wet in het Staatsblad, bijv. Stb. 2018, 144. */
+  staatsblad?: Staatsblad;
   aantalArtikelen: number;
   /** Aantal artikelen waarvoor passages beschikbaar zijn. */
   aantalArtikelenMetPassages: number;
