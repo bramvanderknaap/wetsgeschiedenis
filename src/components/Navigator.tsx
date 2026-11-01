@@ -17,7 +17,17 @@ export const SOORT_NAAM: Record<string, string> = {
   subparagraaf: "Subparagraaf",
 };
 
-export const groepSleutel = (n: Pick<StructuurElement, "soort" | "nummer">) => `${n.soort}-${n.nummer}`;
+/**
+ * Sleutel van een hoofdstuk, titel, afdeling of paragraaf, als pad vanaf de wet.
+ * Nummers herhalen zich (het BW heeft in elke titel een "Afdeling 1"), dus het pad
+ * maakt de sleutel uniek: "titel-4_afdeling-1".
+ */
+export const padSleutel = (pad: Pick<StructuurElement, "soort" | "nummer">[]) =>
+  pad.map((n) => `${n.soort}-${n.nummer || "0"}`).join("_");
+
+/** "Titel 5", "Afdeling 1"; zonder nummer alleen de soort. */
+export const groepLabel = (n: Pick<StructuurElement, "soort" | "nummer">) =>
+  n.nummer ? `${SOORT_NAAM[n.soort]} ${n.nummer}` : SOORT_NAAM[n.soort];
 
 interface Props {
   wetNaam: string;
@@ -69,10 +79,7 @@ export function Navigator({ wetNaam, structuur, huidig, naarArtikel, naarGroep }
     actie();
   };
 
-  const terugLabel = useMemo(
-    () => (ouder ? `${SOORT_NAAM[ouder.soort]} ${ouder.nummer}` : wetNaam),
-    [ouder, wetNaam],
-  );
+  const terugLabel = useMemo(() => (ouder ? groepLabel(ouder) : wetNaam), [ouder, wetNaam]);
 
   return (
     <nav className="nav" aria-label={`Inhoud van de ${wetNaam}`}>
@@ -82,10 +89,8 @@ export function Navigator({ wetNaam, structuur, huidig, naarArtikel, naarGroep }
             <button type="button" className="nav-terug" onClick={() => kies(() => zetPad(pad.slice(0, -1)))}>
               <span aria-hidden="true">‹</span> {terugLabel}
             </button>
-            <button type="button" className="nav-titel" onClick={() => kies(() => naarGroep(groepSleutel(huidigeGroep)))}>
-              <span className="nav-titel-soort">
-                {SOORT_NAAM[huidigeGroep.soort]} {huidigeGroep.nummer}
-              </span>
+            <button type="button" className="nav-titel" onClick={() => kies(() => naarGroep(padSleutel(pad)))}>
+              <span className="nav-titel-soort">{groepLabel(huidigeGroep)}</span>
               <span className="nav-titel-naam">{huidigeGroep.titel}</span>
             </button>
           </>
@@ -108,14 +113,14 @@ export function Navigator({ wetNaam, structuur, huidig, naarArtikel, naarGroep }
                 onClick={() => kies(() => naarArtikel(n.nummer))}
               >
                 <span className="nav-nr">Art. {n.nummer}</span>
-                <span className="nav-naam">{n.titel ?? ""}</span>
+                <span className="nav-naam">{n.vervallen ? <em>Vervallen</em> : (n.titel ?? "")}</span>
                 <span className="nav-aantal" aria-label={`${n.aantalPassages} passages`}>
                   {n.aantalPassages || ""}
                 </span>
               </button>
             </li>
           ) : (
-            <li key={groepSleutel(n)}>
+            <li key={padSleutel([...pad, n])}>
               <button
                 type="button"
                 className="nav-item nav-groep"
@@ -123,13 +128,11 @@ export function Navigator({ wetNaam, structuur, huidig, naarArtikel, naarGroep }
                 onClick={() =>
                   kies(() => {
                     zetPad([...pad, n]);
-                    naarGroep(groepSleutel(n));
+                    naarGroep(padSleutel([...pad, n]));
                   })
                 }
               >
-                <span className="nav-groep-soort">
-                  {SOORT_NAAM[n.soort]} {n.nummer}
-                </span>
+                <span className="nav-groep-soort">{groepLabel(n)}</span>
                 <span className="nav-naam">{n.titel}</span>
                 <span className="nav-aantal" aria-label={`${telPassages(n)} passages`}>
                   {telPassages(n) || ""}

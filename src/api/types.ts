@@ -20,6 +20,8 @@ export interface Staatsblad {
   nummer: number;
   /** Datum van de wet ("Wet van 16 mei 2018"), ISO 8601. */
   datum?: string;
+  /** Link naar de publicatie. Zonder link maakt de frontend er zelf een (alleen vanaf 1995, eerder staat niet op officielebekendmakingen.nl). */
+  url?: string;
 }
 
 /** Eén wet in de catalogus. */
@@ -43,14 +45,7 @@ export interface Wet {
 }
 
 /** Indeling van een wet. Volgt de BWB-structuur (hoofdstuk, titel, afdeling, paragraaf, ...). */
-export type StructuurSoort =
-  | "boek"
-  | "deel"
-  | "hoofdstuk"
-  | "titel"
-  | "afdeling"
-  | "paragraaf"
-  | "subparagraaf";
+export type StructuurSoort = "boek" | "deel" | "hoofdstuk" | "titel" | "afdeling" | "paragraaf" | "subparagraaf";
 
 export interface StructuurElement {
   soort: StructuurSoort;
@@ -83,8 +78,11 @@ export interface Onderdeel {
 export interface Lid {
   /** "1", "2", ... Leeg bij een artikel zonder leden. */
   nummer: string;
+  /** Alinea's zijn gescheiden door een regeleinde ("\n"). */
   tekst: string;
   onderdelen?: Onderdeel[];
+  /** Tekst die na de opsomming komt. */
+  slot?: string;
 }
 
 export interface Artikel {
@@ -94,6 +92,8 @@ export interface Artikel {
   leden: Lid[];
   /** Artikel staat al in de wet, maar is nog niet in werking getreden. */
   nogNietInWerking?: boolean;
+  /** Artikel is vervallen; er is geen tekst meer. */
+  vervallen?: boolean;
   /** Waar het artikel in de wet staat, van buiten naar binnen. */
   pad: { soort: StructuurSoort; nummer: string; titel: string }[];
   /** Link naar dit artikel op wetten.overheid.nl. */

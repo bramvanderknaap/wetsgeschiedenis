@@ -191,6 +191,11 @@ h2 {
 }
 .zoek-compact {
   max-width: 420px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.zoek-veld input {
+  min-width: 0;
 }
 .zoek-veld {
   display: flex;
@@ -1193,17 +1198,18 @@ a.wet-rij:hover .wet-naam {
 .ab-kantlijn {
   display: none;
 }
-.ab-zonder-tekst {
-  padding-top: 16px;
-  contain-intrinsic-size: auto 120px;
+.ab-vervallen-blok {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  contain-intrinsic-size: auto 64px;
 }
-.ab-zonder-tekst .wt-leeg {
-  margin: 0;
-  font-size: 0.875rem;
+.ab-vervallen-blok .ab-kop {
+  margin-bottom: 0;
+}
+.ab-vervallen {
+  margin: 2px 0 0;
+  font: italic 1rem/1.4 var(--lees);
   color: var(--inkt-3);
-}
-.ab-zonder-tekst .ab-annotatie {
-  margin-left: 0;
 }
 .ab-kop {
   margin: 0 0 10px;
@@ -1428,10 +1434,11 @@ a.wet-rij:hover .wet-naam {
   .schakel-kort {
     display: inline;
   }
-  .kruimels li:nth-child(-n + 2) {
+  /* Op de telefoon alleen het laatste onderdeel en het artikel. */
+  .kruimels li:not(:nth-last-child(-n + 2)) {
     display: none;
   }
-  .kruimels li:nth-child(3)::before {
+  .kruimels li:nth-last-child(2)::before {
     content: none;
   }
   .bundel-raster {

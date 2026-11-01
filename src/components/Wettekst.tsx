@@ -54,8 +54,9 @@ export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid, filt
               </button>
             )}
             <div className="wt-tekst">
-              <p>{lid.tekst}</p>
+              {alineas(lid.tekst)}
               {lid.onderdelen && <Onderdelen lijst={lid.onderdelen} />}
+              {lid.slot && alineas(lid.slot)}
             </div>
           </li>
         );
@@ -81,4 +82,8 @@ function Onderdelen({ lijst }: { lijst: Onderdeel[] }) {
       ))}
     </ol>
   );
+}
+
+function alineas(tekst: string) {
+  return tekst.split("\n").map((t, i) => <p key={i}>{t}</p>);
 }

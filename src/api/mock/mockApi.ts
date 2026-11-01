@@ -23,14 +23,14 @@ export interface MockWet {
   wet: Omit<Wet, "aantalArtikelen" | "aantalArtikelenMetPassages">;
   /** Structuur zonder tellingen; die rekent de mock zelf uit. */
   structuur: MockNode[];
-  artikelen: Record<ArtikelNummer, { titel?: string; leden: Lid[]; nogNietInWerking?: boolean }>;
+  artikelen: Record<ArtikelNummer, { titel?: string; leden: Lid[]; nogNietInWerking?: boolean; vervallen?: boolean }>;
   documenten: Record<string, ParlementairDocument>;
   passages: (Omit<Passage, "document" | "bwbId"> & { document: string })[];
 }
 
 export type MockNode =
   | { soort: Exclude<StructuurSoort, never>; nummer: string; titel: string; kinderen: MockNode[] }
-  | { soort: "artikel"; nummer: ArtikelNummer; titel?: string };
+  | { soort: "artikel"; nummer: ArtikelNummer; titel?: string; vervallen?: boolean };
 
 const WETTEN: MockWet[] = [uavg, omgevingswet, energiewet, wwke, ...burgerlijkWetboek];
 
@@ -52,8 +52,7 @@ export class MockApi implements WetsgeschiedenisApi {
 
   private artikelVolgorde(w: MockWet): MockNode[] {
     const uit: MockNode[] = [];
-    const loop = (ns: MockNode[]) =>
-      ns.forEach((n) => (n.soort === "artikel" ? uit.push(n) : loop(n.kinderen)));
+    const loop = (ns: MockNode[]) => ns.forEach((n) => (n.soort === "artikel" ? uit.push(n) : loop(n.kinderen)));
     loop(w.structuur);
     return uit;
   }
@@ -87,6 +86,7 @@ export class MockApi implements WetsgeschiedenisApi {
             nummer: n.nummer,
             titel: n.titel ?? w.artikelen[n.nummer]?.titel,
             aantalPassages: this.passagesVan(w, n.nummer).length,
+            vervallen: n.vervallen,
           }
         : { soort: n.soort, nummer: n.nummer, titel: n.titel, kinderen: n.kinderen.map(zet) };
     return w.structuur.map(zet);
@@ -123,6 +123,7 @@ export class MockApi implements WetsgeschiedenisApi {
       titel: inhoud?.titel,
       leden: inhoud?.leden ?? [],
       nogNietInWerking: inhoud?.nogNietInWerking,
+      vervallen: inhoud?.vervallen,
       pad,
       bronUrl: `${w.wet.bronUrl}#Artikel${nummer}`,
       vorige: volgorde[i - 1],
@@ -160,13 +161,23 @@ export class MockApi implements WetsgeschiedenisApi {
       }
       for (const [n, a] of Object.entries(w.artikelen)) {
         if (n === nr) continue;
-        const tekst = [a.titel ?? "", ...a.leden.flatMap((l) => [l.tekst, ...alleTeksten(l.onderdelen)])].join(" ");
+        const tekst = [
+          a.titel ?? "",
+          ...a.leden.flatMap((l) => [l.tekst, ...alleTeksten(l.onderdelen), l.slot ?? ""]),
+        ].join(" ");
         const f = fragment(tekst, term);
         if (f) uit.push({ ...meta, artikel: n, artikelTitel: a.titel, fragment: f, bron: "wettekst" });
       }
       for (const p of w.passages) {
         const f = fragment(p.tekst, term);
-        if (f) uit.push({ ...meta, artikel: p.artikel, artikelTitel: w.artikelen[p.artikel]?.titel, fragment: f, bron: "passage" });
+        if (f)
+          uit.push({
+            ...meta,
+            artikel: p.artikel,
+            artikelTitel: w.artikelen[p.artikel]?.titel,
+            fragment: f,
+            bron: "passage",
+          });
       }
     }
     return uit.slice(0, 20);

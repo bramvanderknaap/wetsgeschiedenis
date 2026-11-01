@@ -53,8 +53,10 @@ export function staatsbladKort(s: Staatsblad) {
   return `Stb. ${s.jaar}, ${s.nummer}`;
 }
 
-export function staatsbladUrl(s: Staatsblad) {
-  return `https://zoek.officielebekendmakingen.nl/stb-${s.jaar}-${s.nummer}.html`;
+/** Link naar het Staatsblad. officielebekendmakingen.nl heeft het Staatsblad vanaf 1995. */
+export function staatsbladUrl(s: Staatsblad): string | undefined {
+  if (s.url) return s.url;
+  return s.jaar >= 1995 ? `https://zoek.officielebekendmakingen.nl/stb-${s.jaar}-${s.nummer}.html` : undefined;
 }
 
 /** "https://wetten.overheid.nl/BWBR…" wordt "wetten.overheid.nl". */
