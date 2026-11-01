@@ -225,13 +225,13 @@ export function Bundel() {
             <label className="schakel">
               <input
                 type="checkbox"
-                aria-label="Alle wetsgeschiedenis uitklappen"
+                aria-label="Alle parlementaire geschiedenis uitklappen"
                 checked={alleOpen}
                 onChange={(e) => zetAlleOpen(e.target.checked)}
               />
               <span className="schakel-baan" aria-hidden="true" />
               <span className="schakel-tekst">
-                <span className="schakel-lang">Alle wetsgeschiedenis uitklappen</span>
+                <span className="schakel-lang">Alles uitklappen</span>
                 <span className="schakel-kort" aria-hidden="true">
                   Alles open
                 </span>

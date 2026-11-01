@@ -53,9 +53,7 @@ export const ArtikelBlok = memo(function ArtikelBlok({ artikel: a, aantalPassage
     if (soorten.length) ps = ps.filter((p) => soorten.includes(p.document.soort));
     if (volgorde === "behandeling") {
       ps = [...ps].sort(
-        (x, y) =>
-          x.document.datum.localeCompare(y.document.datum) ||
-          Number(x.pagina ?? 0) - Number(y.pagina ?? 0),
+        (x, y) => x.document.datum.localeCompare(y.document.datum) || Number(x.pagina ?? 0) - Number(y.pagina ?? 0),
       );
     }
     return ps;
@@ -72,7 +70,12 @@ export const ArtikelBlok = memo(function ArtikelBlok({ artikel: a, aantalPassage
   const annotatieId = `ann-${a.nummer}`;
 
   return (
-    <article className={`ab${open ? " ab-open" : ""}${a.leden.length === 0 ? " ab-zonder-tekst" : ""}`} id={`art-${a.nummer}`} data-artikel={a.nummer} aria-labelledby={`kop-art-${a.nummer}`}>
+    <article
+      className={`ab${open ? " ab-open" : ""}${a.leden.length === 0 ? " ab-zonder-tekst" : ""}`}
+      id={`art-${a.nummer}`}
+      data-artikel={a.nummer}
+      aria-labelledby={`kop-art-${a.nummer}`}
+    >
       <div className="ab-kantlijn" aria-hidden="true">
         {a.titel}
       </div>
@@ -81,6 +84,7 @@ export const ArtikelBlok = memo(function ArtikelBlok({ artikel: a, aantalPassage
           <span className="ab-nr">Artikel {a.nummer}</span>
           {a.titel && <span className="ab-titel">{a.titel}</span>}
         </h3>
+        {a.nogNietInWerking && <p className="ab-status">Nog niet in werking getreden</p>}
 
         <Wettekst
           artikel={a}
@@ -91,88 +95,94 @@ export const ArtikelBlok = memo(function ArtikelBlok({ artikel: a, aantalPassage
           filterbaar={open && !!passages && passages.some((p) => p.leden.length > 0)}
         />
 
-        {aantalPassages > 0 && (
-          <div className="ab-annotatie">
-            <button
-              type="button"
-              className="ab-wissel"
-              aria-expanded={open}
-              aria-controls={annotatieId}
-              onClick={() => wissel(a.nummer)}
-            >
-              <span className="ab-wissel-pijl" aria-hidden="true" />
-              Wetsgeschiedenis
+        <div className="ab-annotatie">
+          <button
+            type="button"
+            className="ab-wissel"
+            aria-expanded={open}
+            aria-controls={annotatieId}
+            onClick={() => wissel(a.nummer)}
+          >
+            <span className="ab-wissel-pijl" aria-hidden="true" />
+            Relevante parlementaire geschiedenis
+            {aantalPassages > 0 && (
               <span className="ab-wissel-aantal">
                 {aantalPassages} {aantalPassages === 1 ? "passage" : "passages"}
               </span>
-            </button>
-
-            {open && (
-              <div className="ab-passages" id={annotatieId}>
-                {fout && <p className="ab-melding">De passages konden niet worden geladen. Klap de wetsgeschiedenis dicht en weer open om het opnieuw te proberen.</p>}
-                {!passages && !fout && <div className="laad-blok laad-kaart" aria-busy="true" />}
-                {passages && (
-                  <>
-                    <div className="ab-gereedschap">
-                      <div className="ab-filters" role="group" aria-label="Filters">
-                        {lid && (
-                          <button type="button" className="filter filter-lid" onClick={() => zetLid(undefined)}>
-                            Lid {lid}
-                            <span className="filter-x" aria-hidden="true">×</span>
-                            <span className="vh">, filter weghalen</span>
-                          </button>
-                        )}
-                        {soortenAanwezig.length > 1 &&
-                          soortenAanwezig.map((s) => (
-                            <button
-                              key={s}
-                              type="button"
-                              className={`filter${soorten.includes(s) ? " filter-aan" : ""}`}
-                              aria-pressed={soorten.includes(s)}
-                              onClick={() =>
-                                zetSoorten((h) => (h.includes(s) ? h.filter((x) => x !== s) : [...h, s]))
-                              }
-                            >
-                              {SOORT_NAAM[s] ?? s}
-                            </button>
-                          ))}
-                      </div>
-                      {passages.length > 1 && (
-                        <label className="ab-volgorde">
-                          <span className="vh">Volgorde</span>
-                          <select value={volgorde} onChange={(e) => zetVolgorde(e.target.value as Volgorde)}>
-                            <option value="relevant">Meest relevant eerst</option>
-                            <option value="behandeling">Volgorde van behandeling</option>
-                          </select>
-                        </label>
-                      )}
-                    </div>
-                    {zichtbaar.length === 0 && (
-                      <p className="ab-melding">
-                        Geen passages die bij deze filters passen.{" "}
-                        <button
-                          type="button"
-                          className="knop-tekst"
-                          onClick={() => {
-                            zetLid(undefined);
-                            zetSoorten([]);
-                          }}
-                        >
-                          Filters weghalen
-                        </button>
-                      </p>
-                    )}
-                    <div className="ab-lijst">
-                      {zichtbaar.map((p) => (
-                        <PassageKaart key={p.id} passage={p} wijsAan={wijsAan} kiesLid={kiesLid} meld={meld} />
-                      ))}
-                    </div>
-                  </>
-                )}
-              </div>
             )}
-          </div>
-        )}
+          </button>
+
+          {open && (
+            <div className="ab-passages" id={annotatieId}>
+              {aantalPassages === 0 && <p className="ab-melding">Nog geen passages bij dit artikel.</p>}
+              {fout && (
+                <p className="ab-melding">
+                  De passages konden niet worden geladen. Klap de parlementaire geschiedenis dicht en weer open om het
+                  opnieuw te proberen.
+                </p>
+              )}
+              {aantalPassages > 0 && !passages && !fout && <div className="laad-blok laad-kaart" aria-busy="true" />}
+              {passages && (
+                <>
+                  <div className="ab-gereedschap">
+                    <div className="ab-filters" role="group" aria-label="Filters">
+                      {lid && (
+                        <button type="button" className="filter filter-lid" onClick={() => zetLid(undefined)}>
+                          Lid {lid}
+                          <span className="filter-x" aria-hidden="true">
+                            ×
+                          </span>
+                          <span className="vh">, filter weghalen</span>
+                        </button>
+                      )}
+                      {soortenAanwezig.length > 1 &&
+                        soortenAanwezig.map((s) => (
+                          <button
+                            key={s}
+                            type="button"
+                            className={`filter${soorten.includes(s) ? " filter-aan" : ""}`}
+                            aria-pressed={soorten.includes(s)}
+                            onClick={() => zetSoorten((h) => (h.includes(s) ? h.filter((x) => x !== s) : [...h, s]))}
+                          >
+                            {SOORT_NAAM[s] ?? s}
+                          </button>
+                        ))}
+                    </div>
+                    {passages.length > 1 && (
+                      <label className="ab-volgorde">
+                        <span className="vh">Volgorde</span>
+                        <select value={volgorde} onChange={(e) => zetVolgorde(e.target.value as Volgorde)}>
+                          <option value="relevant">Meest relevant eerst</option>
+                          <option value="behandeling">Volgorde van behandeling</option>
+                        </select>
+                      </label>
+                    )}
+                  </div>
+                  {zichtbaar.length === 0 && (
+                    <p className="ab-melding">
+                      Geen passages die bij deze filters passen.{" "}
+                      <button
+                        type="button"
+                        className="knop-tekst"
+                        onClick={() => {
+                          zetLid(undefined);
+                          zetSoorten([]);
+                        }}
+                      >
+                        Filters weghalen
+                      </button>
+                    </p>
+                  )}
+                  <div className="ab-lijst">
+                    {zichtbaar.map((p) => (
+                      <PassageKaart key={p.id} passage={p} wijsAan={wijsAan} kiesLid={kiesLid} meld={meld} />
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </article>
   );

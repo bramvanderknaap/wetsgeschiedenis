@@ -86,7 +86,9 @@ Een nieuwe soort toevoegen: zet hem in `DocumentSoort` in `types.ts` en geef hem
 
 Voor de backend: lever de wet in `/wetten` en zorg dat de andere endpoints hem kennen. De frontend hoeft niet te veranderen.
 
-Voor de voorbeelddata: maak een bestand naast `src/api/mock/uavg.ts` en zet het in de lijst `WETTEN` in `src/api/mock/mockApi.ts`.
+Voor de voorbeelddata: zet de wet om met `scripts/bwb_naar_json.py` (zie README), maak een bestand naast `src/api/mock/uavg.ts` en zet het in de lijst `WETTEN` in `src/api/mock/mockApi.ts`.
+
+`scripts/bwb_naar_json.py` laat zien hoe het XML van wetten.overheid.nl op dit contract past: `hoofdstuk`, `titeldeel`, `afdeling` en `paragraaf` worden `StructuurNode`; `artikel` met `lid`, `al` en `lijst`/`li` wordt `Artikel` met `Lid` en (geneste) `Onderdeel`. Een artikel met `status="nogniet"` krijgt `nogNietInWerking: true`.
 
 ## Wetten met boeken en titels (zoals het BW)
 

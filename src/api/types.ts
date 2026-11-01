@@ -73,9 +73,11 @@ export interface ArtikelVerwijzing {
 export type StructuurNode = StructuurElement | ArtikelVerwijzing;
 
 export interface Onderdeel {
-  /** "a", "b", "1°" */
+  /** "a", "b", "1°". Leeg bij een opsomming zonder letters, zoals definities. */
   label: string;
   tekst: string;
+  /** Onderdelen binnen een onderdeel, zoals 1°, 2° onder b. */
+  onderdelen?: Onderdeel[];
 }
 
 export interface Lid {
@@ -90,6 +92,8 @@ export interface Artikel {
   nummer: ArtikelNummer;
   titel?: string;
   leden: Lid[];
+  /** Artikel staat al in de wet, maar is nog niet in werking getreden. */
+  nogNietInWerking?: boolean;
   /** Waar het artikel in de wet staat, van buiten naar binnen. */
   pad: { soort: StructuurSoort; nummer: string; titel: string }[];
   /** Link naar dit artikel op wetten.overheid.nl. */

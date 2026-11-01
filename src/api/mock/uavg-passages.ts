@@ -100,7 +100,7 @@ export const passages: MockWet["passages"] = [
   passage({
     id: "uavg-5-nvw-a",
     artikel: "5",
-    leden: ["5"],
+    leden: ["6"],
     document: "kst-34851-8",
     sectie: "Toelichting, onderdeel A",
     score: 0.93,

@@ -535,6 +535,9 @@ a.wet-rij:hover .wet-naam {
   text-indent: 0;
   color: var(--inkt-3);
 }
+.wt-onderdelen .wt-onderdelen {
+  margin: 2px 0;
+}
 .wt-leeg {
   color: var(--inkt-2);
 }
@@ -1213,6 +1216,15 @@ a.wet-rij:hover .wet-naam {
 }
 .ab-titel {
   font: italic 400 1rem/1.4 var(--lees);
+  color: var(--inkt-2);
+}
+.ab-status {
+  display: inline-block;
+  margin: 6px 0 2px;
+  padding: 2px 8px;
+  border: 1px solid var(--lijn-sterk);
+  border-radius: 6px;
+  font-size: 0.8125rem;
   color: var(--inkt-2);
 }
 .ab .wt {

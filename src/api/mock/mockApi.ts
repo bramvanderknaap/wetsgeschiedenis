@@ -6,6 +6,7 @@ import type {
   BwbId,
   Feedback,
   Lid,
+  Onderdeel,
   ParlementairDocument,
   Passage,
   PassageFilter,
@@ -22,7 +23,7 @@ export interface MockWet {
   wet: Omit<Wet, "aantalArtikelen" | "aantalArtikelenMetPassages">;
   /** Structuur zonder tellingen; die rekent de mock zelf uit. */
   structuur: MockNode[];
-  artikelen: Record<ArtikelNummer, { titel?: string; leden: Lid[] }>;
+  artikelen: Record<ArtikelNummer, { titel?: string; leden: Lid[]; nogNietInWerking?: boolean }>;
   documenten: Record<string, ParlementairDocument>;
   passages: (Omit<Passage, "document" | "bwbId"> & { document: string })[];
 }
@@ -121,6 +122,7 @@ export class MockApi implements WetsgeschiedenisApi {
       nummer,
       titel: inhoud?.titel,
       leden: inhoud?.leden ?? [],
+      nogNietInWerking: inhoud?.nogNietInWerking,
       pad,
       bronUrl: `${w.wet.bronUrl}#Artikel${nummer}`,
       vorige: volgorde[i - 1],
@@ -158,7 +160,7 @@ export class MockApi implements WetsgeschiedenisApi {
       }
       for (const [n, a] of Object.entries(w.artikelen)) {
         if (n === nr) continue;
-        const tekst = [a.titel ?? "", ...a.leden.flatMap((l) => [l.tekst, ...(l.onderdelen ?? []).map((o) => o.tekst)])].join(" ");
+        const tekst = [a.titel ?? "", ...a.leden.flatMap((l) => [l.tekst, ...alleTeksten(l.onderdelen)])].join(" ");
         const f = fragment(tekst, term);
         if (f) uit.push({ ...meta, artikel: n, artikelTitel: a.titel, fragment: f, bron: "wettekst" });
       }
@@ -175,6 +177,10 @@ export class MockApi implements WetsgeschiedenisApi {
     // De echte backend slaat dit op als trainingssignaal voor het model.
     console.info("[voorbeelddata] feedback", f);
   }
+}
+
+function alleTeksten(os: Onderdeel[] = []): string[] {
+  return os.flatMap((o) => [o.tekst, ...alleTeksten(o.onderdelen)]);
 }
 
 function fragment(tekst: string, term: string): string | null {
