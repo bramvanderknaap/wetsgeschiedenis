@@ -12,7 +12,15 @@ interface Props {
 
 export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid }: Props) {
   if (artikel.leden.length === 0) {
-    return <p className="wt-leeg">De tekst van dit artikel is nog niet beschikbaar.</p>;
+    return (
+      <p className="wt-leeg">
+        De tekst van dit artikel is nog niet ingeladen. Lees het artikel op{" "}
+        <a href={artikel.bronUrl} target="_blank" rel="noreferrer">
+          wetten.overheid.nl
+        </a>
+        .
+      </p>
+    );
   }
   const zonderLeden = artikel.leden.length === 1 && !artikel.leden[0].nummer;
 

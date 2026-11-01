@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
 import { api } from "../api/client";
 import { useLaad } from "../lib/useLaad";
-import { naarWet } from "../lib/paden";
+import { naarArtikel, naarWet } from "../lib/paden";
+import type { ArtikelVerwijzing, StructuurNode } from "../api/types";
 import { Zoekveld } from "../components/Zoekveld";
 import { Foutmelding } from "../components/Foutmelding";
 
 export function Home() {
   const wetten = useLaad(() => api.wetten(), []);
+  const eerste = wetten.data?.[0];
+  const uitgelicht = useLaad(
+    async () => (eerste ? meesteWetsgeschiedenis(await api.structuur(eerste.bwbId)) : []),
+    [eerste?.bwbId],
+  );
 
   return (
     <div className="home">
@@ -18,6 +24,25 @@ export function Home() {
         </p>
         <Zoekveld autoFocus />
       </section>
+
+      {eerste && uitgelicht.data && uitgelicht.data.length > 0 && (
+        <section className="home-uitgelicht" aria-labelledby="uitgelicht-kop">
+          <h2 id="uitgelicht-kop">Meeste wetsgeschiedenis in de {eerste.afkorting ?? eerste.citeertitel}</h2>
+          <ul className="uitgelicht-lijst">
+            {uitgelicht.data.map((a) => (
+              <li key={a.nummer}>
+                <Link to={naarArtikel(eerste.bwbId, a.nummer)} className="uitgelicht-rij">
+                  <span className="uitgelicht-nr">Artikel {a.nummer}</span>
+                  <span className="uitgelicht-titel">{a.titel ?? ""}</span>
+                  <span className="uitgelicht-aantal">
+                    {a.aantalPassages} {a.aantalPassages === 1 ? "passage" : "passages"}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="home-wetten" aria-labelledby="wetten-kop">
         <h2 id="wetten-kop">Wetten</h2>
@@ -42,4 +67,14 @@ export function Home() {
       </section>
     </div>
   );
+}
+
+function meesteWetsgeschiedenis(structuur: StructuurNode[]): ArtikelVerwijzing[] {
+  const arts: ArtikelVerwijzing[] = [];
+  const loop = (ns: StructuurNode[]) => ns.forEach((n) => (n.soort === "artikel" ? arts.push(n) : loop(n.kinderen)));
+  loop(structuur);
+  return arts
+    .filter((a) => a.aantalPassages > 0)
+    .sort((a, b) => b.aantalPassages - a.aantalPassages)
+    .slice(0, 4);
 }

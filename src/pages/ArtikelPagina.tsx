@@ -4,7 +4,7 @@ import { api } from "../api/client";
 import type { DocumentSoort, Passage } from "../api/types";
 import { useLaad } from "../lib/useLaad";
 import { naarArtikel, naarWet } from "../lib/paden";
-import { SOORT_KORT } from "../lib/citeer";
+import { SOORT_NAAM } from "../lib/citeer";
 import { Inhoudsopgave } from "../components/Inhoudsopgave";
 import { Wettekst } from "../components/Wettekst";
 import { PassageKaart } from "../components/PassageKaart";
@@ -30,6 +30,23 @@ export function ArtikelPagina() {
   /** Alleen op de telefoon: welke kolom zichtbaar is. */
   const [tab, zetTab] = useState<"wet" | "gesch">("wet");
   const meldTimer = useRef<number>();
+  const zijRef = useRef<HTMLElement>(null);
+  const ioKnopRef = useRef<HTMLButtonElement>(null);
+
+  const sluitInhoud = useCallback(() => {
+    zetInhoudOpen(false);
+    ioKnopRef.current?.focus();
+  }, []);
+
+  // Paneel met inhoudsopgave (tablet en telefoon): focus erin, Escape sluit.
+  useEffect(() => {
+    if (!inhoudOpen) return;
+    const huidig = zijRef.current?.querySelector<HTMLElement>("[aria-current=page]") ?? zijRef.current?.querySelector<HTMLElement>("a");
+    huidig?.focus();
+    const toets = (e: KeyboardEvent) => e.key === "Escape" && sluitInhoud();
+    window.addEventListener("keydown", toets);
+    return () => window.removeEventListener("keydown", toets);
+  }, [inhoudOpen, sluitInhoud]);
 
   useEffect(() => {
     zetSoorten([]);
@@ -98,22 +115,22 @@ export function ArtikelPagina() {
 
   return (
     <div className={`ap ap-toon-${tab}`}>
-      <aside className={`ap-zij${inhoudOpen ? " ap-zij-open" : ""}`} aria-label="Inhoudsopgave van de wet">
+      <aside ref={zijRef} className={`ap-zij${inhoudOpen ? " ap-zij-open" : ""}`} aria-label="Inhoudsopgave van de wet">
         <div className="ap-zij-kop">
           <Link to={naarWet(bwbId)} className="ap-wetnaam">
             {wet.data?.afkorting ?? wet.data?.citeertitel ?? " "}
           </Link>
-          <button type="button" className="knop-tekst ap-zij-sluit" onClick={() => zetInhoudOpen(false)}>
+          <button type="button" className="knop-tekst ap-zij-sluit" onClick={sluitInhoud}>
             Sluiten
           </button>
         </div>
         {structuur.data && <Inhoudsopgave bwbId={bwbId} structuur={structuur.data} huidig={nummer} zijbalk />}
       </aside>
-      {inhoudOpen && <div className="ap-scherm" onClick={() => zetInhoudOpen(false)} aria-hidden="true" />}
+      {inhoudOpen && <div className="ap-scherm" onClick={sluitInhoud} aria-hidden="true" />}
 
       <header className="ap-kop">
         <div className="ap-plek">
-          <button type="button" className="knop-tekst ap-io-knop" onClick={() => zetInhoudOpen(true)}>
+          <button ref={ioKnopRef} type="button" className="knop-tekst ap-io-knop" aria-expanded={inhoudOpen} onClick={() => zetInhoudOpen(true)}>
             Inhoudsopgave
           </button>
           {a?.pad.map((p) => (
@@ -129,23 +146,11 @@ export function ArtikelPagina() {
         </h1>
       </header>
 
-      <div className="ap-tabs" role="tablist" aria-label="Weergave">
-        <button
-          type="button"
-          role="tab"
-          aria-selected={tab === "wet"}
-          className="ap-tab"
-          onClick={() => zetTab("wet")}
-        >
+      <div className="ap-tabs" role="group" aria-label="Weergave">
+        <button type="button" aria-pressed={tab === "wet"} className="ap-tab" onClick={() => zetTab("wet")}>
           Wettekst
         </button>
-        <button
-          type="button"
-          role="tab"
-          aria-selected={tab === "gesch"}
-          className="ap-tab"
-          onClick={() => zetTab("gesch")}
-        >
+        <button type="button" aria-pressed={tab === "gesch"} className="ap-tab" onClick={() => zetTab("gesch")}>
           Wetsgeschiedenis{passages.data ? ` (${alle.length})` : ""}
         </button>
       </div>
@@ -195,11 +200,18 @@ export function ArtikelPagina() {
           <label className="ap-volgorde">
             <span className="vh">Volgorde</span>
             <select value={volgorde} onChange={(e) => zetVolgorde(e.target.value as Volgorde)}>
-              <option value="nuttig">Nuttigst eerst</option>
-              <option value="chronologisch">Oudste eerst</option>
+              <option value="nuttig">Meest relevant eerst</option>
+              <option value="chronologisch">Volgorde van behandeling</option>
             </select>
           </label>
         </div>
+        {alle.length > 0 && (
+          <p className="ap-uitleg">
+            {volgorde === "nuttig"
+              ? "Gesorteerd op hoe relevant het model de passage vindt voor dit artikel."
+              : "Gesorteerd van wetsvoorstel tot behandeling in de Eerste Kamer."}
+          </p>
+        )}
 
         {(lid || beschikbareSoorten.length > 1) && (
           <div className="ap-filters" role="group" aria-label="Filters">
@@ -218,7 +230,7 @@ export function ArtikelPagina() {
                   aria-pressed={soorten.includes(s)}
                   onClick={() => wisselSoort(s)}
                 >
-                  {SOORT_KORT[s] ?? s}
+                  {SOORT_NAAM[s] ?? s}
                 </button>
               ))}
           </div>
@@ -234,7 +246,7 @@ export function ArtikelPagina() {
 
         {passages.data && alle.length === 0 && (
           <div className="ap-leeg">
-            <p>Het model heeft bij dit artikel nog geen passages gevonden.</p>
+            <p>Bij dit artikel zijn nog geen passages gevonden.</p>
             <p>
               Zoek zelf in de{" "}
               <a
@@ -256,7 +268,7 @@ export function ArtikelPagina() {
 
         {passages.data && alle.length > 0 && zichtbaar.length === 0 && (
           <div className="ap-leeg">
-            <p>Geen passages met deze filters.</p>
+            <p>Geen passages die bij deze filters passen.</p>
             <button
               type="button"
               className="knop-tekst"
@@ -271,12 +283,10 @@ export function ArtikelPagina() {
         )}
 
         <div className="ap-lijst">
-          {zichtbaar.map((p, i) => (
+          {zichtbaar.map((p) => (
             <PassageKaart
               key={p.id}
               passage={p}
-              positie={i + 1}
-              totaal={zichtbaar.length}
               wijsAan={wijsAan}
               kiesLid={kiesLid}
               meld={meld}
