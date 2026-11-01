@@ -644,6 +644,18 @@ h2 {
 .pk-open:hover {
   text-decoration: underline;
 }
+.knop-tekst {
+  border: 0;
+  background: none;
+  padding: 6px 0;
+  font: inherit;
+  font-size: 0.9375rem;
+  color: var(--inkt-blauw);
+  cursor: pointer;
+}
+.knop-tekst:hover {
+  text-decoration: underline;
+}
 .pk-leden {
   display: flex;
   flex-wrap: wrap;
@@ -1324,6 +1336,7 @@ h2 {
   .bundel-nav-sluit {
     display: flex;
     justify-content: flex-end;
+    padding: 0 20px 4px;
   }
   .bundel-scherm {
     display: block;
