@@ -15,6 +15,7 @@ import type {
   ZoekResultaat,
 } from "../types";
 import { uavg } from "./uavg";
+import { burgerlijkWetboek, energiewet, omgevingswet, wwke } from "./overige-wetten";
 
 /** Vorm van de voorbeelddata per wet. Zo kan er makkelijk een tweede wet bij. */
 export interface MockWet {
@@ -30,7 +31,7 @@ export type MockNode =
   | { soort: Exclude<StructuurSoort, never>; nummer: string; titel: string; kinderen: MockNode[] }
   | { soort: "artikel"; nummer: ArtikelNummer; titel?: string };
 
-const WETTEN: MockWet[] = [uavg];
+const WETTEN: MockWet[] = [uavg, omgevingswet, energiewet, wwke, ...burgerlijkWetboek];
 
 const wacht = (ms = 120) => new Promise((r) => setTimeout(r, ms));
 

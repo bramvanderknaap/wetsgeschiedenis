@@ -9,9 +9,9 @@ export function Kopbalk() {
   return (
     <header className="kopbalk">
       <div className="kopbalk-binnen">
-        <Link to="/" className="merk" aria-label="Wetsgeschiedenis, naar het begin">
+        <Link to="/" className="merk" aria-label="Wetsgeschiedenis zoeker, naar het begin">
           <Beeldmerk />
-          <span>Wetsgeschiedenis</span>
+          <span>Wetsgeschiedenis zoeker</span>
         </Link>
         <Zoekveld bwbId={bwbId} compact />
         <span className="kopbalk-rechts">

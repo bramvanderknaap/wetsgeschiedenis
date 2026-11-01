@@ -303,15 +303,10 @@ h2 {
   padding: clamp(40px, 10vh, 112px) 20px 80px;
 }
 .home-kop h1 {
-  font: 600 clamp(2.25rem, 6vw, 3.5rem) / 1.04 var(--lees);
-  letter-spacing: -0.025em;
+  font: 600 clamp(1.875rem, 4.5vw, 2.625rem) / 1.1 var(--lees);
+  letter-spacing: -0.02em;
   font-optical-sizing: auto;
-}
-.home-intro {
-  font: 1.1875rem/1.55 var(--lees);
-  color: var(--inkt-2);
-  max-width: 34em;
-  margin: 18px 0 32px;
+  margin-bottom: 24px;
 }
 .home-uitgelicht,
 .home-wetten {
@@ -360,10 +355,13 @@ h2 {
   font-size: 0.9375rem;
   line-height: 1.4;
 }
-.uitgelicht-aantal {
+.uitgelicht-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   margin-top: 10px;
   font-size: 0.8125rem;
-  color: var(--inkt-blauw);
+  color: var(--inkt-3);
   font-variant-numeric: tabular-nums;
 }
 .home-wetten h2 {
@@ -389,7 +387,7 @@ h2 {
   text-decoration: none;
   min-height: 72px;
 }
-.wet-rij:hover .wet-naam {
+a.wet-rij:hover .wet-naam {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
@@ -411,6 +409,33 @@ h2 {
 .wet-bron {
   font-size: 0.875rem;
   color: var(--inkt-3);
+}
+.wet-bron:empty {
+  display: none;
+}
+.wet-delen {
+  grid-column: 2 / -1;
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.wet-deel {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 11px;
+  border: 1px solid var(--lijn-sterk);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: inherit;
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+.wet-deel:hover {
+  border-color: var(--inkt-blauw);
+  color: var(--inkt-blauw);
 }
 
 /* Wettekst met lidknoppen in de marge */
@@ -1091,6 +1116,31 @@ h2 {
   font-size: 0.875rem;
   color: var(--inkt-2);
 }
+/* Wet zonder tekst (nog niet ingeladen) */
+.bundel-leeg .bundel-nav {
+  display: none;
+}
+.bundel-leeg .bundel-raster {
+  grid-template-columns: minmax(0, 820px);
+  justify-content: center;
+}
+.bundel-leeg .bundel-tekst {
+  padding-bottom: 96px;
+}
+.bundel-leeg-melding {
+  margin-top: 36px;
+  padding: 20px 22px;
+  border: 1px solid var(--lijn);
+  border-radius: var(--r);
+  background: var(--vlak-2);
+  font: 1.0625rem/1.55 var(--lees);
+}
+.bundel-leeg-melding p {
+  margin: 0;
+}
+.bundel-leeg-melding p + p {
+  margin-top: 8px;
+}
 .bg {
   scroll-margin-top: calc(var(--kop-h) + var(--kruimel-h) + 12px);
 }
@@ -1441,6 +1491,9 @@ h2 {
   .wet-afkorting {
     grid-row: auto;
   }
+  .wet-delen {
+    grid-column: 1 / -1;
+  }
   .wet-cijfers {
     text-align: left;
     white-space: normal;
@@ -1456,7 +1509,8 @@ h2 {
   .pk-lid,
   .filter,
   .ab-volgorde select,
-  .kruimel-inhoud {
+  .kruimel-inhoud,
+  .wet-deel {
     min-height: 44px;
   }
   .knop-tekst,

@@ -16,6 +16,8 @@ export const uavg: MockWet = {
     dossiers: ["34851"],
     geldigVanaf: "2021-07-01",
     bronUrl: "https://wetten.overheid.nl/BWBR0040940/2021-07-01",
+    // Wet van 16 mei 2018, Stb. 2018, 144 (zoek.officielebekendmakingen.nl/stb-2018-144).
+    staatsblad: { jaar: 2018, nummer: 144, datum: "2018-05-16" },
   },
   structuur,
   documenten,

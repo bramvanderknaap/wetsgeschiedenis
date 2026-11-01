@@ -7,6 +7,7 @@ import { naarArtikel, naarWet } from "../lib/paden";
 import { groepSleutel, Navigator, SOORT_NAAM } from "../components/Navigator";
 import { ArtikelBlok } from "../components/ArtikelBlok";
 import { Foutmelding } from "../components/Foutmelding";
+import { bronNaam, datumNL, dossierNr, staatsbladKort, staatsbladUrl } from "../lib/citeer";
 
 /**
  * De wet als bundel: links het keuzepad (hoofdstuk, paragraaf, artikel),
@@ -60,6 +61,7 @@ export function Bundel() {
   }, [structuur.data]);
 
   const gereed = !!(structuur.data && artikelen.data);
+  const leeg = gereed && artikelen.data!.length === 0;
 
   // Naar het gevraagde artikel springen (bij openen van een link, zoekresultaat of keuze in het keuzepad).
   useEffect(() => {
@@ -96,7 +98,10 @@ export function Bundel() {
 
   useEffect(() => {
     if (!navOpen) return;
-    (navPaneel.current?.querySelector<HTMLElement>(".nav [aria-current=location]") ?? navPaneel.current?.querySelector<HTMLElement>(".nav button"))?.focus();
+    (
+      navPaneel.current?.querySelector<HTMLElement>(".nav [aria-current=location]") ??
+      navPaneel.current?.querySelector<HTMLElement>(".nav button")
+    )?.focus();
     const toets = (e: KeyboardEvent) => e.key === "Escape" && sluitNav();
     window.addEventListener("keydown", toets);
     return () => window.removeEventListener("keydown", toets);
@@ -108,7 +113,11 @@ export function Bundel() {
       if (n === nummer) {
         document.getElementById(`art-${n}`)?.scrollIntoView({ block: "start" });
         wissel(n, true);
-      } else navigate(naarArtikel(bwbId, n), { replace: true, preventScrollReset: true });
+      } else
+        navigate(naarArtikel(bwbId, n), {
+          replace: true,
+          preventScrollReset: true,
+        });
     },
     [bwbId, navigate, nummer, wissel],
   );
@@ -134,7 +143,12 @@ export function Bundel() {
     return zoek(structuur.data, []) ?? [];
   }, [structuur.data, huidig]);
 
-  if (wet.status === "fout") return <div className="smal"><Foutmelding fout={wet.fout} /></div>;
+  if (wet.status === "fout")
+    return (
+      <div className="smal">
+        <Foutmelding fout={wet.fout} />
+      </div>
+    );
   const naam = wet.data?.afkorting ?? wet.data?.citeertitel ?? "";
 
   const tekst = (ns: StructuurNode[], diepte: number): JSX.Element[] =>
@@ -168,18 +182,20 @@ export function Bundel() {
     });
 
   return (
-    <div className="bundel">
+    <div className={`bundel${leeg ? " bundel-leeg" : ""}`}>
       <div className="kruimelbalk">
         <div className="kruimelbalk-binnen">
-          <button
-            ref={navKnop}
-            type="button"
-            className="kruimel-inhoud"
-            aria-expanded={navOpen}
-            onClick={() => zetNavOpen(true)}
-          >
-            Inhoud
-          </button>
+          {!leeg && (
+            <button
+              ref={navKnop}
+              type="button"
+              className="kruimel-inhoud"
+              aria-expanded={navOpen}
+              onClick={() => zetNavOpen(true)}
+            >
+              Inhoud
+            </button>
+          )}
           <nav className="kruimels" aria-label="Je bent hier">
             <ol>
               <li>
@@ -205,14 +221,23 @@ export function Bundel() {
               )}
             </ol>
           </nav>
-          <label className="schakel">
-            <input type="checkbox" aria-label="Alle wetsgeschiedenis uitklappen" checked={alleOpen} onChange={(e) => zetAlleOpen(e.target.checked)} />
-            <span className="schakel-baan" aria-hidden="true" />
-            <span className="schakel-tekst">
-              <span className="schakel-lang">Alle wetsgeschiedenis uitklappen</span>
-              <span className="schakel-kort" aria-hidden="true">Alles open</span>
-            </span>
-          </label>
+          {!leeg && (
+            <label className="schakel">
+              <input
+                type="checkbox"
+                aria-label="Alle wetsgeschiedenis uitklappen"
+                checked={alleOpen}
+                onChange={(e) => zetAlleOpen(e.target.checked)}
+              />
+              <span className="schakel-baan" aria-hidden="true" />
+              <span className="schakel-tekst">
+                <span className="schakel-lang">Alle wetsgeschiedenis uitklappen</span>
+                <span className="schakel-kort" aria-hidden="true">
+                  Alles open
+                </span>
+              </span>
+            </label>
+          )}
         </div>
       </div>
 
@@ -223,7 +248,7 @@ export function Bundel() {
               Sluiten
             </button>
           </div>
-          {structuur.data && (
+          {structuur.data && !leeg && (
             <Navigator
               wetNaam={naam}
               structuur={structuur.data}
@@ -242,21 +267,44 @@ export function Bundel() {
             <h1>{wet.data?.citeertitel ?? " "}</h1>
             {wet.data && (
               <p className="bundel-meta">
-                <span>
-                  Tekst geldig vanaf {new Date(wet.data.geldigVanaf ?? "").toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" })}
-                </span>
-                <span>Kamerstukken {wet.data.dossiers.join(", ")}</span>
+                {wet.data.geldigVanaf && <span>Tekst geldig vanaf {datumNL(wet.data.geldigVanaf)}</span>}
+                {wet.data.staatsblad && (
+                  <a href={staatsbladUrl(wet.data.staatsblad)} target="_blank" rel="noreferrer">
+                    {staatsbladKort(wet.data.staatsblad)}
+                  </a>
+                )}
+                {wet.data.dossiers.length > 0 && (
+                  <span>Kamerstukken {wet.data.dossiers.map(dossierNr).join(", ")}</span>
+                )}
                 <a href={wet.data.bronUrl} target="_blank" rel="noreferrer">
-                  Bron: wetten.overheid.nl
+                  Bron: {bronNaam(wet.data.bronUrl)}
                 </a>
               </p>
             )}
           </header>
           {(structuur.status === "fout" || artikelen.status === "fout") && (
-            <Foutmelding fout={(structuur.status === "fout" ? structuur.fout : artikelen.status === "fout" ? artikelen.fout : new Error())} />
+            <Foutmelding
+              fout={
+                structuur.status === "fout"
+                  ? structuur.fout
+                  : artikelen.status === "fout"
+                    ? artikelen.fout
+                    : new Error()
+              }
+            />
           )}
           {!gereed && <div className="laad-blok laad-tekst" aria-busy="true" />}
-          {gereed && tekst(structuur.data!, 0)}
+          {gereed && !leeg && tekst(structuur.data!, 0)}
+          {leeg && wet.data && (
+            <div className="bundel-leeg-melding">
+              <p>De tekst en de wetsgeschiedenis van deze wet zijn nog niet ingeladen.</p>
+              <p>
+                <a href={wet.data.bronUrl} target="_blank" rel="noreferrer">
+                  Lees de wet op {bronNaam(wet.data.bronUrl)}
+                </a>
+              </p>
+            </div>
+          )}
         </div>
       </div>
 
