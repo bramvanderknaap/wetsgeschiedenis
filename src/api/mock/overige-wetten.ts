@@ -1,4 +1,5 @@
 import type { MockWet } from "./mockApi";
+import { bwBoek1 } from "./bw-boek-1";
 
 /**
  * Wetten die al in de lijst staan, maar waarvan de tekst en de wetsgeschiedenis
@@ -61,8 +62,9 @@ const bwBoek = (boek: string, bwbId: string) =>
     bronUrl: `https://wetten.overheid.nl/${bwbId}`,
   });
 
+/** Boek 1 komt uit het XML-bestand (zie bw-boek-1.ts); de andere boeken alleen met hun gegevens. */
 export const burgerlijkWetboek = [
-  bwBoek("1", "BWBR0002656"),
+  bwBoek1,
   bwBoek("2", "BWBR0003045"),
   bwBoek("3", "BWBR0005291"),
   bwBoek("4", "BWBR0002761"),

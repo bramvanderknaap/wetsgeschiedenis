@@ -4,10 +4,13 @@ import { api } from "../api/client";
 import type { Artikel, ArtikelNummer, StructuurElement, StructuurNode } from "../api/types";
 import { useLaad } from "../lib/useLaad";
 import { naarArtikel, naarWet } from "../lib/paden";
-import { groepSleutel, Navigator, SOORT_NAAM } from "../components/Navigator";
+import { groepLabel, Navigator, padSleutel } from "../components/Navigator";
 import { ArtikelBlok } from "../components/ArtikelBlok";
 import { Foutmelding } from "../components/Foutmelding";
 import { bronNaam, datumNL, dossierNr, staatsbladKort, staatsbladUrl } from "../lib/citeer";
+
+/** Korte vorm in het kruimelpad: "H3", "§ 3.1", "Afd. 6". */
+const KRUIMEL: Record<string, string> = { hoofdstuk: "H", paragraaf: "§ ", afdeling: "Afd. " };
 
 /**
  * De wet als bundel: links het keuzepad (hoofdstuk, paragraaf, artikel),
@@ -151,7 +154,7 @@ export function Bundel() {
     );
   const naam = wet.data?.afkorting ?? wet.data?.citeertitel ?? "";
 
-  const tekst = (ns: StructuurNode[], diepte: number): JSX.Element[] =>
+  const tekst = (ns: StructuurNode[], pad: StructuurElement[]): JSX.Element[] =>
     ns.map((n) => {
       if (n.soort === "artikel") {
         const a = perNummer.get(n.nummer);
@@ -167,16 +170,16 @@ export function Bundel() {
           />
         );
       }
+      const diepte = pad.length;
       const Kop = diepte === 0 ? "h2" : "h3";
+      const sleutel = padSleutel([...pad, n]);
       return (
-        <section key={groepSleutel(n)} className={`bg bg-diepte-${diepte}`} aria-labelledby={`kop-${groepSleutel(n)}`}>
-          <Kop className="bg-kop" id={`kop-${groepSleutel(n)}`}>
-            <span className="bg-soort">
-              {SOORT_NAAM[n.soort]} {n.nummer}
-            </span>
+        <section key={sleutel} className={`bg bg-diepte-${diepte}`}>
+          <Kop className="bg-kop" id={`kop-${sleutel}`}>
+            <span className="bg-soort">{groepLabel(n)}</span>
             <span className="bg-titel">{n.titel}</span>
           </Kop>
-          {tekst(n.kinderen, diepte + 1)}
+          {tekst(n.kinderen, [...pad, n])}
         </section>
       );
     });
@@ -206,11 +209,15 @@ export function Bundel() {
                   {naam}
                 </Link>
               </li>
-              {kruimels.map((k) => (
-                <li key={groepSleutel(k)} className="kruimel-groep">
-                  <button type="button" onClick={() => gaNaarGroep(groepSleutel(k))} title={k.titel}>
-                    {k.soort === "hoofdstuk" ? "H" : k.soort === "paragraaf" ? "§ " : `${SOORT_NAAM[k.soort]} `}
-                    {k.nummer}
+              {kruimels.map((k, i) => (
+                <li key={padSleutel(kruimels.slice(0, i + 1))} className="kruimel-groep">
+                  <button
+                    type="button"
+                    onClick={() => gaNaarGroep(padSleutel(kruimels.slice(0, i + 1)))}
+                    title={`${groepLabel(k)} ${k.titel}`}
+                  >
+                    {KRUIMEL[k.soort] ?? `${groepLabel(k)}`}
+                    {KRUIMEL[k.soort] ? k.nummer : ""}
                   </button>
                 </li>
               ))}
@@ -268,11 +275,14 @@ export function Bundel() {
             {wet.data && (
               <p className="bundel-meta">
                 {wet.data.geldigVanaf && <span>Tekst geldig vanaf {datumNL(wet.data.geldigVanaf)}</span>}
-                {wet.data.staatsblad && (
-                  <a href={staatsbladUrl(wet.data.staatsblad)} target="_blank" rel="noreferrer">
-                    {staatsbladKort(wet.data.staatsblad)}
-                  </a>
-                )}
+                {wet.data.staatsblad &&
+                  (staatsbladUrl(wet.data.staatsblad) ? (
+                    <a href={staatsbladUrl(wet.data.staatsblad)} target="_blank" rel="noreferrer">
+                      {staatsbladKort(wet.data.staatsblad)}
+                    </a>
+                  ) : (
+                    <span>{staatsbladKort(wet.data.staatsblad)}</span>
+                  ))}
                 {wet.data.dossiers.length > 0 && (
                   <span>Kamerstukken {wet.data.dossiers.map(dossierNr).join(", ")}</span>
                 )}
@@ -294,7 +304,7 @@ export function Bundel() {
             />
           )}
           {!gereed && <div className="laad-blok laad-tekst" aria-busy="true" />}
-          {gereed && !leeg && tekst(structuur.data!, 0)}
+          {gereed && !leeg && tekst(structuur.data!, [])}
           {leeg && wet.data && (
             <div className="bundel-leeg-melding">
               <p>De tekst en de wetsgeschiedenis van deze wet zijn nog niet ingeladen.</p>

@@ -14,7 +14,7 @@ Uitvoer:
     {
       "wet": { bwbId, citeertitel, geldigVanaf, staatsblad, dossiers, bronUrl },
       "structuur": [ { soort, nummer, titel, kinderen: [...] } | { soort: "artikel", nummer, titel } ],
-      "artikelen": { "<nummer>": { titel, leden: [ { nummer, tekst, onderdelen } ], nogNietInWerking } }
+      "artikelen": { "<nummer>": { titel, leden: [ { nummer, tekst, onderdelen, slot } ], nogNietInWerking, vervallen } }
     }
 """
 import json
@@ -58,9 +58,26 @@ def tekst_van(e):
     return schoon("".join(delen))
 
 
-def alineas(e):
-    """De alinea's (al) direct onder een element, samengevoegd."""
-    return " ".join(t for t in (tekst_van(al) for al in e.findall("al")) if t)
+def inhoud(e):
+    """
+    Tekst, opsomming en slottekst van een lid, onderdeel of artikel, in de volgorde
+    van de wet: alinea's voor de opsomming (gescheiden door een regeleinde), de
+    opsomming zelf, en alinea's die na de opsomming komen.
+    """
+    voor, na, lijst = [], [], None
+    for k in e:
+        if k.tag == "al":
+            t = tekst_van(k)
+            if t:
+                (na if lijst is not None else voor).append(t)
+        elif k.tag == "lijst" and lijst is None:
+            lijst = k
+    uit = {"tekst": "\n".join(voor)}
+    if lijst is not None:
+        uit["onderdelen"] = onderdelen(lijst)
+    if na:
+        uit["slot"] = "\n".join(na)
+    return uit
 
 
 def onderdelen(lijst):
@@ -68,20 +85,15 @@ def onderdelen(lijst):
     for li in lijst.findall("li"):
         nr = li.find("li.nr")
         label = schoon(nr.text or "").rstrip(".") if nr is not None else ""
-        o = {"label": label, "tekst": alineas(li)}
-        sub = li.find("lijst")
-        if sub is not None:
-            o["onderdelen"] = onderdelen(sub)
+        o = {"label": label, **inhoud(li)}
+        if "slot" in o:  # komt in onderdelen niet voor; voeg samen met de tekst
+            o["tekst"] = "\n".join([o["tekst"], o.pop("slot")])
         uit.append(o)
     return uit
 
 
 def lid_van(e, nummer):
-    lid = {"nummer": nummer, "tekst": alineas(e)}
-    lijst = e.find("lijst")
-    if lijst is not None:
-        lid["onderdelen"] = onderdelen(lijst)
-    return lid
+    return {"nummer": nummer, **inhoud(e)}
 
 
 def kop(e):
@@ -98,10 +110,15 @@ def kop(e):
 
 def artikel(e):
     nummer, titel = kop(e)
+    a = {"titel": titel} if titel else {}
+    if e.get("status") == "vervallen":
+        # Op wetten.overheid.nl: "Artikel 20h [Vervallen]". Geen tekst meer.
+        return nummer, {**a, "leden": [], "vervallen": True}
     leden = [lid_van(l, schoon(l.findtext("lidnr") or "").rstrip(".")) for l in e.findall("lid")]
-    if not leden and (e.find("al") is not None or e.find("lijst") is not None):
-        leden = [lid_van(e, "")]
-    a = {"titel": titel, "leden": leden} if titel else {"leden": leden}
+    los = inhoud(e)  # tekst direct onder het artikel (zonder leden, of als aanloop voor de leden)
+    if los["tekst"] or "onderdelen" in los:
+        leden = [{"nummer": "", **los}] + leden
+    a["leden"] = leden
     if e.get("status") == "nogniet":
         a["nogNietInWerking"] = True
     return nummer, a
@@ -123,10 +140,14 @@ def main(bron, doel):
                 node = {"soort": "artikel", "nummer": nummer}
                 if a.get("titel"):
                     node["titel"] = a["titel"]
+                if a.get("vervallen"):
+                    node["vervallen"] = True
                 uit.append(node)
             elif k.tag in GROEPEN:
                 nummer, titel = kop(k)
-                uit.append({"soort": GROEPEN[k.tag], "nummer": nummer, "titel": titel or "", "kinderen": structuur(k)})
+                kinderen = structuur(k)
+                if kinderen:  # een onderdeel zonder artikelen (bijv. nog niet in werking) laten we weg
+                    uit.append({"soort": GROEPEN[k.tag], "nummer": nummer, "titel": titel or "", "kinderen": kinderen})
             elif k.tag in ("wettekst", "wet-besluit", "regeling-tekst", "circulaire-tekst"):
                 uit.extend(structuur(k))
         return uit
@@ -135,6 +156,9 @@ def main(bron, doel):
     if wettekst is None:
         wettekst = root.find(".//regeling-tekst")
     boom = structuur(wettekst)
+    # Een boek van het BW staat in zijn geheel in één <boek>; dat niveau is de wet zelf.
+    if len(boom) == 1 and boom[0]["soort"] == "boek":
+        boom = boom[0]["kinderen"]
 
     citeertitel = root.find(".//citeertitel")
     pub = root.find("./wetgeving/intitule/meta-data/brondata/oorspronkelijk/publicatie")
@@ -151,6 +175,8 @@ def main(bron, doel):
             "nummer": int(pub.findtext("publicatienr")),
             "datum": pub.find("ondertekeningsdatum").get("isodatum"),
         }
+        if pub.get("urlidentifier"):
+            wet["staatsblad"]["url"] = f"https://zoek.officielebekendmakingen.nl/{pub.get('urlidentifier')}.html"
         wet["dossiers"] = [d.get("dossier") for d in pub.findall("dossierref")]
 
     with open(doel, "w", encoding="utf-8") as f:
