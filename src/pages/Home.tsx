@@ -19,33 +19,14 @@ export function Home() {
       <section className="home-kop">
         <h1>Wat bedoelde de wetgever?</h1>
         <p className="home-intro">
-          Kies een artikel en lees de passages uit de parlementaire geschiedenis die er het meest over
-          zeggen, met vindplaats en link naar het Kamerstuk.
+          Lees de wet artikel voor artikel, met onder elk artikel de passages uit de parlementaire
+          geschiedenis die er het meest over zeggen.
         </p>
         <Zoekveld autoFocus />
       </section>
 
-      {eerste && uitgelicht.data && uitgelicht.data.length > 0 && (
-        <section className="home-uitgelicht" aria-labelledby="uitgelicht-kop">
-          <h2 id="uitgelicht-kop">Meeste wetsgeschiedenis in de {eerste.afkorting ?? eerste.citeertitel}</h2>
-          <ul className="uitgelicht-lijst">
-            {uitgelicht.data.map((a) => (
-              <li key={a.nummer}>
-                <Link to={naarArtikel(eerste.bwbId, a.nummer)} className="uitgelicht-rij">
-                  <span className="uitgelicht-nr">Artikel {a.nummer}</span>
-                  <span className="uitgelicht-titel">{a.titel ?? ""}</span>
-                  <span className="uitgelicht-aantal">
-                    {a.aantalPassages} {a.aantalPassages === 1 ? "passage" : "passages"}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
       <section className="home-wetten" aria-labelledby="wetten-kop">
-        <h2 id="wetten-kop">Wetten</h2>
+        <h2 id="wetten-kop">Kies een wet</h2>
         {wetten.status === "fout" && <Foutmelding fout={wetten.fout} />}
         <ul className="wet-lijst">
           {wetten.data?.map((w) => (
@@ -65,6 +46,25 @@ export function Home() {
           {wetten.status === "laden" && !wetten.data && <li className="wet-rij laad-blok" aria-busy="true" />}
         </ul>
       </section>
+      {eerste && uitgelicht.data && uitgelicht.data.length > 0 && (
+        <section className="home-uitgelicht" aria-labelledby="uitgelicht-kop">
+          <h2 id="uitgelicht-kop">Meeste wetsgeschiedenis in de {eerste.afkorting ?? eerste.citeertitel}</h2>
+          <ul className="uitgelicht-lijst">
+            {uitgelicht.data.map((a) => (
+              <li key={a.nummer}>
+                <Link to={naarArtikel(eerste.bwbId, a.nummer)} className="uitgelicht-rij">
+                  <span className="uitgelicht-nr">Artikel {a.nummer}</span>
+                  <span className="uitgelicht-titel">{a.titel ?? ""}</span>
+                  <span className="uitgelicht-aantal">
+                    {a.aantalPassages} {a.aantalPassages === 1 ? "passage" : "passages"}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
     </div>
   );
 }

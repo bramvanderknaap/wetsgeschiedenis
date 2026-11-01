@@ -22,6 +22,8 @@ export interface WetsgeschiedenisApi {
   wet(bwbId: BwbId): Promise<Wet>;
   structuur(bwbId: BwbId): Promise<StructuurNode[]>;
   artikel(bwbId: BwbId, nummer: ArtikelNummer): Promise<Artikel>;
+  /** Alle artikelen van de wet in wetsvolgorde, voor de doorlopende leesweergave. */
+  artikelen(bwbId: BwbId): Promise<Artikel[]>;
   passages(bwbId: BwbId, nummer: ArtikelNummer, filter?: PassageFilter): Promise<Passage[]>;
   zoeken(q: string, bwbId?: BwbId): Promise<ZoekResultaat[]>;
   feedback(f: Feedback): Promise<void>;

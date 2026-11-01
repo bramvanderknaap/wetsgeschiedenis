@@ -43,6 +43,9 @@ export class HttpApi implements WetsgeschiedenisApi {
   artikel(bwbId: BwbId, nummer: ArtikelNummer) {
     return this.get<Artikel>(`/wetten/${enc(bwbId)}/artikelen/${enc(nummer)}`);
   }
+  artikelen(bwbId: BwbId) {
+    return this.get<Artikel[]>(`/wetten/${enc(bwbId)}/artikelen`);
+  }
   passages(bwbId: BwbId, nummer: ArtikelNummer, filter?: PassageFilter) {
     return this.get<Passage[]>(`/wetten/${enc(bwbId)}/artikelen/${enc(nummer)}/passages`, {
       lid: filter?.lid,

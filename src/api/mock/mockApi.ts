@@ -127,6 +127,12 @@ export class MockApi implements WetsgeschiedenisApi {
     };
   }
 
+  async artikelen(bwbId: BwbId): Promise<Artikel[]> {
+    const w = this.vind(bwbId);
+    const nrs = this.artikelVolgorde(w).map((a) => a.nummer);
+    return Promise.all(nrs.map((n) => this.artikel(bwbId, n)));
+  }
+
   async passages(bwbId: BwbId, nummer: ArtikelNummer, filter?: PassageFilter) {
     await wacht(200);
     let ps = this.passagesVan(this.vind(bwbId), nummer);
