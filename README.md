@@ -24,6 +24,16 @@ Met de echte backend: kopieer `.env.example` naar `.env.local` en vul `VITE_API_
 | `src/components/` | Onderdelen: zoekveld, keuzepad, artikel, wettekst, passage |
 | `docs/API.md` | Endpoints en afspraken voor de backend |
 
+## Een wet inladen uit XML
+
+Download de wet op wetten.overheid.nl als XML en zet het bestand in `data/`. Zet het daarna om:
+
+```bash
+python3 scripts/bwb_naar_json.py data/BWBR0040940_2026-09-01_0.xml src/api/mock/data/BWBR0040940.json
+```
+
+Het script haalt de indeling (hoofdstukken, paragrafen), de artikelen, leden en onderdelen uit het bestand, in de vorm van `src/api/types.ts`. Het werkt voor elke wet uit het Basiswettenbestand en is ook bruikbaar voor de backend.
+
 ## Bouwen
 
 - `npm run build` maakt een gewone site in `dist/` (bijv. voor Vercel).

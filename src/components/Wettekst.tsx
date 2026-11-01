@@ -1,4 +1,4 @@
-import type { Artikel } from "../api/types";
+import type { Artikel, Onderdeel } from "../api/types";
 
 interface Props {
   artikel: Artikel;
@@ -33,7 +33,10 @@ export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid, filt
         const gekozen = gekozenLid === lid.nummer;
         const licht = oplichten.includes(lid.nummer);
         return (
-          <li key={lid.nummer || "x"} className={`wt-lid${zonderLeden ? " wt-zonder-leden" : ""}${gekozen ? " wt-gekozen" : ""}${licht ? " wt-licht" : ""}`}>
+          <li
+            key={lid.nummer || "x"}
+            className={`wt-lid${zonderLeden ? " wt-zonder-leden" : ""}${gekozen ? " wt-gekozen" : ""}${licht ? " wt-licht" : ""}`}
+          >
             {!zonderLeden && !filterbaar && <span className="wt-lid-knop wt-lid-vast">{lid.nummer}</span>}
             {!zonderLeden && filterbaar && (
               <button
@@ -52,25 +55,30 @@ export function Wettekst({ artikel, perLid, gekozenLid, oplichten, kiesLid, filt
             )}
             <div className="wt-tekst">
               <p>{lid.tekst}</p>
-              {lid.onderdelen && (
-                <ol className="wt-onderdelen">
-                  {lid.onderdelen.map((o) => (
-                    <li key={o.label || o.tekst.slice(0, 24)} className={o.label ? undefined : "wt-zonder-label"}>
-                      {o.label ? (
-                        <>
-                          <span className="wt-onderdeel-label">{o.label}.</span> {o.tekst}
-                        </>
-                      ) : (
-                        o.tekst
-                      )}
-                    </li>
-                  ))}
-                </ol>
-              )}
+              {lid.onderdelen && <Onderdelen lijst={lid.onderdelen} />}
             </div>
           </li>
         );
       })}
+    </ol>
+  );
+}
+
+function Onderdelen({ lijst }: { lijst: Onderdeel[] }) {
+  return (
+    <ol className="wt-onderdelen">
+      {lijst.map((o, i) => (
+        <li key={o.label || i} className={o.label ? undefined : "wt-zonder-label"}>
+          {o.label ? (
+            <>
+              <span className="wt-onderdeel-label">{o.label}.</span> {o.tekst}
+            </>
+          ) : (
+            o.tekst
+          )}
+          {o.onderdelen && <Onderdelen lijst={o.onderdelen} />}
+        </li>
+      ))}
     </ol>
   );
 }
