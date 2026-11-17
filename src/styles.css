@@ -641,6 +641,23 @@ a.wet-rij:hover .wet-naam {
   margin: 0;
   max-width: 68ch;
 }
+.pk-tekst p + p {
+  margin-top: 0.7em;
+}
+.pk-tekst .pk-tussenkop {
+  font-style: italic;
+  margin-top: 1.1em;
+}
+/* Lange passage ingeklapt: ongeveer zes regels, onderaan vervagend. */
+.pk-ingeklapt {
+  max-height: 10.5em;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent);
+  mask-image: linear-gradient(to bottom, #000 55%, transparent);
+}
+.pk-lees-verder {
+  margin-top: 6px;
+}
 .pk-voet {
   display: grid;
   gap: 4px;

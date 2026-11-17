@@ -1,17 +1,19 @@
 import type { MockWet } from "./mockApi";
 import wettekst from "./data/BWBR0040940.json";
-import { documenten, passages } from "./uavg-passages";
+import wetlink from "./data/BWBR0040940-passages.json";
 
 /**
- * Voorbeelddata Uitvoeringswet AVG.
- * Indeling en wettekst zijn omgezet uit het XML-bestand van wetten.overheid.nl
- * (data/BWBR0040940_2026-09-01_0.xml, versie geldig vanaf 1 september 2026) met
- * scripts/bwb_naar_json.py. De passages staan in uavg-passages.ts.
+ * Uitvoeringswet AVG.
+ * Indeling en wettekst: omgezet uit het XML-bestand van wetten.overheid.nl met
+ * scripts/bwb_naar_json.py.
+ * Passages: uit wetlink (python3 -m wetlink.naar_frontend BWBR0040940). De
+ * eigen toelichting en amendementen komen uit de opbouw van de Kamerstukken
+ * (score 1,0 en 0,97); de overige passages hebben een score van het model.
  */
 export const uavg: MockWet = {
   wet: { ...wettekst.wet, afkorting: "UAVG" },
   structuur: wettekst.structuur as MockWet["structuur"],
   artikelen: wettekst.artikelen as MockWet["artikelen"],
-  documenten,
-  passages,
+  documenten: wetlink.documenten as MockWet["documenten"],
+  passages: wetlink.passages as MockWet["passages"],
 };

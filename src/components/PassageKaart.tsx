@@ -10,6 +10,17 @@ interface Props {
   meld: (tekst: string) => void;
 }
 
+/** Vanaf zoveel tekens staat een passage ingeklapt (ongeveer zes regels blijven zichtbaar). */
+const INKLAP_VANAF = 900;
+
+/** "Onderdeel a: scholen (…)", "Tweede lid: …": een kopje binnen de toelichting. */
+function isTussenkop(t: string) {
+  return (
+    t.length <= 240 &&
+    /^(onderdeel|subonderdeel|(eerste|tweede|derde|vierde|vijfde|zesde|zevende|achtste|negende|tiende)\s+lid|lid\s+\d)\b/i.test(t)
+  );
+}
+
 /** Score van het model vertaald naar woorden: een jurist leest "zeer relevant" sneller dan "0,93". */
 export function relevantie(score: number): { label: string; stappen: number } {
   if (score >= 0.85) return { label: "Zeer relevant", stappen: 3 };
@@ -19,6 +30,11 @@ export function relevantie(score: number): { label: string; stappen: number } {
 
 export function PassageKaart({ passage: p, wijsAan, kiesLid, meld }: Props) {
   const [oordeel, zetOordeel] = useState<Oordeel | null>(null);
+  const [uitgeklapt, zetUitgeklapt] = useState(false);
+  // Lange passages (een hele toelichting kan pagina's beslaan) staan ingeklapt.
+  // Een passage met gemarkeerde kern blijft open, anders valt de kern weg.
+  const alineas = !p.kern?.length && p.tekst.includes("\n\n") ? p.tekst.split(/\n{2,}/) : null;
+  const inklapbaar = !p.kern?.length && p.tekst.length > INKLAP_VANAF;
   const plaats = vindplaats(p);
   const rel = relevantie(p.score);
   const scoreTekst = p.score.toLocaleString("nl-NL", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -74,11 +90,36 @@ export function PassageKaart({ passage: p, wijsAan, kiesLid, meld }: Props) {
       </header>
 
       <blockquote className="pk-tekst" cite={p.document.url}>
-        <p>
-          {kernDelen(p.tekst, p.kern).map((d, i) =>
-            d.kern ? <mark key={i}>{d.tekst}</mark> : <span key={i}>{d.tekst}</span>,
+        <div id={`${p.id}-tekst`} className={inklapbaar && !uitgeklapt ? "pk-ingeklapt" : undefined}>
+          {alineas ? (
+            // Een hele toelichting bij een artikel bestaat uit meerdere alinea's;
+            // tussenkopjes ("Onderdeel a: …") krijgen een eigen opmaak.
+            alineas.map((alinea, i) => (
+              <p key={i} className={isTussenkop(alinea) ? "pk-tussenkop" : undefined}>
+                {alinea}
+              </p>
+            ))
+          ) : (
+            <p>
+              {kernDelen(p.tekst, p.kern).map((d, i) =>
+                d.kern ? <mark key={i}>{d.tekst}</mark> : <span key={i}>{d.tekst}</span>,
+              )}
+            </p>
           )}
-        </p>
+        </div>
+        {inklapbaar && (
+          <button
+            type="button"
+            className="knop-tekst pk-lees-verder"
+            aria-expanded={uitgeklapt}
+            aria-controls={`${p.id}-tekst`}
+            onClick={() => zetUitgeklapt((u) => !u)}
+          >
+            {uitgeklapt
+              ? "Minder tonen"
+              : `Lees verder${alineas && alineas.length > 1 ? ` (${alineas.length} alinea's)` : ""}`}
+          </button>
+        )}
       </blockquote>
 
       <footer className="pk-voet">
