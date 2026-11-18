@@ -44,6 +44,17 @@
    "datum": "2018-03-08",
    "url": "https://zoek.officielebekendmakingen.nl/kst-34851-15.html"
   },
+  "kst-34851-D": {
+   "id": "kst-34851-D",
+   "soort": "memorie-van-antwoord",
+   "kamer": "I",
+   "vergaderjaar": "2017/18",
+   "dossier": "34851",
+   "ondernummer": "D",
+   "titel": "Memorie van antwoord",
+   "datum": "2018-04-18",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-D.html"
+  },
   "kst-34851-12": {
    "id": "kst-34851-12",
    "soort": "amendement",
@@ -65,50 +76,6 @@
    "titel": "Nota naar aanleiding van het verslag",
    "datum": "2024-03-19",
    "url": "https://zoek.officielebekendmakingen.nl/kst-36264-6.html"
-  },
-  "kst-35073-3": {
-   "id": "kst-35073-3",
-   "soort": "memorie-van-toelichting",
-   "kamer": "II",
-   "vergaderjaar": "2018/19",
-   "dossier": "35073",
-   "ondernummer": "3",
-   "titel": "MEMORIE VAN TOELICHTING1 De oorspronkelijke tekst van het voorstel van wet en van de memorie van toelichting zoals voorgelegd aan de Afdeling advisering van de Raad van State is ter inzage gelegd bij het Centraal Informatiepunt Tweede Kamer.",
-   "datum": "2018-11-06",
-   "url": "https://zoek.officielebekendmakingen.nl/kst-35073-3.html"
-  },
-  "kst-34851-9": {
-   "id": "kst-34851-9",
-   "soort": "nota-van-wijziging",
-   "kamer": "II",
-   "vergaderjaar": "2017/18",
-   "dossier": "34851",
-   "ondernummer": "9",
-   "titel": "Tweede nota van wijziging",
-   "datum": "2018-03-09",
-   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-9.html"
-  },
-  "kst-34851-8": {
-   "id": "kst-34851-8",
-   "soort": "nota-van-wijziging",
-   "kamer": "II",
-   "vergaderjaar": "2017/18",
-   "dossier": "34851",
-   "ondernummer": "8",
-   "titel": "Nota van wijziging",
-   "datum": "2018-02-14",
-   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-8.html"
-  },
-  "kst-34851-D": {
-   "id": "kst-34851-D",
-   "soort": "memorie-van-antwoord",
-   "kamer": "I",
-   "vergaderjaar": "2017/18",
-   "dossier": "34851",
-   "ondernummer": "D",
-   "titel": "Memorie van antwoord",
-   "datum": "2018-04-18",
-   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-D.html"
   },
   "kst-34939-3": {
    "id": "kst-34939-3",
@@ -132,6 +99,72 @@
    "datum": "2018-06-20",
    "url": "https://zoek.officielebekendmakingen.nl/kst-34813-12.html"
   },
+  "kst-35073-3": {
+   "id": "kst-35073-3",
+   "soort": "memorie-van-toelichting",
+   "kamer": "II",
+   "vergaderjaar": "2018/19",
+   "dossier": "35073",
+   "ondernummer": "3",
+   "titel": "MEMORIE VAN TOELICHTING1 De oorspronkelijke tekst van het voorstel van wet en van de memorie van toelichting zoals voorgelegd aan de Afdeling advisering van de Raad van State is ter inzage gelegd bij het Centraal Informatiepunt Tweede Kamer.",
+   "datum": "2018-11-06",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-35073-3.html"
+  },
+  "kst-36264-C": {
+   "id": "kst-36264-C",
+   "soort": "nota-naar-aanleiding-van-verslag",
+   "kamer": "I",
+   "vergaderjaar": "2025/26",
+   "dossier": "36264",
+   "ondernummer": "C",
+   "titel": "Nota naar aanleiding van het verslag",
+   "datum": "2025-11-20",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-36264-C.html"
+  },
+  "kst-36264-E": {
+   "id": "kst-36264-E",
+   "soort": "nota-naar-aanleiding-van-verslag",
+   "kamer": "I",
+   "vergaderjaar": "2025/26",
+   "dossier": "36264",
+   "ondernummer": "E",
+   "titel": "Nota naar aanleiding van het tweede verslag",
+   "datum": "2026-05-18",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-36264-E.html"
+  },
+  "kst-34851-14": {
+   "id": "kst-34851-14",
+   "soort": "amendement",
+   "kamer": "II",
+   "vergaderjaar": "2017/18",
+   "dossier": "34851",
+   "ondernummer": "14",
+   "titel": "Amendement van het lid van dam c.s.",
+   "datum": "2018-03-08",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-14.html"
+  },
+  "kst-34851-8": {
+   "id": "kst-34851-8",
+   "soort": "nota-van-wijziging",
+   "kamer": "II",
+   "vergaderjaar": "2017/18",
+   "dossier": "34851",
+   "ondernummer": "8",
+   "titel": "Nota van wijziging",
+   "datum": "2018-02-14",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-8.html"
+  },
+  "kst-34851-9": {
+   "id": "kst-34851-9",
+   "soort": "nota-van-wijziging",
+   "kamer": "II",
+   "vergaderjaar": "2017/18",
+   "dossier": "34851",
+   "ondernummer": "9",
+   "titel": "Tweede nota van wijziging",
+   "datum": "2018-03-09",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-9.html"
+  },
   "kst-36264-19": {
    "id": "kst-36264-19",
    "soort": "amendement",
@@ -154,16 +187,49 @@
    "datum": "2025-04-11",
    "url": "https://zoek.officielebekendmakingen.nl/kst-36264-9.html"
   },
-  "kst-36264-E": {
-   "id": "kst-36264-E",
-   "soort": "nota-naar-aanleiding-van-verslag",
-   "kamer": "I",
-   "vergaderjaar": "2025/26",
+  "kst-36264-8": {
+   "id": "kst-36264-8",
+   "soort": "amendement",
+   "kamer": "II",
+   "vergaderjaar": "2023/24",
    "dossier": "36264",
-   "ondernummer": "E",
-   "titel": "Nota naar aanleiding van het tweede verslag",
-   "datum": "2026-05-18",
-   "url": "https://zoek.officielebekendmakingen.nl/kst-36264-E.html"
+   "ondernummer": "8",
+   "titel": "Amendement van het lid bushoff",
+   "datum": "2024-09-05",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-36264-8.html"
+  },
+  "kst-34813-11": {
+   "id": "kst-34813-11",
+   "soort": "nota-naar-aanleiding-van-verslag",
+   "kamer": "II",
+   "vergaderjaar": "2017/18",
+   "dossier": "34813",
+   "ondernummer": "11",
+   "titel": "Nota naar aanleiding van het verslag",
+   "datum": "2018-06-20",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-34813-11.html"
+  },
+  "kst-34851-16": {
+   "id": "kst-34851-16",
+   "soort": "amendement",
+   "kamer": "II",
+   "vergaderjaar": "2017/18",
+   "dossier": "34851",
+   "ondernummer": "16",
+   "titel": "Amendement van de leden van nispen en leijten",
+   "datum": "2018-03-08",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-34851-16.html"
+  },
+  "kst-36264-7": {
+   "id": "kst-36264-7",
+   "soort": "nota-van-wijziging",
+   "kamer": "II",
+   "vergaderjaar": "2023/24",
+   "dossier": "36264",
+   "ondernummer": "7",
+   "titel": "Nota van wijziging",
+   "datum": "2024-03-19",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-36264-7.html"
   }
  },
  "passages": [
@@ -248,6 +314,21 @@
    "score": 0.97
   },
   {
+   "id": "wl-40df16f8415a",
+   "artikel": "2a",
+   "leden": [],
+   "document": "kst-34851-D",
+   "pagina": "8",
+   "tekst": "Met het opnemen van artikel 2a in de UAVG wordt de laatste passage van overweging 13 bij de AVG overgenomen in nationale wetgeving. Artikel 2a AVG wijkt in zoverre af van die passage dat het een verplichting inhoudt voor de Autoriteit persoonsgegevens om de specifieke behoeften van kleine, middelgrote en micro-ondernemingen (het midden- en kleinbedrijf) in aanmerking te nemen bij de toepassing van de AVG, terwijl overweging 13 bij de AVG de lidstaten en hun toezichthoudende autoriteiten niet verplicht om die specifieke behoeften in aanmerking te nemen, maar hen daartoe aanmoedigt. Op andere plekken in de AVG komen deze specifieke behoeften ook terug: zij worden ook genoemd in artikel 40, eerste lid, AVG (over het bevorderen van het opstellen van gedragscodes) en artikel 42 AVG (over het bevorderen van certificeringsmechanismen). In de AVG wordt dus rekening gehouden met de specifieke behoeften van het midden- en kleinbedrijf en nu in het verlengde daarvan ook in artikel 2a UAVG. Dit ziet er dan met name op dat door de Autoriteit persoonsgegevens bij de toepassing van de AVG rekening wordt gehouden met de omvang van de desbetreffende onderneming in die zin dat van grotere ondernemingen grosso modo mag worden verwacht dat zij beschikken over meer mogelijkheden en middelen dan kleinere ondernemingen. Deze verwachting is niet alleen ten aanzien van ondernemingen gerechtvaardigd, maar ook ten aanzien van andere organisaties. Overigens kan ook in het midden- en kleinbedrijf vanzelfsprekend sprake zijn van risicovolle verwerkingen. Het is van belang te benadrukken dat de risicogerichte benadering van de AVG in die gevallen altijd de doorslag geeft.",
+   "score": 0.95,
+   "kern": [
+    [
+     588,
+     993
+    ]
+   ]
+  },
+  {
    "id": "wl-e90c74b1ba60",
    "artikel": "3",
    "leden": [],
@@ -276,6 +357,53 @@
    "sectie": "Artikelsgewijze toelichting: Onderdeel C",
    "tekst": "De in onderdeel B van artikel I van dit wetsvoorstel opgenomen wijziging van de UAVG betreft een aanpassing van artikel 3, derde lid, UAVG. Onderdeel a van het derde lid van artikel 3 bevat een regeling met betrekking tot de verwerking van persoonsgegevens door de krijgsmacht in het kader van de inzet of het ter beschikking stellen van de krijgsmacht ter uitvoering van de in artikel 97 van de Grondwet omschreven taken. De onderhavige wijziging strekt ertoe om expliciet tot uitdrukking te brengen dat aan dit artikel door middel van een besluit of een ministeriële regeling uitvoering wordt gegeven door Onze Minister van Defensie.\n\nOp het merendeel van de verwerkingen van persoonsgegevens door Defensie zijn de AVG en de UAVG van toepassing. Alleen in geval van militaire operaties is er sprake van een uitzonderingsituatie. Bepaalde delen van de (U)AVG zijn dan niet toepasbaar. Zo is het begrijpelijk dat in een militaire operatie een lid van de vijandelijke partij niet overeenkomstig de AVG in kennis wordt gesteld wanneer gegevens over hem worden verwerkt. Ook zal duidelijk zijn dat tijdens militaire operaties geen gegevensbeschermingseffectbeoordeling (ook wel Privacy Impact Assessment (PIA) genoemd) zal worden opgesteld.\n\nDe onmogelijkheid om in de hierboven genoemde gevallen de (U)AVG toe te passen, laat zich bij iedere militaire operatie voelen. Het is dan ook aangewezen om buiten twijfel te stellen dat aan artikel 3, derde lid, onderdeel a, uitvoering kan worden gegeven door middel van een algemene voor missies geldende ministeriële regeling. Met de in onderdeel C van artikel I van dit wetsvoorstel opgenomen wijziging wordt dit geëxpliciteerd.\n\nDe AP onderschrijft in haar advies van 11 november 2020 de wenselijkheid van deze aanvulling. Met betrekking tot de mogelijkheid van uitzondering bij ad hoc besluit adviseert de AP deze te schrappen of de wenselijkheid van handhaving ervan toe te lichten. Naar aanleiding hiervan wordt opgemerkt dat algemene (voor iedere missie) geldende uitzonderingen in de algemene regeling dienen te worden geregeld, maar dat niet is uit te sluiten dat er voor een bepaalde missie wellicht nog aanvullende uitzonderingen moeten worden gemaakt. Dan biedt een ad hoc-besluit meer maatwerk in de zin dat niet een algemene regeling behoeft te worden aangepast. Bovendien zal (hoewel in beide situaties het akkoord van de Minister van Defensie is vereist) de totstandbrenging van een ad hoc-besluit naar verwachting sneller zijn gerealiseerd dan aanpassing van de algemene regeling. Het is in dit licht wenselijk dat de uitzonderingsmogelijkheid bij ad hoc besluit gehandhaafd blijft.",
    "score": 1.0
+  },
+  {
+   "id": "wl-791457650d57",
+   "artikel": "3",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "14",
+   "sectie": "2.2 Het materiële toepassingsbereik van de verordening",
+   "tekst": "Het kan echter niet bij voorbaat worden uitgesloten dat er toch nog andere verwerkingen bestaan die onder deze uitzonderingsgrond vallen. Om te voorkomen dat op dergelijke verwerkingen in het geheel geen regels omtrent de bescherming van de persoonlijke levenssfeer van toepassing zouden zijn, worden de Uitvoeringswet en de verordening op deze verwerkingen respectievelijk van toepassing en van overeenkomstige toepassing verklaard (zie artikel 3 van het wetsvoorstel). Dit geldt uiteraard niet voor verwerkingen in het kader van nationale veiligheid. Voor verwerkingen door de krijgsmacht geldt een bijzondere regeling, die in de artikelsgewijze toelichting nader wordt toegelicht.",
+   "score": 0.9,
+   "kern": [
+    [
+     138,
+     552
+    ]
+   ]
+  },
+  {
+   "id": "wl-6e949c8cb01f",
+   "artikel": "3",
+   "leden": [],
+   "document": "kst-34851-12",
+   "pagina": "1",
+   "tekst": "Voor zover het de verwerking van persoonsgegevens betreft waarop de Wet op de inlichtingen- en veiligheidsdiensten 2017 van toepassing is, die krachtens artikel 3, derde lid, onder b, van deze wet buiten de werkingssfeer van de verordening blijft, kunnen communicatiediensten en derden berichten over de omvang en aard van de medewerking die zij hebben verleend als bedoeld in de Wet op de inlichtingen- en veiligheidsdiensten 2017, voor zover het belang van de nationale veiligheid zich daar niet tegen verzet. Bij algemene maatregel van bestuur worden hierover criteria en voorwaarden vastgesteld.",
+   "score": 0.65,
+   "kern": [
+    [
+     0,
+     511
+    ]
+   ]
+  },
+  {
+   "id": "wl-8d8a39a4658b",
+   "artikel": "3",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "8",
+   "sectie": "2 Hoofdlijnen van het voorstel",
+   "tekst": "De leden van de SGP-fractie vragen hier naar het delen van gegevens door veiligheidsdiensten met de opsporingsdiensten. De AVG is echter niet van toepassing op activiteiten die buiten de werking van het Unierecht vallen, zoals verwerkingen van persoonsgegevens in het kader van de nationale veiligheid (artikel 2 AVG). Ook de UAVG is niet van toepassing op verwerkingen van persoonsgegevens voor zover daarop de Wet op de inlichtingen- en Veiligheidsdiensten 2017 (Wiv 2017) van toepassing is (artikel 3 UAVG). De verstrekking van persoonsgegevens door inlichtingen- en veiligheidsdiensten aan opsporingsdiensten wordt door de Wiv 2017 beheerst. Ook verwerkingen door opsporingsdiensten vallen niet onder de AVG. Op het delen van persoonsgegevens binnen de opsporingsdiensten is de Richtlijn gegevensbescherming politie en Justitie van toepassing. Deze richtlijn is geïmplementeerd in de Wet politiegegevens (Wpg) en de Wet justitiële en strafvorderlijke gegevens (Wjsg). Onderhavige verzamelwet ziet niet op inhoudelijke wijzigingen van deze wetgeving. Overigens is in de Wpg een ruime regeling opgenomen over het ter beschikking stellen van persoonsgegevens, waarbij het in beginsel verplicht is om politiegegevens te verstrekken aan personen die overeenkomstig de Wpg zijn geautoriseerd voor het verwerken van politiegegevens. Dit geldt zolang deze gegevens binnen de opsporingsdiensten blijven. Op grond van de Wiv 2017 verrichten de korpschef en de politiechefs van de eenheden en de commandant van de Koninklijke Marechaussee (KMar) werkzaamheden voor de inlichtingen- en veiligheidsdiensten en delen ambtenaren van politie en de KMar onverwijld gegevens die van belang kunnen zijn voor de diensten aan hen mee. Op grond van artikel 24 Wpg is een regeling getroffen voor rechtstreeks geautomatiseerde verstrekking van politiegegevens aan de inlichtingen- en veiligheidsdiensten.",
+   "score": 0.55,
+   "kern": [
+    [
+     120,
+     510
+    ]
+   ]
   },
   {
    "id": "wl-96771e8a0f6f",
@@ -350,6 +478,100 @@
    "score": 1.0
   },
   {
+   "id": "wl-fb6b637f6154",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "40",
+   "sectie": "5.1 Voorwaarden voor de toestemming van kinderen",
+   "tekst": "Voor de gevallen waarop artikel 8 niet van toepassing is (dus voor de andere gevallen dan betaalde internet- en mobiele telefoniediensten), regelt het voorgestelde artikel 5, eerste lid, van het wetsvoorstel dat daarvoor eveneens 16 jaar als leeftijdsgrens geldt voor het zelfstandig kunnen geven van toestemming voor het verwerken van persoonsgegevens.",
+   "score": 0.95
+  },
+  {
+   "id": "wl-cf6ee7db1b11",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "42",
+   "sectie": "5.1 Voorwaarden voor de toestemming van kinderen",
+   "tekst": "Om er geen twijfel over te laten bestaan dat een minderjarige (of curandus) ook contact moet kunnen opnemen met een hulp- of adviesdienst zonder dat hij daarvoor eerst toestemming behoeft vragen aan zijn ouders (of curator), zal bij nota van wijziging een lid met die strekking worden toegevoegd aan artikel 5 van het wetsvoorstel. Daaraan wordt geen nieuwe of andere leeftijdsgrens verbonden, want ook een acht- of tienjarige moet zonder toestemming van zijn ouders contact kunnen opnemen met de Kindertelefoon of een andere hulpverleningsinstantie.",
+   "score": 0.9,
+   "kern": [
+    [
+     0,
+     331
+    ]
+   ]
+  },
+  {
+   "id": "wl-2191e7cc90aa",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "2",
+   "sectie": "2 Hoofdlijnen van het voorstel",
+   "tekst": "• Vanaf de leeftijd van 12 tot 16 jaar, kan een jongere die van mening is dat er geen verwerking van persoonsgegevens meer zou moeten plaatsvinden, voortaan onafhankelijk van zijn vertegenwoordiger besluiten om de toestemming voor verwerking van zijn persoonsgegevens in te trekken (artikel I, onderdeel D).",
+   "score": 0.9
+  },
+  {
+   "id": "wl-4939b1fbdef6",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "79",
+   "sectie": "7.2.11 Beleidsneutrale invulling van de ruimte die de verordening biedt",
+   "tekst": "a. De Autoriteit persoonsgegevens constateert dat een regeling als opgenomen in artikel 37, derde lid, van de Wbp, inzake uitoefening van rechten van de betrokkene door wettelijk vertegenwoordigers, ontbreekt. Deze omissie is aangevuld, door deze bepaling over te nemen in artikel 5, vierde lid, van de Uitvoeringswet.",
+   "score": 0.85
+  },
+  {
+   "id": "wl-a71e4b721951",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "40",
+   "sectie": "5.1 Voorwaarden voor de toestemming van kinderen",
+   "tekst": "De Wbp (en voorheen de Wet persoonsregistraties) bevat een leeftijdsgrens van 16 jaar, ongeacht of het gaat om in beginsel betaalde internet- en mobiele telefoniediensten. Gelet op het strak gehanteerde uitgangspunt van beleidsneutrale implementatie wordt voorgesteld in beide categorieën de leeftijdsgrens van 16 jaar te handhaven. Overigens zien artikel 8 AVG en artikel 5 UAVG uitsluitend op de toestemming die vereist is voor het verwerken van persoonsgegevens. Deze bepalingen doen geen afbreuk aan het algemene overeenkomstenrecht en laten dus onverlet dat een minderjarige (een persoon jonger dan 18 jaar) voor het verrichten van rechtshandelingen, zoals het aangaan van een overeenkomst, toestemming van zijn wettelijk vertegenwoordiger nodig heeft, tenzij het een rechtshandeling betreft ten aanzien waarvan in het maatschappelijk verkeer gebruikelijk is dat minderjarigen van zijn leeftijd deze zelfstandig verrichten (artikel 234 van Boek 2 van het Burgerlijk Wetboek). Verder wordt verwezen naar de antwoorden op de vragen 45, 46 en 84.",
+   "score": 0.85,
+   "kern": [
+    [
+     333,
+     465
+    ]
+   ]
+  },
+  {
+   "id": "wl-2f44596ccc62",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "14",
+   "sectie": "3 Advies en consultatie",
+   "tekst": "Door deze organisaties zijn bij de internetconsultatie verschillende punten naar voren gebracht. Het voert te ver om op elk daarvan hier in te gaan, maar de belangrijkste zijn als volgt geadresseerd. Allereerst vroeg VNO-NCW om meer duidelijkheid en rechtszekerheid met betrekking tot de uitzonderingsgrond voor de verwerking van biometrische gegevens (artikel 29 UAVG). Daaraan is tegemoet gekomen, door in de toelichting bij het wetsvoorstel meer situaties te vermelden waarin van een zwaarwegend algemeen belang sprake is. Verder had VNO-NCW suggesties bij artikel 41 UAVG. Naar aanleiding hiervan is besloten dat er nog nadere bestudering noodzakelijk is ten aanzien van artikel 41 UAVG en de opmerkingen zullen worden meegenomen bij de hiervoor genoemde besluitvorming over dit artikel. Voorts stelde VNO-NCW ten aanzien van het verlenen van toestemming door jongeren, (artikel 5 UAVG) een uniforme leeftijdsgrens voor, zowel voor het geven en intrekken van toestemming en het uitoefenen van de rechten van een betrokkene. Dit voorstel is niet opgevolgd. Verwezen wordt naar de toelichting bij artikel 1, onderdeel d, waarin de wijziging van artikel 2 UAVG is opgenomen en naar de vragen met betrekking tot dit artikel in deze nota naar aanleiding van het verslag onder nummer 36 tot en met 39. Tot slot werden enkele knelpunten uit de praktijk naar voren gebracht. Deze punten dateren nog uit 2019 en zijn voor een groot deel al ter hand genomen en opgelost. Daarover bestaat contact tussen mijn departement en VNO-NCW. Op het punt van het cross-sectoraal delen van fraudegegevens, is verder ingegaan bij de beleidsreactie op het WODC-evaluatieonderzoek naar de UAVG.",
+   "score": 0.75,
+   "kern": [
+    [
+     577,
+     1027
+    ]
+   ]
+  },
+  {
+   "id": "wl-e961e94d42b0",
+   "artikel": "5",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "42",
+   "sectie": "5.1 Voorwaarden voor de toestemming van kinderen",
+   "tekst": "Het Kinderrechtenverdrag (IVRK) bevat verschillende bepalingen die relevant zijn om te bespreken bij deze vraag, waar het gaat om de rechten en bescherming van kinderen. Artikel 5 IVRK voorziet in rechten en plichten van ouders en andere wettelijk vertegenwoordigers om het kind te leiden en begeleiden bij de uitoefening van zijn of haar in het verdrag erkende rechten, op een wijze die verenigbaar is met de zich ontwikkelende vermogens van het kind. Vervolgens bevatten artikelen 12 t/m 17 diverse fundamentele rechten, zoals het recht op privéleven en het recht om inlichtingen en denkbeelden van welke aard ook te vergaren en te ontvangen. In artikel 17 IVRK staat dat de Staten waarborgen dat het kind toegang heeft tot informatie uit een verscheidenheid van nationale en internationale bronnen, in het bijzonder informatie en materiaal gericht op het bevorderen van zijn of haar sociale, psychische en morele welzijn en zijn of haar lichamelijke en geestelijke gezondheid. De Staat heeft tegelijkertijd op grond van art. 17, onder e, IVRK de plicht om de ontwikkeling van passende richtlijnen aan te moedigen om het kind te beschermen tegen informatie en materiaal die schadelijk is voor zijn of haar welzijn. Uit het IVRK kan dus geen eenduidige leeftijdsgrens worden afgeleid. Met inachtneming van deze beginselen in het IVRK is het aan Staten om een goede balans te vinden bij de beoordeling wat een geschikte leeftijd is voor het toestemmingsvereiste. Naar het oordeel van de regering is de bepaling dat jongeren onder de zestien jaar alleen mét toestemming van hun ouders bijvoorbeeld een online profiel mogen aanmaken verenigbaar met het IVRK.",
+   "score": 0.7,
+   "kern": [
+    [
+     1217,
+     1656
+    ]
+   ]
+  },
+  {
    "id": "wl-1b6204fe7098",
    "artikel": "6",
    "leden": [],
@@ -358,6 +580,88 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 6",
    "tekst": "Dit artikel vormt de implementatie van 51 van de verordening en wijst de Autoriteit persoonsgegevens aan als de autoriteit die verantwoordelijk is voor het toezicht op de toepassing van de verordening. Nederland maakt geen gebruik van de mogelijkheden die de verordening biedt om daarnaast nog andere autoriteiten op te richten, die toezicht houden op de uitvoering van (een deelterrein van) de verordening.\n\nDe bestaande situatie onder de Wbp voor wat betreft de formele vormgeving van de Autoriteit persoonsgegevens als zelfstandig bestuursorgaan wordt gecontinueerd. Op grond van de systematiek van de Kaderwet zelfstandige bestuursorganen is deze Kaderwet automatisch van toepassing op na de inwerkingtreding van die wet opgerichte zelfstandige bestuursorganen. Behoudens de in de artikelen 7, 12 en 13 van onderhavig voorstel genoemde uitzonderingen is de Kaderwet zelfstandige bestuursorganen dan ook van toepassing op de Autoriteit persoonsgegevens.\n\nDe algemene voorziening zoals voorgesteld in het derde lid biedt een wettelijke grondslag om ter uitvoering van een bindende EU-rechtshandeling bij ministeriële regeling andere taken aan de Autoriteit persoonsgegevens op te dragen. Te denken valt aan (1) adequaatheidsbesluiten van de Europese Commissie of aan (2) EU-verordeningen waarvan de Uitvoeringswetgeving niet binnen de daarvoor gestelde termijn gerealiseerd zal kunnen worden, waardoor het noodzakelijk kan zijn om alvast een interim voorziening te treffen.\n\nAls voorbeeld van de eerste categorie kan het besluit van de Staatssecretaris van Veiligheid en Justitie van 3 november 2016 dienen waarbij voor Nederland de Autoriteit persoonsgegevens is aangewezen als bevoegde autoriteit voor het toezicht op de verwerking van persoonsgegevens door overheidsdiensten in de zin van in de zin van Bijlage III, Bijlage A, § 3, onderdeel a, van uitvoeringsverordening (EU) 2016/1250 van de Commissie van 12 juli 2016 overeenkomstig Richtlijn 95/46/EG van het Europees Parlement en de Raad betreffende de gepastheid van de door het EU-VS-privacyschild geboden bescherming (PbEU L 207).\n\nEen voorbeeld van de tweede categorie betreft het besluit van de Minister van Economische Zaken van 29 juni 2016 tot tijdelijke aanwijzing van een toezichthoudend orgaan, een nationaal orgaan voor informatieveiligheid en een gegevensbeschermingsautoriteit in de zin van verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG (PbEU 2014, L 257). De wet ter implementatie van de genoemde verordening is inmiddels op 21 december 2016 tot stand gekomen en gefaseerd in werking getreden waarmee het tijdelijke aanwijzingsbesluit van de Minister van Economische Zaken kon komen te vervallen.",
    "score": 1.0
+  },
+  {
+   "id": "wl-a6b3479dd60e",
+   "artikel": "6",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "23",
+   "sectie": "3.3.1 De competentie en onafhankelijkheid van de Autoriteit persoonsgegevens",
+   "tekst": "De verordening biedt de mogelijkheid om één of meerdere toezichthoudende autoriteiten op te richten. In Nederland is het toezicht op de gegevensbescherming belegd bij de Autoriteit persoonsgegevens. Nederland kent geen sectorspecifieke toezichthouders. Er is geen reden om hierin bij de uitvoering van de verordening verandering aan te brengen. Hierom wordt in het onderhavige wetsvoorstel de Autoriteit persoonsgegevens aangewezen als enige toezichthoudende autoriteit in de zin van de Verordening, in artikel 6, tweede lid, van de Uitvoeringswet. Van de gelegenheid van deze implementatiewet is gebruikgemaakt om ook in de wet de naamswijziging van College bescherming persoonsgegevens naar Autoriteit persoonsgegevens in het maatschappelijk verkeer door te voeren. In de Uitvoeringswet wordt hierom consequent gesproken van Autoriteit persoonsgegevens.",
+   "score": 0.95,
+   "kern": [
+    [
+     345,
+     767
+    ]
+   ]
+  },
+  {
+   "id": "wl-27f367af6642",
+   "artikel": "6",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "4",
+   "sectie": "2.4 Toezicht",
+   "tekst": "Artikel 51, eerste lid, van de verordening vereist dat elke lidstaat bepaalt dat één of meer onafhankelijke overheidsinstanties verantwoordelijk zijn voor het toezicht op de verordening. In artikel 6, tweede lid, van de Uitvoeringswet is de Autoriteit persoonsgegevens aangewezen als de toezichthoudende autoriteit. Voor een nadere toelichting hierop wordt verwezen naar de memorie van toelichting bij die wet.",
+   "score": 0.75
+  },
+  {
+   "id": "wl-c4d88dcc5e65",
+   "artikel": "6",
+   "leden": [],
+   "document": "kst-34813-12",
+   "pagina": "5",
+   "tekst": "1. De taak van de Autoriteit persoonsgegevens, bedoeld in artikel 6, derde lid, omvat mede het toezicht op de naleving van de krachtens artikel 3:17, zevende lid, van de Wet op het financieel toezicht gestelde verplichtingen met betrekking tot de toegang van betaaldienstverleners tot de persoonsgegevens van betaaldienstgebruikers.",
+   "score": 0.6
+  },
+  {
+   "id": "wl-03b2ba966a45",
+   "artikel": "6",
+   "leden": [],
+   "document": "kst-34813-12",
+   "pagina": "8",
+   "tekst": "In geval van overtreding van de krachtens het voorgestelde artikel 3.17, zevende lid, van de Wft gestelde verplichtingen voor betaaldienstverleners heeft de AP tot taak om toe te zien op de naleving en kan daartoe handhavingsmaatregelen treffen. Met de formulering van het eerste lid wordt verduidelijkt dat de taak van de AP, bedoeld in artikel 6, derde lid, UAVG, mede omvat het toezicht op de naleving van de krachtens artikel 3:17, zevende lid, Wft gestelde verplichtingen.",
+   "score": 0.6,
+   "kern": [
+    [
+     246,
+     477
+    ]
+   ]
+  },
+  {
+   "id": "wl-63cb897f45fd",
+   "artikel": "6",
+   "leden": [],
+   "document": "kst-35073-3",
+   "pagina": "100",
+   "sectie": "9.14.2 Reacties met betrekking tot de aanpassingswetgeving",
+   "tekst": "De Autoriteit persoonsgegevens, ingesteld op grond van artikel 6, eerste lid, van de Uitvoeringswet Algemene verordening gegevensbescherming (hierna: UAVG), is een publiekrechtelijk ZBO met rechtspersoonlijkheid. Op grond van het huidige artikel 10, eerste lid, van de UAVG heeft de Autoriteit persoonsgegevens een secretariaat. De tweede en derde zinsnede van het eerste lid alsmede het tweede lid, van artikel 10 worden overbodig met de invoering van de Ambtenarenwet 2017. Gelet op de rechtspersoonlijkheid van de Autoriteit persoonsgegevens, vloeit reeds uit de systematiek van de Ambtenarenwet 2017 en titel 10 van Boek 7 van het Burgerlijk Wetboek voort dat de Autoriteit persoonsgegevens het eigen personeel in dienst kan nemen en kan ontslaan. Op grond van artikel 2, aanhef en onder h, van de Ambtenarenwet 2017 is de Autoriteit persoonsgegevens overheidswerkgever. Aangezien de arbeidsverhouding met het personeel zich geheel afspeelt in het civiel recht, komt uitsluitend aan de Autoriteit persoonsgegevens de bevoegdheid toe om de uit titel 7.10 BW en de arbeidsovereenkomst voortvloeiende bevoegdheden, rechten en verplichtingen uit te oefenen.",
+   "score": 0.6,
+   "kern": [
+    [
+     0,
+     328
+    ]
+   ]
+  },
+  {
+   "id": "wl-38be98f6fce5",
+   "artikel": "6",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "18",
+   "sectie": "7 Overig",
+   "tekst": "Het wetsvoorstel brengt geen veranderingen in de organisatie van het toezicht. De AP is de belangrijkste toezichthouder waar het gaat om de verwerking van persoonsgegevens. Haar toezichthoudende taak ziet op grond van artikel 6, derde lid, UAVG niet alleen op de naleving van de AVG, maar ook op de naleving van de UAVG en andere regelingen op grond waarvan persoonsgegevens worden verwerkt. Het onderhavige wetsvoorstel introduceert niet zodanige vormen van of grondslagen voor gegevensverwerking, dat dit wetsvoorstel aanleiding geeft om extra middelen toe te delen voor het toezicht. Het wetsvoorstel kent ook geen extra taken toe aan de toezichthouders. Voor zover andere toezichthouders belast zijn met het toezicht op de naleving van regels uit specifieke bijzondere wetten, behouden deze toezichthouders die bevoegdheid. De AP beschikt voor het verrichten van haar taken over een jaarlijks budget van circa 49 miljoen euro, waarvan circa 45 miljoen voor het toezicht op de naleving van de AVG. Naar het oordeel van de regering beschikt zij hiermee over voldoende middelen voor haar taken, al moet de AP net als alle toezichthouders en overheidsdiensten keuzes maken en prioriteiten stellen in haar taakuitvoering. Op het budget van de AP is nader ingegaan in de brief van de Staatssecretaris Rechtsbescherming van 11 juli 2025 inzake de evaluatie van de AP. Daarin staat dat de Staatssecretaris met de AP heeft afgesproken dat de AP in de nabije toekomst, in samenspraak met JenV, een meetinstrument en indicatoren ontwikkelt om inzicht te krijgen in het doelmatig en doeltreffend functioneren van de AP en om op een transparante wijze te verantwoorden dat middelen doelmatig en doeltreffend worden besteed. Over het budget van de AP heeft de Staatssecretaris geschreven dat hij samen met de AP stappen wil zetten om te komen tot een meer objectieve basis die ondersteunend is bij de besluitvorming over een passende hoogte van het budget van de AP. De Kamerbrief licht deze stappen toe en vermeldt dat tevens een vergelijkend onderzoek denkbaar is naar de budgetten van Europese gegevensbeschermingstoezichthouders.",
+   "score": 0.6,
+   "kern": [
+    [
+     79,
+     391
+    ]
+   ]
   },
   {
    "id": "wl-caad7ce52341",
@@ -390,6 +694,46 @@
    "score": 1.0
   },
   {
+   "id": "wl-8b16940198c5",
+   "artikel": "7",
+   "leden": [],
+   "document": "kst-36264-E",
+   "pagina": "3",
+   "sectie": "2 Hoofdlijnen van het voorstel",
+   "tekst": "Op grond van artikel 52 van de AVG is en blijft de AP volledig onafhankelijk bij de uitvoering van haar taken en de uitoefening van de bevoegdheden die haar overeenkomstig de AVG zijn toegewezen. Artikel 54 AVG legt aan de lidstaten evenwel de verplichting op om vereisten voor kwalificaties voor alle leden van de toezichthoudende autoriteit op te stellen. Deze zijn op dit moment in beleidsregels vastgelegd, maar deze zullen op basis van artikel 7, vijfde lid, UAVG in een ministeriële regeling worden neergelegd, omdat dit beter aansluit bij de eisen die volgen uit artikel 54 AVG. Beleidsregels missen volgens het Hof van Justitie van de EU de onbetwistbare dwingende kracht die een implementatiemaatregel vergt. Een ministeriële regeling heeft die wel.",
+   "score": 0.9,
+   "kern": [
+    [
+     358,
+     758
+    ]
+   ]
+  },
+  {
+   "id": "wl-d2a0a4249550",
+   "artikel": "7",
+   "leden": [],
+   "document": "kst-34851-14",
+   "pagina": "1",
+   "tekst": "Nr. 14 AMENDEMENT VAN HET LID VAN DAM C.S. Ontvangen 8 maart 2018 De ondergetekenden stellen het volgende amendement voor: In artikel 7, eerste lid, vervalt »ten hoogste». Toelichting Dit amendement regelt dat het College van de Autoriteit persoonsgegevens (AP) altijd bestaat uit drie leden: de voorzitter en twee andere leden. De indieners zien met het in werking treden van de Algemene Verordening Gegevensbescherming (AVG) de taken en verantwoordelijkheden van de AP groeien. Mede hierom wordt er in het regeerakkoord verstandig en gezond om ook binnen het College deze taken bij verschillende personen te beleggen. Deze verschillende taken vereisen ook verschillende expertise. Dit noopt volgens de indieners dan ook tot het, binnen het bestaande budget, standaard bemensen van het College met 3 personen, iets wat in 2013 nog niet nodig werd geacht maar nu wel aangewezen is. Hierbij beschikt het nieuwe lid over ruime praktijkervaring op het gebied van gegevensbescherming en -verwerking, zoals bijvoorbeeld in een relevante onderneming en/of zorginstelling. Verder zien de indieners het aantrekken van een derde lid aan het College ook als kans voor diversifiëring van het orgaan.",
+   "score": 0.85,
+   "kern": [
+    [
+     43,
+     479
+    ]
+   ]
+  },
+  {
+   "id": "wl-1bcc9e409312",
+   "artikel": "7",
+   "leden": [],
+   "document": "kst-34851-8",
+   "pagina": "3",
+   "tekst": "De wijziging van artikel 7, negende lid, beoogt de redactie in overeenstemming te brengen met artikel 7, tweede lid. Aldus wordt ook aangesloten bij de redactie van artikel 53, vierde lid, Wbp.",
+   "score": 0.75
+  },
+  {
    "id": "wl-ea8133ee23bf",
    "artikel": "8",
    "leden": [],
@@ -418,6 +762,22 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 9",
    "tekst": "Onder het huidige Wbp-regime worden de regels omtrent de rechtspositie van de voorzitter, de andere leden en de buitengewone leden vastgesteld bij ministeriële regeling (artikel 55 van de Wbp). Middels het onderhavige artikel wordt voorgesteld om dergelijke regels voortaan zoveel mogelijk bij algemene maatregel van bestuur vast te leggen. Door deze regelgevende bevoegdheid niet direct aan de verantwoordelijke Minister toe te bedelen, wordt de Autoriteit persoonsgegevens als zelfstandig bestuursorgaan op grotere afstand van de verantwoordelijke Minister geplaatst. Het voornemen bestaat om bepalingen omtrent benoeming, arbeidsduur, vakantie, verlof en voorzieningen bij ziekte en arbeidsongeschiktheid voor de leden in ieder geval op te nemen in een besluit. Ook worden hierin nadere regels omtrent de rechtspositie van de buitengewone leden. Tevens zal in dit besluit een verplichting worden opgenomen voor de leden om melding te maken van financiële belangen die de belangen van de dienst kunnen raken, voor zover deze in verband staan met de functievervulling van een lid. Een dergelijke meldplicht behoefte verdere uitwerking: beoogd wordt om deze – veelal gedetailleerde – nadere regels vast te leggen in een ministeriele regeling.\n\nBepalingen omtrent bezoldiging en schadeloosstelling van de leden zullen eveneens in een ministeriële regeling worden vastgelegd. Dit volgt uit artikel 14, tweede lid, van de Kaderwet zelfstandige bestuursorganen (Stb. 2006, 587) waarin bepaald is dat de bezoldiging van een lidmaatschap van een zelfstandig bestuursorgaan vastgesteld wordt door verantwoordelijke Minister. Nu de Autoriteit persoonsgegevens wat betreft dit artikel onder de werking van de Kaderwet zelfstandige bestuursorganen valt, zullen daarom de voorschriften inzake de bezoldiging van zowel de leden als de buitengewone leden worden vastgesteld door de Minister voor Rechtsbescherming.",
    "score": 1.0
+  },
+  {
+   "id": "wl-92ee61b5fc35",
+   "artikel": "9",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "73",
+   "sectie": "7.2.1 Organisatie van de Autoriteit persoonsgegevens",
+   "tekst": "b. Voorts adviseert de Autoriteit persoonsgegevens dat de rechtspositie van de voorzitter, de andere leden en buitengewone leden dient te worden bepaald bij algemene maatregel van bestuur in plaats van bij ministeriele regeling, zoals ook het geval is voor het College voor de rechten van de mens. Dit punt wordt overgenomen, zij het dat ervoor gekozen is om de mogelijkheid open te laten om eventuele nadere uitwerking van deze rechtspositionele voorschriften vast te leggen in een ministeriële regeling. Zie voor een voorbeeld van een voorschrift dat nadere uitwerking behoeft in regelgeving op een lager niveau de artikelsgewijze toelichting bij artikel 9. Dit neemt niet weg dat in beginsel de regels inzake rechtspositie zullen worden vastgelegd in een algemene maatregel van bestuur. Hier zijn echter, ingevolge artikel 14, tweede lid, van de Kaderwet zelfstandige bestuursorganen, de voorschriften met betrekking tot bezoldiging en schadeloosstelling van uitgezonderd. Deze onderwerpen zullen, conform de Kaderwet zelfstandige bestuursorganen, worden geregeld bij ministeriële regeling. Dit is overigens bij het College voor de rechten van de mens ook het geval.",
+   "score": 0.95,
+   "kern": [
+    [
+     506,
+     789
+    ]
+   ]
   },
   {
    "id": "wl-fff5ed506d75",
@@ -1252,6 +1612,16 @@
    "score": 1.0
   },
   {
+   "id": "wl-73e1ffc8323c",
+   "artikel": "28",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "2",
+   "sectie": "2 Advies en consultatie",
+   "tekst": "In aanvulling daarop bepaalt artikel 28, eerste lid, UAVG expliciet dat de verwerking van genetische gegevens alleen is toegestaan met betrekking tot de persoon bij wie deze zijn verkregen. Er kunnen in beginsel dus geen analyses worden uitgevoerd ten aanzien van derden.",
+   "score": 0.95
+  },
+  {
    "id": "wl-51774d495421",
    "artikel": "29",
    "leden": [],
@@ -1290,6 +1660,90 @@
    "sectie": "Artikelsgewijze toelichting: Onderdeel K",
    "tekst": "60. Het is voor de leden van de VVD-fractie op grond van de memorie van toelichting niet duidelijk welk probleem wordt opgelost door het introduceren van de nieuwe dubbele noodzakelijkheidstoets. Kan de regering daarop in gaan? Welke voorbeelden van gegevensverwerking zijn er in de rechtspraktijk geweest die aanleiding hebben gegeven voor deze wijziging? En hebben onze buurlanden ook een dergelijke dubbele noodzakelijkheidstoets geïntroduceerd? De complexiteit die voorgestelde wijziging mogelijk met zich meebrengt, leidt mogelijk tot nog meer voorzichtigheid bij organisaties bij de inzet van biometrische gegevens, wat op zichzelf al een knelpunt is dat ook wordt gesignaleerd in de evaluatie van de UAVG. Deze leden vragen naar een reactie van de regering hierop.\n\nWat nieuw is in de voorgestelde wijziging van artikel 29 UAVG, is daarin niet meer alleen staat dat verwerking van biometrische gegevens toegestaan kan zijn wanneer dat noodzakelijk is voor de authenticatie of beveiligingsdoeleinden, maar dat uitdrukkelijk ook wordt gemeld dat die verwerking noodzakelijk moet zijn omwille van een zwaarwegend algemeen belang. Daardoor zit er niet langer licht tussen artikel 9, lid 2, onder g, AVG en artikel 29 UAVG.\n\nArtikel 29 UAVG stoelt namelijk op de mogelijkheid die artikel 9, eerste lid, onder g, AVG, biedt om bij lidstatelijk recht een uitzondering te maken op het verbod om biometrische gegevens met het oog op de unieke identificatie van een persoon te verwerken. Die uitzondering dient volgens artikel 9 AVG noodzakelijk te zijn om redenen van zwaarwegend algemeen belang. Zoals de toenmalige Minister voor Rechtsbescherming schreef in de Kamerbrief van 31 oktober 2019, heeft de Europese Commissie zich kritisch erover uitgelaten dat artikel 29 UAVG geen verwijzing kent naar het voornoemde zwaarwegende algemeen belang zoals neergelegd in artikel 9, eerste lid, onder g AVG. De voorbeelden en uitleg, zoals opgenomen in de artikelsgewijze toelichting van artikel 29 UAVG, vond de Commissie niet afdoende. Om tegemoet te komen aan deze kritiek is ervoor gekozen om in artikel 29 UAVG expliciet het zwaarwegend algemeen belang te benoemen. Het gaat hier dus louter om een verduidelijking van de wettekst en geen verzwaring van het toetsingskader.\n\nDaarnaast zijn in de toelichting bij dit artikel meer voorbeelden opgenomen van situaties waarin deze bepaling kan worden ingeroepen. Dit is mede gedaan zo gedaan naar aanleiding van de daartoe door VNO-NCW en MKB-Nederland geuite wens in consultatie om meer duidelijkheid te creëren dan de summiere voorbeelden in de memorie van toelichting bij de UAVG. Bij de voorbeelden kan gedacht worden aan bedrijven of sectoren waarbinnen zich processen afspelen, waarvan de verstoring bijvoorbeeld schade kan toebrengen aan de volksgezondheid, het milieu of de voedselvoorziening. Veiligheid in het algemeen of belangen als efficiëntie of kostenbesparing vallen er dus niet onder.\n\nDat er meer voorzichtigheid komt bij organisaties bij de inzet van biometrische gegevens, acht ik op zichzelf geen slechte ontwikkeling. De verwerking van biometrische gegevens om iemand te identificeren, is per slot van rekening een verwerking van bijzondere persoonsgegevens. Bijzondere persoonsgegevens zijn door hun aard gevoelig en worden daarom door de wetgever extra beschermd. Het verwerken van bijzondere persoonsgegevens is dan ook verboden, tenzij is voldaan aan strenge voorwaarden. Juist bij biometrische gegevens is dit van groot belang.\n\n61. De leden van de CDA-fractie lezen in de toelichting dat een verwerkingsverantwoordelijke een «actieve toets» moet doen om te beoordelen of ook in het specifieke geval wel aan het vereiste «noodzakelijk voor een zwaarwegend algemeen belang» is voldaan, voordat een beroep kan worden gedaan op de uitzondering op het verbod om biometrische gegevens te verwerken.\n\nDeze leden vragen wat precies wordt bedoeld met zo’n actieve toets, en wat een verwerkingsverantwoordelijke moet doen om te kunnen aantonen dat deze actieve toets daadwerkelijk heeft plaatsgevonden? Zij hebben begrepen dat er behoefte bestaat in het veld aan nadere duidelijkheid en rechtszekerheid met betrekking tot de vraag in welke gevallen de uitzondering kan worden toegepast. Vindt de regering niet dat dit niet iets is om aan de toezichthouder over te laten, maar afweging vanuit beleid vereist? Zij vragen daarom om verduidelijking in de memorie van toelichting (MvT) inzake (a) controle op toegangsbevoegdheden op vitale en gevaarlijke locaties, zoals bedrijven uit de vitale infrastructuur; (b) beveiliging van vertrouwelijke informatie, waaronder persoonsgegevens, alsmede het netwerk van de organisatie; (c) beveiliging van supermarkten en andere winkels; (d) controle op identiteit in het kader van de Wet Ketenaansprakelijkheid en (e) beveiliging van geld of andere waardevolle zaken.\n\nDe leden vragen of de regering bereid is om in de memorie van toelichting duidelijkheid te verschaffen zodat bijvoorbeeld bedrijven meer duidelijkheid vooraf hebben.\n\nEen veelgehoorde wens bij de toelichting van artikel 29 UAVG luidde dat – behalve het voorbeeld van de kerncentrale – er meer voorbeelden zouden worden gegeven van gevallen waarop deze uitzondering kan worden toegepast, zodat de praktijk nadere duidelijkheid en rechtszekerheid heeft over de situaties waarin de uitzondering kan worden toegepast. Aan deze wens is tegemoetgekomen. Naar mijn oordeel is hiermee een goede balans gevonden tussen meer duidelijkheid en tegelijk ruimte voor de rechtspraktijk zich terzake te ontwikkelen. Wanneer alle mogelijke gevallen zouden worden beschreven waarin artikel 29 UAVG kan worden ingeroepen, ligt het gevaar op de loer van overregulering en weinig ruimte voor praktische toepassing.\n\n62. De leden van de fractie van GroenLinks delen de zorgen die zijn geuit door het Rathenau Instituut in zijn consultatiereactie omtrent de gebrekkige regeling van bepaalde categorieën van intieme gegevens die worden verzameld. Het onderhavige voorstelt tracht iets meer duidelijkheid te scheppen door aanscherping van artikel 29, maar laat nog steeds veel aan de praktijk over. Ook is er geen voorafgaande toetsing of de verwerking van dergelijke intieme persoonsgegevens rechtmatig kan zijn. Hoe kijkt de regering tegen de suggestie van het Rathenau Instituut om de verwerking van biometrische gegevens in de publieke ruimte geheel te verbieden, en daarbuiten dit afhankelijk te stellen van een vergunning?\n\nOp basis van het bestaand juridisch kader kan gezichtsherkenningstechnologie, in het bijzonder in openbare ruimten, alleen in een beperkt aantal gevallen worden ingezet. Onder de AVG is het verwerken van bijzondere persoonsgegevens (waaronder biometrische gegevens, zoals bij de inzet van gezichtsherkenning) in beginsel immers al verboden. Voor een verdergaand verbod zie ik geen aanleiding. Er moet ruimte blijven voor uitzonderingssituaties waarbinnen voldaan kan zijn aan de voorwaarden om een degelijke wijze van verwerking te rechtvaardigen.\n\n63. Deelt de regering de mening dat, omdat de voorbeelden die steeds genoemd zijn waar biometrische authenticatie daadwerkelijk de inhoudelijke toets van artikel 29 zal kunnen overleven zo gering zijn, een dergelijk vergunningsstelsel maar een beperkte extra last zal zijn voor een kleine groep organisaties?\n\nZoals geantwoord op de vorige vraag ben ik van mening dat een vergunningenstelsel bovenop het verwerkingsverbod van bijzondere persoonsgegevens uit de AVG niet zinvol is.\n\n64. Hoe vaak denkt de regering dat binnen het voorgestelde kader het rechtmatig kan zijn om biometrische gegevens te verwerken in de publieke ruimte?\n\nDit zal niet vaak het geval zijn. Gezichtsherkenning in de hier bedoelde zin kan alleen bij «uitdrukkelijke toestemming» of wanneer noodzakelijk voor beveiligings- en authenticatiedoeleinden vanwege een zwaarwegend algemeen belang.\n\n65. Daarnaast vragen de leden van de fractie van GroenLinks of het voor de toelaatbaarheid van de verwerking meeweegt welk type biometrische gegevens wordt verwerkt. En wat wordt concreet bedoeld met het begrip «werkprocessystemen», dat ingevoegd wordt in artikel 29 om duidelijker te maken waar biometrische gegevens voor authenticatie gebruikt mogen worden?\n\nDe essentie van artikel 29 is dat per voorkomend geval een dubbele noodzakelijkheidstoets wordt aangelegd; de verwerking van biometrische gegevens moet noodzakelijk zijn om redenen van zwaarwegend algemeen belang én voor authenticatie- of beveiligingsdoeleinden. Welk type biometrische gegevens speelt daarbij geen rol. Met het begrip «werkprocessystemen» wordt gedoeld op systemen die voor beveiligings- of authenticatiedoeleinden worden gebruikt.",
    "score": 1.0
+  },
+  {
+   "id": "wl-d7b290d235c1",
+   "artikel": "29",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "44",
+   "sectie": "4.3 Bijzondere categorieën van persoonsgegevens",
+   "tekst": "Voor verwerking van biometrische gegevens met het oog op de unieke identificatie van een persoon is een specifieke bepaling opgenomen. Dit is noodzakelijk, nu deze verwerking in de toekomst onder het verbod op verwerking van bijzondere categorieën van persoonsgegevens zal vallen. Deze bepaling – artikel 29 – is nader toegelicht in het artikelsgewijze deel van deze memorie.",
+   "score": 0.9
+  },
+  {
+   "id": "wl-3d9e0dc6dc26",
+   "artikel": "29",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "4",
+   "sectie": "2 Advies en consultatie",
+   "tekst": "In de brief aan de Tweede Kamer van 9 oktober 2024 heeft de toenmalige Staatssecretaris Rechtsbescherming uiteengezet welke uitzonderingen er bestaan op het verbod op de verwerking van biometrische gegevens, voortvloeiend uit artikel 9 AVG. In dit kader kan worden gewezen op twee uitzonderingen. Een eerste uitzondering is de situatie waarin de betrokkene vooraf uitdrukkelijk toestemming heeft gegeven voor het verwerken van biometrische persoonsgegevens (artikel 9, tweede lid, sub a, AVG). Daarbij dient deze toestemming ook vrij, ondubbelzinnig, geïnformeerd en specifiek te zijn (artikel 4, sub 11, AVG). Een tweede uitzondering geldt op grond van artikel 29 UAVG, indien het verwerken van biometrische gegevens noodzakelijk is voor redenen van zwaarwegend algemeen belang voor beveiligings- of authenticatiedoeleinden. Met het onderhavige wetsvoorstel wordt beoogd artikel 29 UAVG te verduidelijken. In het huidige wetsvoorstel is bepaald dat in een voorkomend geval niet alleen dient te worden beoordeeld of sprake is van een beveiligings- of authenticatiedoeleinde, maar ook of sprake is van een zwaarwegend algemeen belang. Daarnaast bepaalt het onderhavige wetsvoorstel expliciet dat alleen aanspraak gemaakt kan worden op de uitzonderingsgrond uit artikel 29 UAVG ten behoeve van specifiek in die bepaling omschreven doelen, waarmee de algemene doelclausulering verder wordt gespecificeerd. De regering voorziet op dit moment geen technologieën waarvan nu reeds vaststaat dat die in de toekomst tot verruiming van het wettelijk kader moeten leiden.",
+   "score": 0.9,
+   "kern": [
+    [
+     611,
+     906
+    ]
+   ]
+  },
+  {
+   "id": "wl-f3faa4144694",
+   "artikel": "29",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "9",
+   "sectie": "3 ARTIKEL I. Uitvoeringswet Algemene verordening gegevensbescherming",
+   "tekst": "Met het onderhavige wetsvoorstel is beoogd om in artikel 29 UAVG te verduidelijken dat de uitzondering op het verbod op de verwerking van biometrische gegevens alleen van toepassing is als die verwerking noodzakelijk is vanwege een zwaarwegend algemeen belang, en tevens noodzakelijk is voor de specifieke in deze bepaling genoemde doelen. Dit resulteert in een dubbele noodzakelijkheidstoets. De overige vereisten voor de verwerking van persoonsgegevens uit de AVG blijven daarnaast onverminderd van toepassing. Er dient bijvoorbeeld een verwerkingsgrondslag te zijn en er dient te worden voldaan aan de beginselen van gegevensbescherming, zoals opgenomen in artikel 5 AVG. Ook zijn verwerkingsverantwoordelijken op grond van artikel 25 AVG verplicht om onder andere technische en organisatorische waarborgen in de verwerking in te bouwen ter naleving van de AVG en zo te zorgen voor een rechtmatige, behoorlijke en noodzakelijke gegevensverwerking. Ook vereist artikel 32 AVG dat bij de verwerking passende technische en organisatorische maatregelen ter beveiliging daarvan worden getroffen. De verwerkingsverantwoordelijke die biometrische gegevens wil verwerken, dient steeds te zorgen dat hieraan is voldaan. De AP is de toezichthouder op de verwerking van persoonsgegevens en kan ingrijpen wanneer een verwerking niet aan de voorwaarden voldoet.",
+   "score": 0.9,
+   "kern": [
+    [
+     0,
+     393
+    ]
+   ]
+  },
+  {
+   "id": "wl-9f77503ee96b",
+   "artikel": "29",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "78",
+   "sectie": "7.2.9 Te ruime afwijking?",
+   "tekst": "d. De Autoriteit persoonsgegevens doet een redactionele suggestie voor artikel 26 van de Uitvoeringswet (thans artikel 29) omtrent de verwerking van biometrische gegevens. Deze is overgenomen.",
+   "score": 0.75
+  },
+  {
+   "id": "wl-bfa9b7cf9bad",
+   "artikel": "29",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "3",
+   "sectie": "2 Advies en consultatie",
+   "tekst": "Ten aanzien van biometrische gegevens in de publieke ruime stelt het Rathenau Instituut dat het voor de hand ligt dat de wetgever uiterst terughoudend is in het toestaan van de verwerking van biometrische gegevens door private en publieke partijen. Dit uitgangspunt onderschrijft de regering. De verwerking van biometrische gegevens met het oog op de unieke identificatie van een persoon is om die reden op grond van de AVG en artikel 29 UAVG in beginsel verboden. Anders dan het Rathenau Instituut suggereert, zie ik op dit moment echter geen aanleiding om het verbod verder uit te breiden en de huidige uitzonderingen te laten vervallen. Wel verduidelijkt het onderhavige wetsvoorstel in artikel 29 UAVG de uitzonderingsgrond inzake redenen van zwaarwegend algemeen belang voor beveiligings- of authenticatiedoeleinden.",
+   "score": 0.6,
+   "kern": [
+    [
+     293,
+     639
+    ]
+   ]
+  },
+  {
+   "id": "wl-e86b33aa592d",
+   "artikel": "29",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "14",
+   "sectie": "3 Advies en consultatie",
+   "tekst": "Door deze organisaties zijn bij de internetconsultatie verschillende punten naar voren gebracht. Het voert te ver om op elk daarvan hier in te gaan, maar de belangrijkste zijn als volgt geadresseerd. Allereerst vroeg VNO-NCW om meer duidelijkheid en rechtszekerheid met betrekking tot de uitzonderingsgrond voor de verwerking van biometrische gegevens (artikel 29 UAVG). Daaraan is tegemoet gekomen, door in de toelichting bij het wetsvoorstel meer situaties te vermelden waarin van een zwaarwegend algemeen belang sprake is. Verder had VNO-NCW suggesties bij artikel 41 UAVG. Naar aanleiding hiervan is besloten dat er nog nadere bestudering noodzakelijk is ten aanzien van artikel 41 UAVG en de opmerkingen zullen worden meegenomen bij de hiervoor genoemde besluitvorming over dit artikel. Voorts stelde VNO-NCW ten aanzien van het verlenen van toestemming door jongeren, (artikel 5 UAVG) een uniforme leeftijdsgrens voor, zowel voor het geven en intrekken van toestemming en het uitoefenen van de rechten van een betrokkene. Dit voorstel is niet opgevolgd. Verwezen wordt naar de toelichting bij artikel 1, onderdeel d, waarin de wijziging van artikel 2 UAVG is opgenomen en naar de vragen met betrekking tot dit artikel in deze nota naar aanleiding van het verslag onder nummer 36 tot en met 39. Tot slot werden enkele knelpunten uit de praktijk naar voren gebracht. Deze punten dateren nog uit 2019 en zijn voor een groot deel al ter hand genomen en opgelost. Daarover bestaat contact tussen mijn departement en VNO-NCW. Op het punt van het cross-sectoraal delen van fraudegegevens, is verder ingegaan bij de beleidsreactie op het WODC-evaluatieonderzoek naar de UAVG.",
+   "score": 0.5,
+   "kern": [
+    [
+     200,
+     576
+    ]
+   ]
   },
   {
    "id": "wl-11d97db84b4c",
@@ -1394,6 +1848,128 @@
    "score": 1.0
   },
   {
+   "id": "wl-e5c77d5edf17",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "77",
+   "sectie": "7.2.8 Overschrijf-/omzettingsverbod",
+   "tekst": "a. Ten aanzien van het door de Autoriteit persoonsgegevens onder a opgemerkte, valt op te merken dat artikel 23 (thans artikel 30) van de Uitvoeringswet ten aanzien van gegevens over gezondheid grotendeels overeenkomt met de Wbp. Het artikel biedt een grondslag voor afwijking van het verbod op het verwerken van gegevens over gezondheid dat volgt uit de verordening. De verordening biedt hiervoor verschillende grondslagen. Op basis van onderdelen b en h van het tweede lid van artikel 9 van de verordening kan worden afgeweken voor een aantal specifieke doelen. Daarnaast biedt onderdeel g een grondslag om af te wijken wanneer de verwerking noodzakelijk is om redenen van zwaarwegend algemeen belang. Niet alle onderdelen van het artikel inzake gezondheidsgegevens van de Uitvoeringswet vallen onder de doelen van artikel 9, tweede lid, onderdeel h, van de verordening. Het zou mogelijk zijn om artikel 30 van de Uitvoeringswet te splitsen in drie verschillende artikelen over gegevens betreffende de gezondheid. Dit lijkt echter weinig verhelderend omdat hiermee de suggestie zou kunnen worden gewekt dat hierin wijziging plaatsvindt ten opzichte van de bestaande normen. Dit is temeer bezwaarlijk omdat het voor de gelding van het recht niet van belang is op welk onderdeel van artikel 9, tweede lid, van de verordening een nationale uitzondering is gebaseerd, zolang hier maar voldoende rechtsbasis voor is in de verordening. Dit laatste lijdt geen twijfel. De artikelsgewijze toelichting is op dit punt aangevuld. Omdat in artikel 30 van de Uitvoeringswet niet alleen uitvoering wordt gegeven aan onderdeel h, maar ook aan de onderdelen b en g, is het wenselijk om het tweede lid van artikel 21 van de Wbp inzake het beroepsgeheim te handhaven (vierde lid van artikel 30 van de Uitvoeringswet). Omwille van de begrijpelijkheid is dit in de huidige vorm blijven staan.",
+   "score": 0.9,
+   "kern": [
+    [
+     1432,
+     1874
+    ]
+   ]
+  },
+  {
+   "id": "wl-70340b16fcbb",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "77",
+   "sectie": "7.2.9 Te ruime afwijking?",
+   "tekst": "b. De Autoriteit persoonsgegevens merkt op dat artikel 23, onderdeel e, van de Uitvoeringswet (thans artikel 30, tweede lid, onderdeel c, van de Uitvoeringswet) aanpassing behoeft, omdat de tenuitvoerlegging van vrijheidsstraffen niet onder de reikwijdte van de verordening valt, maar onder de reikwijdte van de richtlijn gegevensbescherming opsporing en vervolging. Dit is juist en het onderdeel is hier dan ook op aangepast. De tenuitvoerlegging van niet-punitieve vrijheidsbenemende maatregelen zoals vreemdelingenbewaring valt nog wel onder de reikwijdte van de verordening, en is gehandhaafd in de tekst.",
+   "score": 0.9,
+   "kern": [
+    [
+     3,
+     426
+    ]
+   ]
+  },
+  {
+   "id": "wl-571ecdddf3ff",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "15",
+   "sectie": "3.1 Materiële toepassingsbereik van de verordening",
+   "tekst": "Werkgevers zijn wettelijk verplicht, onder meer in het kader van de loondoorbetalingsverplichting bij ziekte, een ziekmelding op te nemen in de administratie. Deze gegevens over het ziekteverzuim mogen door de werkgever ook voor een redelijke termijn bewaard worden. Artikel 30, eerste lid, onder a, van het wetsvoorstel bevat bovendien de benodigde uitzondering op het verbod om gezondheidsgegevens te verwerken.",
+   "score": 0.85
+  },
+  {
+   "id": "wl-4cec1143654a",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "15",
+   "sectie": "3.1 Materiële toepassingsbereik van de verordening",
+   "tekst": "De beleidsregel «De zieke werknemer» van de AP geeft echter aan dat er slechts met tussenkomt van een bedrijfsarts of arbodienst gegevens over functionele beperkingen (zoals de vraag of een werknemer in staat is te zitten of te tillen en de implicaties voor het soort werk dat de werknemer nog kan doen) verwerkt mogen worden. Artikel 30, eerste lid, onder b, van het wetsvoorstel (voorheen artikel 21 Wbp) bevat de benodigde uitzondering op het verbod om gezondheidsgegevens te verwerken. Artikel 14, zevende lid, van de Arbeidsomstandighedenwet bevat bovendien de benodigde uitzondering op het medisch beroepsgeheim van de bedrijfsarts. In de memorie van toelichting werd verduidelijkt: «Artikel 21 WBP beperkt de informatie over de gezondheid van de werknemer tot hetgeen noodzakelijk is voor verzuimbegeleiding en re-integratie. De werkgever heeft de precieze medische achtergrond van de beperkingen niet nodig voor zijn verantwoordelijkheden, te weten loondoorbetaling en re-integratie. De werkgever heeft daarvoor voldoende aan de informatie over het bestaan van arbeidsongeschiktheid, de beperkingen van de werknemer en de mogelijkheden om werkhervatting te bevorderen.»",
+   "score": 0.85,
+   "kern": [
+    [
+     327,
+     638
+    ]
+   ]
+  },
+  {
+   "id": "wl-15b4f7064a12",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "15",
+   "sectie": "3.1 Materiële toepassingsbereik van de verordening",
+   "tekst": "De AVG en de UAVG zullen niet leiden tot een aanscherping van de regelgeving met betrekking tot de verwerking van gezondheidsgegevens door werkgevers. De definitie van gezondheidsgegevens en de grondslagen waaronder verwerking van gegevens over de gezondheid toegestaan zijn, zijn inhoudelijk niet gewijzigd. Het nieuwe artikel 30 UAVG, dat ziet op de verwerking van gezondheidsgegevens, komt overeen met artikel 21 Wbp. Hiermee is materieel geen wijziging beoogd. Zowel onder de Wbp als onder de AVG is het begrip gezondheidsgegeven een breed begrip, en omvat het alle gegevens die de lichamelijke of geestelijke gezondheid van een persoon betreffen. Het enkele feit dat iemand zich ziek heeft gemeld, is reeds een gezondheidsgegeven. Gezondheidsgegevens mogen slechts worden verwerkt voor zover er een wettelijke grondslag voor verwerking in de zin van artikel 6 AVG aanwezig is, aan de andere eisen voor het rechtmatig verwerken van persoonsgegevens is voldaan én een beroep kan worden gedaan op een van de uitzonderingsgronden (zoals genoemd in artikel 9, tweede lid, AVG of in artikel 30 UAVG) op het verbod om bijzondere categorieën persoonsgegevens te mogen verwerken (artikel 9, eerste lid, AVG).",
+   "score": 0.75,
+   "kern": [
+    [
+     736,
+     1204
+    ]
+   ]
+  },
+  {
+   "id": "wl-e26e80f68bf1",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "76",
+   "sectie": "7.2.8 Overschrijf-/omzettingsverbod",
+   "tekst": "In de verordening is in overweging 8 aangegeven dat lidstaten, indien nodig, elementen van deze verordening in hun nationale recht kunnen opnemen om de samenhang te garanderen en om de nationale bepalingen begrijpelijker maken voor degenen op wie zij van toepassing zijn. Het zogenaamde «overschrijfverbod» gaat derhalve bij deze verordening niet zo ver dat geen enkel element van de verordening terug mag komen in de nationale wet. Overweging 8 laat alleen ruimte voor het deels overschrijven van regels van de verordening daar waar de verordening ruimte laat voor specificering of beperkingen van die regels in nationaal recht. Inzake de medische geheimhoudingsplicht (artikel 9, derde lid, van de verordening) is het strikt genomen zo dat de geheimhoudingsplicht rechtstreeks volgt uit de verordening voor zover er sprake is van verwerking van gegevens betreffende de gezondheid op basis van artikel 9, tweede lid, onderdeel h, terwijl de verwerking van gegevens betreffende de gezondheid op basis van de onderdelen b en g een nationale regeling inzake geheimhouding zou behoeven. Om verwarring te voorkomen is gekozen voor een eenduidige formulering van de medische geheimhoudingsplicht bij alle verwerkingen van gegevens betreffende de gezondheid. Aldus lijdt het geen twijfel dat gegevens betreffende de gezondheid alleen mogen worden verwerkt door personen die uit hoofde van ambt, beroep of wettelijk voorschrift, dan wel krachtens een overeenkomst tot geheimhouding zijn verplicht (zie artikel 30, vierde lid, van de Uitvoeringswet).",
+   "score": 0.7,
+   "kern": [
+    [
+     1253,
+     1542
+    ]
+   ]
+  },
+  {
+   "id": "wl-1141b6616800",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "45",
+   "sectie": "5.3 Bijzondere categorieën van persoonsgegevens",
+   "tekst": "De AVG maakt het inderdaad mogelijk voor dit doel bij nationaal recht regels te stellen. Voor zover het om gegevens over de gezondheid gaat, biedt artikel 30 van het wetsvoorstel daarvoor een grondslag. Door het Ministerie van SZW zal worden bezien of de mogelijkheid tot nadere invulling bij algemene maatregel van bestuur die artikel 30 UAVG bevat in het zesde lid, noodzakelijk of wenselijk is. Gebruikmaking van deze grondslag vereist dat de noodzaak en proportionaliteit van dergelijke gegevensverwerking zorgvuldig wordt afgewogen.",
+   "score": 0.6,
+   "kern": [
+    [
+     0,
+     397
+    ]
+   ]
+  },
+  {
+   "id": "wl-d9e5ddb04bc0",
+   "artikel": "30",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "19",
+   "sectie": "3.1 Materiële toepassingsbereik van de verordening",
+   "tekst": "In een arbeidsrelatie zal er, vanwege de gezagsverhouding tussen werkgever en werknemer, niet snel voldaan zijn aan de vereisten die aan toestemming als bedoeld in artikel 7 AVG worden gesteld. Blijkens overweging 42 van de AVG mag een toestemming immers niet worden geacht vrijelijk te zijn verleend, indien de betrokkene geen echte of vrije keuze heeft of zijn toestemming niet kan weigeren of intrekken zonder nadelige gevolgen. In de arbeidsverhouding is er daarom, uitzonderlijke situaties daargelaten, een andere uitzondering op het verwerkingsverbod dan (uitdrukkelijke) toestemming benodigd voor de rechtmatige verwerking van (bijzondere) persoonsgegevens (dat wil zeggen een andere uitzondering in artikel 9 AVG dan wel artikel 30 UAVG). De werknemer is hiermee voldoende beschermd. Dat neemt niet weg dat in de wetgeving die betrekking heeft op de rechten en plichten van werkgevers en werknemers op onderdelen zal worden bezien of nadere verduidelijking noodzakelijk of gewenst is. Voor de verhouding werkgever/werknemer zij ook verwezen naar de antwoorden op de vragen 9, 10 en 15.",
+   "score": 0.55,
+   "kern": [
+    [
+     432,
+     791
+    ]
+   ]
+  },
+  {
    "id": "wl-a912f90a1cf4",
    "artikel": "30a",
    "leden": [],
@@ -1424,6 +2000,21 @@
    "score": 1.0
   },
   {
+   "id": "wl-4e4b48c12a03",
+   "artikel": "30a",
+   "leden": [],
+   "document": "kst-36264-8",
+   "pagina": "1",
+   "tekst": "De indiener beoogt met het amendement dat bij de overdracht van patiëntendossiers (in geval van o.a. faillissement) met als doel het continueren/gaan verlenen van zorg geen vergoeding gevraagd mag worden voor de patiëntendossiers. Daarvoor stelt de indiener voor om in de Wijziging van de Uitvoeringswet Algemene verordening gegevensbescherming en enkele andere wetten in verband met het stroomlijnen en actualiseren van het gegevensbeschermingsrecht (Verzamelwet gegevensbescherming) onder M in zowel artikel 30a als 30b in te voegen dat bij de overdracht, zoals bedoeld in dat artikel, geen geld gevraagd mag worden voor deze overdracht. Voor artikel 30b is dit geregeld doordat het tweede lid van dat artikel bepaalt dat de regeling van artikel 30a van overeenkomstige toepassing is.",
+   "score": 0.85,
+   "kern": [
+    [
+     640,
+     786
+    ]
+   ]
+  },
+  {
    "id": "wl-20c7df26a286",
    "artikel": "30b",
    "leden": [],
@@ -1444,6 +2035,37 @@
    "score": 1.0
   },
   {
+   "id": "wl-9757b7037ea1",
+   "artikel": "30b",
+   "leden": [],
+   "document": "kst-36264-8",
+   "pagina": "1",
+   "tekst": "De indiener beoogt met het amendement dat bij de overdracht van patiëntendossiers (in geval van o.a. faillissement) met als doel het continueren/gaan verlenen van zorg geen vergoeding gevraagd mag worden voor de patiëntendossiers. Daarvoor stelt de indiener voor om in de Wijziging van de Uitvoeringswet Algemene verordening gegevensbescherming en enkele andere wetten in verband met het stroomlijnen en actualiseren van het gegevensbeschermingsrecht (Verzamelwet gegevensbescherming) onder M in zowel artikel 30a als 30b in te voegen dat bij de overdracht, zoals bedoeld in dat artikel, geen geld gevraagd mag worden voor deze overdracht. Voor artikel 30b is dit geregeld doordat het tweede lid van dat artikel bepaalt dat de regeling van artikel 30a van overeenkomstige toepassing is.",
+   "score": 0.75,
+   "kern": [
+    [
+     640,
+     786
+    ]
+   ]
+  },
+  {
+   "id": "wl-b13ab670b518",
+   "artikel": "30b",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "49",
+   "sectie": "3.5 Aanpassingen ten opzichte van de internetconsultatieversie",
+   "tekst": "Tot slot is in het derde lid, onder a, een nieuwe taak opgenomen voor de curator en een bevoegdheid tot het verwerken van persoonsgegevens, met inbegrip van bijzondere persoonsgegevens. Het gaat om de overdracht van bescheiden en andere gegevensdragers en overige stukken. Dit zijn dezelfde gegevens als die genoemd zijn in het tweede lid, onder f. Daar gaat het alleen om het bewaren en onder zich nemen van deze gegevens. In de praktijk is het nodig dat bescheiden en andere gegevensdragers en overige stukken die persoonsgegevens of bijzondere persoonsgegevens bevatten, ook kunnen worden overgedragen, omdat dat in het kader van een dringend maatschappelijk belang is vereist. Het kan bijvoorbeeld gaan om de overdracht van medische dossiers van een psychotherapiepraktijk aan een andere psychotherapiepraktijk zodat patiënten niet zonder zorg komen te zitten. Een ander denkbaar voorbeeld is de overdracht van een leerlingenbestand als een school tijdens het schooljaar failliet gaat. De bestanden moeten dan kunnen worden overgedragen aan een andere school, zodat de leerlingen hun schooljaar aldaar kunnen voortzetten. De curator heeft geen recht op inzage in de dossiers. Deze grondslag om bescheiden en andere gegevensdragers en overige stukken die persoonsgegevens bevatten over te dragen, betreft een restcategorie. Als een andere wet regelt hoe deze stukken door de curator moeten worden overgedragen, geldt die wet en niet de voorliggende algemene regeling in de Fw. Zo is de situatie waarin de curator medische dossiers overdraagt, geregeld in artikel 30b UAVG. Dit artikel krijgt dan voorrang boven de Fw. Zie hierover nader artikel I, onderdeel M en de toelichting daarop.",
+   "score": 0.6,
+   "kern": [
+    [
+     1327,
+     1688
+    ]
+   ]
+  },
+  {
    "id": "wl-ab61e4b052bf",
    "artikel": "31",
    "leden": [],
@@ -1454,6 +2076,16 @@
    "score": 1.0
   },
   {
+   "id": "wl-4240d5aa649a",
+   "artikel": "31",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "114–115",
+   "sectie": "Toelichting bij artikel 32 (waar de toelichting naar verwijst)",
+   "tekst": "Deze uitzonderingen zijn kopieën van diverse algemene uitzonderingen voor bijzondere categorieën van persoonsgegevens. Wat hiervoor over die bepalingen is gezegd, geldt mutatis mutandis ook voor persoonsgegevens van strafrechtelijke aard, met dien verstande dat de basis voor artikel 32 te vinden is in artikel 10 van de verordening.",
+   "score": 0.65
+  },
+  {
    "id": "wl-a65a4b1b7202",
    "artikel": "31",
    "leden": [],
@@ -1462,6 +2094,68 @@
    "sectie": "Artikelsgewijze toelichting: Artikelen 31, 32 en 33",
    "tekst": "Vraag 92 (VVD)\n\nDe leden van de VVD-fractie constateren dat de genoemde artikelen van het onderhavige wetsvoorstel gaan over de verwerking van persoonsgegevens van strafrechtelijke aard. Hiervoor gelden extra zware voorwaarden. De voornoemde leden betreuren het als fraudebestrijding wordt gehinderd door de strengere regels uit de nieuwe AVG. Voor een effectieve fraudebestrijding kan het nodig zijn zwarte lijsten op te stellen van fraudeurs. Een dergelijke zwarte lijst kan echter stuiten op de criteria van genoemde artikelen van het onderhavige wetsvoorstel. Hoe beoordeelt de regering dat? Kan de regering aangeven welke juridische belemmeringen uit de wet voortvloeien om een zwarte lijst van fraudeurs te maken? De aan het woord zijnde leden overwegen een amendement als blijkt dat deze belemmeringen te groot zijn.\n\nVoor het antwoord op deze vraag wordt verwezen naar het antwoord op vraag 63.",
    "score": 1.0
+  },
+  {
+   "id": "wl-132235183164",
+   "artikel": "31",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "46",
+   "sectie": "5.3 Bijzondere categorieën van persoonsgegevens",
+   "tekst": "Bij mensenhandel zal het al snel gaan om persoonsgegevens van strafrechtelijke aard als bedoeld in de artikelen 31 tot en met 33 UAVG. Ook deze gegevens mogen – voor zover hier van belang – uitsluitend worden verwerkt met uitdrukkelijke toestemming van de betrokkene. Dit geldt uiteraard niet voor de registratie van mensenhandel door politie en openbaar ministerie, waarop richtlijn (EU) 2016/680 van toepassing is.",
+   "score": 0.75
+  },
+  {
+   "id": "wl-7f1350e22fad",
+   "artikel": "31",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "54",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "Bij de informatie-uitwisseling ten behoeve van de aanpak van fraudeurs gaat het meestal om persoonsgegevens van strafrechtelijke aard. Persoonsgegevens van strafrechtelijke aard worden in de Wbp aangemerkt als bijzondere persoonsgegevens. Onder de AVG verandert dat. Artikel 9, eerste lid, AVG bevat een limitatieve opsomming van bijzondere categorieën van persoonsgegevens. Persoonsgegevens van strafrechtelijke aard vallen daar niet onder. Dergelijke gegevens mogen op grond van artikel 10 AVG uitsluitend worden verwerkt onder toezicht van de overheid dan wel indien de verwerking is toegestaan bij Unierechtelijke of lidstaatrechtelijke bepalingen die passende waarborgen bevatten voor de rechten en vrijheden van betrokkenen. Ter uitvoering van artikel 10 AVG bevatten de artikelen 31 tot en met 33 van het wetsvoorstel de nationaalrechtelijke regeling omtrent de verwerking van persoonsgegevens van strafrechtelijke aard. Ook hier is gekozen voor een beleidsneutrale uitvoering. De artikelen 31 tot en met 33 van het wetsvoorstel komen materieel dan waar mogelijk overeen met de huidige bepalingen over de verwerking van persoonsgegevens van strafrechtelijke aard in de Wbp. De nieuwe privacyregels geven derhalve materieel geen ander kader voor informatie-uitwisseling over fraudeurs dan de Wbp al deed",
+   "score": 0.7,
+   "kern": [
+    [
+     0,
+     441
+    ]
+   ]
+  },
+  {
+   "id": "wl-a110eda00219",
+   "artikel": "31",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "64",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "In artikel 7.4.0 van de Jeugdwet is de verwerking van persoonsgegevens door en verstrekking van persoonsgegevens aan het college van burgemeester en wethouders vastgelegd. Daarbij wordt nu verwezen naar «andere bijzondere persoonsgegevens als bedoeld in de Wet bescherming persoonsgegevens». Omdat onder de AVG persoonsgegevens van strafrechtelijk aard niet meer tot de bijzondere persoonsgegevens worden gerekend, worden ze in de voorgestelde wijziging afzonderlijk genoemd, zodat duidelijk is dat ook die gegevens verstrekt kunnen worden. De verwerking van persoonsgegevens van strafrechtelijk aard door aanbieders als bedoeld in artikel 7.4.0, tweede lid, is gebaseerd op artikel 31, eerste lid van de Uitvoeringswet. Deze partijen verwerken die gegevens onder toezicht van de overheid.",
+   "score": 0.65,
+   "kern": [
+    [
+     292,
+     720
+    ]
+   ]
+  },
+  {
+   "id": "wl-0f092368e735",
+   "artikel": "31",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "80",
+   "sectie": "7.2.11 Beleidsneutrale invulling van de ruimte die de verordening biedt",
+   "tekst": "f. De Autoriteit persoonsgegevens stelt voor om de voorwaarde van toestemming te schrappen uit artikel 31, eerste lid, onderdeel g, subonderdeel 3. Dit voorstel is overgenomen, met dien verstande dat een vergunningplicht is opgenomen (zie nader de artikelsgewijze toelichting bij artikel 33, vierde lid, onder c), zodat sprake is van beleidsneutrale implementatie.",
+   "score": 0.6
+  },
+  {
+   "id": "wl-1f52acf690ca",
+   "artikel": "31",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "54",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "De artikelen 31 tot en met 33 van het wetsvoorstel staan niet in de weg aan het maken een zwarte lijst van fraudeurs, mits aan bepaalde voorwaarden wordt voldaan. De volgende bepalingen zijn hierbij van belang:",
+   "score": 0.55
   },
   {
    "id": "wl-d820d63b1752",
@@ -1492,6 +2186,94 @@
    "sectie": "Artikelsgewijze toelichting: Onderdeel N",
    "tekst": "Eerste onderdeel\n\nArtikel 10 AVG biedt ruimte aan de nationale wetgever regels te stellen over het verwerken van gegevens van strafrechtelijke aard. Nu gebruik wordt gemaakt van de mogelijkheid die de AVG aan de nationale wetgever biedt in artikel 32, wordt met de voorgestelde wijziging de gekozen wetssystematiek in de UAVG, waarin deze ruimte telkens expliciet wordt benoemd («gelet op»), consequent doorgevoerd.\n\nTweede onderdeel\n\nVoor de toelichting bij de tweede voorgestelde aanpassing in artikel 32 wordt verwezen naar de toelichting op de wijziging van artikel 22 UAVG in onderdeel G van dit artikel.",
    "score": 1.0
+  },
+  {
+   "id": "wl-bff3b62d48fe",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "17–18",
+   "sectie": "Toelichting bij artikel 22 (waar de toelichting naar verwijst)",
+   "tekst": "Met de rectificatie van de Nederlandse vertaling van de AVG van 19 april 2018 is in artikel 9, tweede lid, onderdeel f, AVG «rechtsbevoegdheid» vervangen door «rechtsprekende taken». Artikel 22, tweede lid, onderdeel e, UAVG, waarin deze uitzondering op het verwerkingsverbod van bijzondere categorieën van persoonsgegevens omwille van de duidelijkheid en op advies van de Raad van State letterlijk is overgenomen, wordt derhalve overeenkomstig aangepast. Tevens is dit onderdeel f van artikel 9, tweede lid, AVG overgenomen in artikel 32, onderdeel d, UAVG.Daaromwordt voorgesteld om de formulering ook in dat artikel aan te passen (zie onderdeel N).\n\nAls weergegeven bij kamerbrief van 23 oktober 2012, is door de Commissie bevestigd dat het gebruik van bijzondere persoonsgegevens in rechtsgedingen als bedoeld in artikel 9, tweede lid, onder f, AVG, zich ook uitstrekt tot nevengeschillen en bezwaarschriftprocedures. Derhalve vallen bijvoorbeeld onderwijsgeschillen en geschillen van consumenten over ziektekostenverzekeraars binnen het bereik van artikel 22 UAVG.\n\nMet de rectificatie van de Nederlandse vertaling van de AVG van 4 maart 2021 is in artikel 9, tweede lid, onderdeel f, AVG «onderbouwing» vervangen door «verdediging». Artikel 22, tweede lid, onderdeel e, UAVG, dient dus ook overeenkomstig te worden aangepast.",
+   "score": 0.85
+  },
+  {
+   "id": "wl-c9bcbc8ce19a",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "45",
+   "sectie": "4.4 Verwerking van persoonsgegevens betreffende strafrechtelijke veroordelingen en strafbare feiten",
+   "tekst": "In de artikelen 32 en 33 van de Uitvoeringswet wordt voorgesteld om aan deze ruimte invulling te geven door enerzijds het behouden van de algemene uitzonderingen van artikel 23 van de Wbp voor persoonsgegevens betreffende strafrechtelijke veroordelingen en strafbare feiten, en anderzijds het bestaande artikel 22 van de Wbp inhoudelijk te handhaven. Effectief blijft hiermee de bestaande regelgeving gelden.",
+   "score": 0.75
+  },
+  {
+   "id": "wl-73dd2e4c8350",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "50",
+   "sectie": "4.8 Verwerkingen ten behoeve van wetenschappelijk of historisch onderzoek of met een statistisch oogmerk",
+   "tekst": "2) Indien de uitdrukkelijke toestemming van de betrokkene niet kan worden verkregen of een onevenredige inspanning kost, kan de verwerking alsnog plaatsvinden op grond van artikel 24 van de Uitvoeringswet (in geval van persoonsgegevens van strafrechtelijke aard: artikel 32, onderdeel f). In artikel 24 worden, naast het vereiste dat uitdrukkelijke toestemming onmogelijk of alleen met onevenredige inspanningen kan worden verkregen, cumulatief nog een drietal nadere voorwaarden gesteld: het onderzoek moet een algemeen belang dienen, de verwerking moet noodzakelijk zijn voor het wetenschappelijk of historisch onderzoek of het statistisch doel en tot slot moet bij de uitvoering worden voorzien in waarborgen die verzekeren dat de persoonlijke levenssfeer van de betrokkene niet onevenredig wordt geschaad. Verder zal de verwerking vanzelfsprekend ook dienen te voldoen aan de overige van toepassing zijnde voorwaarden die door de verordening en door de Uitvoeringswet zijn gesteld.",
+   "score": 0.75,
+   "kern": [
+    [
+     0,
+     288
+    ]
+   ]
+  },
+  {
+   "id": "wl-747904550c8a",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "54",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "Bij de informatie-uitwisseling ten behoeve van de aanpak van fraudeurs gaat het meestal om persoonsgegevens van strafrechtelijke aard. Persoonsgegevens van strafrechtelijke aard worden in de Wbp aangemerkt als bijzondere persoonsgegevens. Onder de AVG verandert dat. Artikel 9, eerste lid, AVG bevat een limitatieve opsomming van bijzondere categorieën van persoonsgegevens. Persoonsgegevens van strafrechtelijke aard vallen daar niet onder. Dergelijke gegevens mogen op grond van artikel 10 AVG uitsluitend worden verwerkt onder toezicht van de overheid dan wel indien de verwerking is toegestaan bij Unierechtelijke of lidstaatrechtelijke bepalingen die passende waarborgen bevatten voor de rechten en vrijheden van betrokkenen. Ter uitvoering van artikel 10 AVG bevatten de artikelen 31 tot en met 33 van het wetsvoorstel de nationaalrechtelijke regeling omtrent de verwerking van persoonsgegevens van strafrechtelijke aard. Ook hier is gekozen voor een beleidsneutrale uitvoering. De artikelen 31 tot en met 33 van het wetsvoorstel komen materieel dan waar mogelijk overeen met de huidige bepalingen over de verwerking van persoonsgegevens van strafrechtelijke aard in de Wbp. De nieuwe privacyregels geven derhalve materieel geen ander kader voor informatie-uitwisseling over fraudeurs dan de Wbp al deed",
+   "score": 0.65,
+   "kern": [
+    [
+     0,
+     441
+    ]
+   ]
+  },
+  {
+   "id": "wl-054f9aa44ee4",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "41",
+   "sectie": "3.5 Aanpassingen ten opzichte van de internetconsultatieversie",
+   "tekst": "Bij bijzondere persoonsgegevens, strafrechtelijke persoonsgegevens of een bsn geldt dat de verwerking gebaseerd moet worden op artikel 68a, derde lid, respectievelijk artikel 215b, derde lid en artikel 316a, derde lid Fw. Is dit niet mogelijk, dan is nog voorstelbaar dat artikel 22, tweede lid onder e of artikel 32, onder d UAVG, een grond voor verwerking biedt. In genoemde artikelen is geregeld dat bijzondere en strafrechtelijke gegevens mogen worden verwerkt voor instelling, uitoefening en onderbouwing van een rechtsvordering.",
+   "score": 0.6,
+   "kern": [
+    [
+     222,
+     534
+    ]
+   ]
+  },
+  {
+   "id": "wl-4ffea1bfb581",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "54",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "De artikelen 31 tot en met 33 van het wetsvoorstel staan niet in de weg aan het maken een zwarte lijst van fraudeurs, mits aan bepaalde voorwaarden wordt voldaan. De volgende bepalingen zijn hierbij van belang:",
+   "score": 0.55
+  },
+  {
+   "id": "wl-0ea9de469de7",
+   "artikel": "32",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "46",
+   "sectie": "5.3 Bijzondere categorieën van persoonsgegevens",
+   "tekst": "Bij mensenhandel zal het al snel gaan om persoonsgegevens van strafrechtelijke aard als bedoeld in de artikelen 31 tot en met 33 UAVG. Ook deze gegevens mogen – voor zover hier van belang – uitsluitend worden verwerkt met uitdrukkelijke toestemming van de betrokkene. Dit geldt uiteraard niet voor de registratie van mensenhandel door politie en openbaar ministerie, waarop richtlijn (EU) 2016/680 van toepassing is.",
+   "score": 0.5
   },
   {
    "id": "wl-b41bb745132c",
@@ -1562,6 +2344,84 @@
    "score": 1.0
   },
   {
+   "id": "wl-4af0e8a14ba5",
+   "artikel": "33",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "54",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "a. Op grond van artikel 33, tweede lid, aanhef en onderdeel b, mag een verwerkingsverantwoordelijke persoonsgegevens van strafrechtelijke aard ten eigen behoeve verwerken ter bescherming van zijn eigen belangen, voor zover het gaat om strafbare feiten die zijn of – naar redelijkerwijs te verwachten is – zullen worden gepleegd jegens hem of jegens personen die in zijn dienst zijn. Deze bepaling biedt een grondslag voor een zwarte lijst die uitsluitend wordt gebruikt binnen één bepaald bedrijf. Gedacht kan worden aan een supermarkt die een zwarte lijst opstelt van personen die zich in die winkel schuldig hebben gemaakt aan winkeldiefstal.",
+   "score": 0.9,
+   "kern": [
+    [
+     3,
+     382
+    ]
+   ]
+  },
+  {
+   "id": "wl-911aafb4677b",
+   "artikel": "33",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "55",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "c. Tot slot is het mogelijk om persoonsgegevens van strafrechtelijke aard ten behoeve van derden te verwerken indien de AP hiervoor een vergunning heeft verleend (artikel 33, vierde lid, aanhef en onderdeel c). De AP kan een dergelijke vergunning verlenen, indien de verwerking noodzakelijk is met het oog op een zwaarwegend belang van derden en bij de uitvoering is voorzien zodanige waarborgen dat de persoonlijke levenssfeer van de betrokkene niet onevenredig wordt geschaad (artikel 33, vijfde lid). Het tegengaan van fraude kan als een zwaarwegend belang voor een bedrijf of onderneming worden aangemerkt. Het blijft dus op grond van deze bepaling mogelijk om zwarte lijsten te delen binnen een bepaalde bedrijfstak of bijvoorbeeld tussen winkels in een bepaald winkelcentrum. De AP zal dan wel vooraf, in het kader van de vergunningaanvraag, noodzaak en evenredigheid toetsen. Onder andere de volgende omstandigheden kunnen hierbij een rol spelen: – de mate waarin opname van een individu in het systeem waarop de gegevensuitwisseling betrekking heeft, kan betekenen dat betrokkene wordt uitgesloten van bijvoorbeeld eerste levensbehoeften of van goederen of diensten die betrekking hebben op een (klassiek of sociaal) grondrecht; – de kwetsbaarheid van bepaalde groepen betrokkenen, zoals minderjarige klanten en werknemers, oudere werknemers en werknemers die geen mogelijkheid hebben om een eventueel ontslag aan te vechten; – de reikwijdte van het systeem, in termen van zowel degenen die het systeem kunnen vullen, degenen die gegevens in het systeem kunnen raadplegen en degenen van wie persoonsgegevens in het systeem worden verwerkt. Hoe groter de reikwijdte, hoe ingrijpender de gevolgen voor opname van de betrokkene in het systeem kunnen zijn. Naarmate de reikwijdte van een systeem groter is, zullen derhalve de waarborgen voor betrokkenen zwaarder moeten zijn of zal het systeem in het geheel niet door de toetsing komen. Het beperken van de reikwijdte van het systeem (geografisch, sectoraal of anderszins) kan bijdragen aan een positieve uitkomst van de proportionaliteitsafweging.",
+   "score": 0.9,
+   "kern": [
+    [
+     211,
+     503
+    ]
+   ]
+  },
+  {
+   "id": "wl-d9f159a618ac",
+   "artikel": "33",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "55",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "b. Op grond van artikel 33, vierde lid, aanhef en onderdeel b, mogen persoonsgegevens van strafrechtelijke aard ten behoeve van derden worden verwerkt, indien deze derde deel uitmaakt van hetzelfde concern als de verwerkingsverantwoordelijke. Deze bepaling maakt het mogelijk om zwarte lijsten te delen tussen ondernemingen die deel uitmaken van hetzelfde concern.",
+   "score": 0.85
+  },
+  {
+   "id": "wl-b591ece68739",
+   "artikel": "33",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "45",
+   "sectie": "4.4 Verwerking van persoonsgegevens betreffende strafrechtelijke veroordelingen en strafbare feiten",
+   "tekst": "In de artikelen 32 en 33 van de Uitvoeringswet wordt voorgesteld om aan deze ruimte invulling te geven door enerzijds het behouden van de algemene uitzonderingen van artikel 23 van de Wbp voor persoonsgegevens betreffende strafrechtelijke veroordelingen en strafbare feiten, en anderzijds het bestaande artikel 22 van de Wbp inhoudelijk te handhaven. Effectief blijft hiermee de bestaande regelgeving gelden.",
+   "score": 0.75
+  },
+  {
+   "id": "wl-1544a1af36a7",
+   "artikel": "33",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "80",
+   "sectie": "7.2.11 Beleidsneutrale invulling van de ruimte die de verordening biedt",
+   "tekst": "f. De Autoriteit persoonsgegevens stelt voor om de voorwaarde van toestemming te schrappen uit artikel 31, eerste lid, onderdeel g, subonderdeel 3. Dit voorstel is overgenomen, met dien verstande dat een vergunningplicht is opgenomen (zie nader de artikelsgewijze toelichting bij artikel 33, vierde lid, onder c), zodat sprake is van beleidsneutrale implementatie.",
+   "score": 0.6
+  },
+  {
+   "id": "wl-f11c8f4e3aa2",
+   "artikel": "33",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "54",
+   "sectie": "8 Consultatie van het wetsvoorstel",
+   "tekst": "Bij de informatie-uitwisseling ten behoeve van de aanpak van fraudeurs gaat het meestal om persoonsgegevens van strafrechtelijke aard. Persoonsgegevens van strafrechtelijke aard worden in de Wbp aangemerkt als bijzondere persoonsgegevens. Onder de AVG verandert dat. Artikel 9, eerste lid, AVG bevat een limitatieve opsomming van bijzondere categorieën van persoonsgegevens. Persoonsgegevens van strafrechtelijke aard vallen daar niet onder. Dergelijke gegevens mogen op grond van artikel 10 AVG uitsluitend worden verwerkt onder toezicht van de overheid dan wel indien de verwerking is toegestaan bij Unierechtelijke of lidstaatrechtelijke bepalingen die passende waarborgen bevatten voor de rechten en vrijheden van betrokkenen. Ter uitvoering van artikel 10 AVG bevatten de artikelen 31 tot en met 33 van het wetsvoorstel de nationaalrechtelijke regeling omtrent de verwerking van persoonsgegevens van strafrechtelijke aard. Ook hier is gekozen voor een beleidsneutrale uitvoering. De artikelen 31 tot en met 33 van het wetsvoorstel komen materieel dan waar mogelijk overeen met de huidige bepalingen over de verwerking van persoonsgegevens van strafrechtelijke aard in de Wbp. De nieuwe privacyregels geven derhalve materieel geen ander kader voor informatie-uitwisseling over fraudeurs dan de Wbp al deed",
+   "score": 0.5,
+   "kern": [
+    [
+     0,
+     441
+    ]
+   ]
+  },
+  {
    "id": "wl-6751e3ca887f",
    "artikel": "34",
    "leden": [],
@@ -1570,6 +2430,38 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 34",
    "tekst": "Op grond van de artikelen 15 tot en met 22 van de verordening hebben betrokkenen een aantal rechten, zoals het recht op uitsluitsel van verwerkingsverantwoordelijken over het al dan niet verwerken van hen betreffende persoonsgegevens, op rectificatie van onjuiste persoonsgegevens en het recht op vergetelheid. Betrokkenen zullen deze rechten over het algemeen uitoefenen door middel van verzoeken aan verwerkingsverantwoordelijken. Voor zover de verwerkingsverantwoordelijke een bestuursorgaan in de zin van de Awb is, is de Awb van toepassing. De beslissing op het verzoek is dan een besluit waartegen desgewenst bezwaar kan worden gemaakt. Een vergelijkbare bepaling bestaat thans ook al op grond van de Wbp. Reeds in de toelichting op de Wbp stond dat een bepaling als deze strikt genomen als overbodig kan worden beschouwd omdat de bestuursrechter beslissingen als deze als besluiten zal beschouwen. Bij de tenuitvoerlegging van de verordening is zoveel mogelijk aangesloten bij het bestaande stelsel van de Wbp en in verband daarmee is de systematiek hetzelfde gebleven. In artikel 12, derde lid, van de verordening is bepaald dat de betrokkene onverwijld en in ieder geval binnen een maand na ontvangst van het verzoek informatie dient te ontvangen over het gevolg dat aan het verzoek is gegeven. Wanneer het om een complex verzoek gaat, kan ervoor worden gekozen de verzoeker binnen een maand te informeren dat de beslistermijn met twee maanden wordt verlengd. Dit betekent dat verzoeker binnen een maand in ieder geval een eerste reactie dient te krijgen op zijn verzoek. Indien deze reactie uitblijft is er op grond van artikel 6:2, aanhef en onderdeel b, van de Awb derhalve sprake van een besluit en is artikel 6:12 van de Awb van toepassing. Dit betekent dat beroep kan worden ingesteld tegen het niet tijdig nemen van het besluit op voorwaarde dat het bestuursorgaan in gebreke is gesteld en twee weken de tijd heeft gekregen om alsnog te besluiten. De mogelijkheid die artikel 6:12 van de Awb biedt, geldt eveneens indien het bestuursorgaan nog geen beslissing heeft genomen binnen twee maanden na de kennisgeving dat de termijn met twee maanden is verlengd.",
    "score": 1.0
+  },
+  {
+   "id": "wl-fcadd49fa6f3",
+   "artikel": "34",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "37",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "Met dit artikel wordt artikel 34 uit de Uitvoeringswet Algemene verordening gegevensbescherming van overeenkomstige toepassing verklaard ten aanzien van de uitoefening van de rechten van betrokkenen, bedoeld in de verordening, in het kader van persoonsgegevensverwerkingen op grond van de Kieswet. De bepaling strekt ertoe beslissingen die door bestuursorganen genomen zijn inzake de rechten van betrokkenen gelijk te stellen aan een besluit in de zin van de Awb. Hiermee wordt onduidelijkheid inzake het rechtskarakter van deze beslissingen voorkomen en wordt daarenboven gegarandeerd dat er een met passende waarborgen omklede rechtsgang openstaat voor de betrokkene om tegen een eventueel afwijzend besluit op te komen in rechte.",
+   "score": 0.85,
+   "kern": [
+    [
+     0,
+     297
+    ]
+   ]
+  },
+  {
+   "id": "wl-bd3170d4447e",
+   "artikel": "34",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "60",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "Op grond van de artikelen 15, 16, 17, 18, 20 en 21 van de verordening heeft de betrokkene bepaalde rechten ten opzichte van de verwerkingsverantwoordelijke. In artikel 33c van de Wet structuur uitvoeringsorganisatie werk en inkomen (Wet SUWI) gaat het om het recht van de betrokken werknemer om het Uitvoeringsinstituut werknemersverzekeringen (UWV) te verzoeken tot opname, rectificatie respectievelijk vervollediging van zijn gegevens. In het vijfde lid van dit artikel is een bijzondere termijn van zes weken voor UWV opgenomen om te beslissen op dergelijke verzoeken. Er is echter geen aanleiding om af te wijken van de termijn, die is opgenomen in artikel 12, derde lid, van de Algemene verordening gegevensbescherming. Deze termijn is op grond van artikel 34 van de Uitvoeringswet Algemene verordening gegevensbescherming van toepassing. Die beslistermijn is binnen een maand na ontvangst van het verzoek met de mogelijkheid tot verlenging van twee maanden. Daarom kan het vijfde lid van artikel 33c van de Wet SUWI vervallen.",
+   "score": 0.85,
+   "kern": [
+    [
+     572,
+     963
+    ]
+   ]
   },
   {
    "id": "wl-01cbad194deb",
@@ -1592,6 +2484,32 @@
    "score": 1.0
   },
   {
+   "id": "wl-f5dc49d7c6f8",
+   "artikel": "36",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "80",
+   "sectie": "7.2.11 Beleidsneutrale invulling van de ruimte die de verordening biedt",
+   "tekst": "g. De Autoriteit persoonsgegevens merkt op dat bemiddeling, anders dan in de toelichting is opgenomen, geen geschilbeslechting is. Dit is een verschrijving, die is hersteld. Vervolgens constateert de Autoriteit persoonsgegevens dat een regeling als in artikel 47, tweede lid, van de Wbp ontbreekt in de Uitvoeringswet. Dit artikellid is naar aanleiding hiervan opgenomen in de Uitvoeringswet (artikel 36, tweede lid).",
+   "score": 0.85
+  },
+  {
+   "id": "wl-097c5fba45df",
+   "artikel": "36",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "48",
+   "sectie": "6.1 Rechten van betrokkenen",
+   "tekst": "Als de vraag ziet op de behoefte aan een nadere concretisering van de rechten en plichten die uit dit recht voortvloeien en handreikingen hoe in de praktijk te handelen bij een verzoek op grond van artikel 17 AVG, dan is er op de website van de AP hierover de nodige nadere informatie te vinden. Zo is – onder veel meer – te lezen dat als een betrokkene het verzoek elektronisch indient, de verwerkingsverantwoordelijke ook elektronisch dient te reageren, tenzij de betrokkene vraagt om op een andere manier te reageren. Ook mogen er in principe géén kosten worden berekend, maar als de verwerkingsverantwoordelijke kan bewijzen dat een verzoek ongegrond of buitensporig is (veelvuldig herhaalde verzoeken van één persoon), dan mag wel een redelijke administratieve vergoeding worden gevraagd of mag het verzoek zelfs geheel worden geweigerd. Worden bijvoorbeeld persoonsgegevens via een website gepubliceerd dan moet de verwerkingsverantwoordelijke de zoekmachines informeren. Daarbij zal de webpagina opnieuw moeten worden geïndexeerd, zodat de gewiste persoonsgegevens niet meer verschijnen in de zoekresultaten. De betrokkene kan op grond van artikel 36, eerste lid, van het wetsvoorstel de AP verzoeken te bemiddelen in zijn geschil met een verwerkingsverantwoordelijke omtrent zijn recht op vergetelheid.",
+   "score": 0.75,
+   "kern": [
+    [
+     978,
+     1310
+    ]
+   ]
+  },
+  {
    "id": "wl-054b48043679",
    "artikel": "37",
    "leden": [],
@@ -1602,6 +2520,32 @@
    "score": 1.0
   },
   {
+   "id": "wl-e0ec97ccc5d2",
+   "artikel": "37",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "80",
+   "sectie": "7.2.11 Beleidsneutrale invulling van de ruimte die de verordening biedt",
+   "tekst": "h. De Autoriteit persoonsgegevens stelt dat artikel 50, tweede lid, van de Wbp gecontinueerd kan worden in de Uitvoeringswet. Dit is overgenomen in artikel 37 van de Uitvoeringswet.",
+   "score": 0.85
+  },
+  {
+   "id": "wl-9d0a2756c993",
+   "artikel": "37",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "39",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "In artikel 1.13 wordt geregeld dat de artikelen 49 en 50 van de Wbp van overeenkomstige toepassing zijn. De regeling die is opgenomen in het huidige artikel 49 van de Wbp volgt straks direct uit de rechtstreeks van toepassing zijnde artikelen 79 en 82 van de verordening. De inhoud van het huidige artikel 50 van de Wbp is overgenomen in het nieuwe artikel 37 van de Uitvoeringswet. In artikel 1.13 kan derhalve worden volstaan met een verwijzing naar het genoemde artikel 37 van de Uitvoeringswet.",
+   "score": 0.85,
+   "kern": [
+    [
+     105,
+     498
+    ]
+   ]
+  },
+  {
    "id": "wl-353ef0b13c96",
    "artikel": "38",
    "leden": [],
@@ -1610,6 +2554,16 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 38",
    "tekst": "Dit artikel stemt overeen met het thans bestaande artikel 71 van de Wbp. Als hoofdregel geldt in het bestuursrecht dat het maken van bezwaar dan wel het instellen van beroep of hoger beroep de werking van het bestreden besluit niet schorst, tenzij bij wettelijk voorschrift anders is bepaald (zie de artikelen 6:16 en 6:24 van de Awb). Op advies van de Commissie voor de toetsing van wetgevingsprojecten (CTW) is destijds in artikel 71 van de Wbp bepaald dat het maken van bezwaar en het instellen van beroep tegen de bestuurlijke boete de werking van de boete schorst. De verordening biedt geen aanknopingspunten om hierin verandering te brengen.",
    "score": 1.0
+  },
+  {
+   "id": "wl-4c6fc174adf4",
+   "artikel": "38",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "80",
+   "sectie": "7.2.11 Beleidsneutrale invulling van de ruimte die de verordening biedt",
+   "tekst": "d. De Autoriteit persoonsgegevens constateert dat een soortgelijke bepaling als in artikel 71 van de Wbp, die de schorsende werking van bezwaar en beroep regelt, ontbreekt. Dit artikel is opgenomen in artikel 38 van de Uitvoeringswet.",
+   "score": 0.85
   },
   {
    "id": "wl-a0efee13ed5e",
@@ -1632,6 +2586,16 @@
    "score": 1.0
   },
   {
+   "id": "wl-76c612d28ed8",
+   "artikel": "39",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "82",
+   "sectie": "7.2.13 Andere punten die nog moeten worden uitgevoerd",
+   "tekst": "e. De Autoriteit persoonsgegevens stelt dat artikel 38, vijfde lid, van de verordening inzake de geheimhoudingsplicht van de functionaris voor gegevensbescherming, nog uitvoering behoeft in de Uitvoeringswet. Dit advies is overgenomen in artikel 39 van onderhavig wetsvoorstel. De memorie van toelichting is eveneens hierop aangepast.",
+   "score": 0.85
+  },
+  {
    "id": "wl-778ed2fbfbd8",
    "artikel": "40",
    "leden": [],
@@ -1652,6 +2616,89 @@
    "score": 1.0
   },
   {
+   "id": "wl-fa3419c5ac55",
+   "artikel": "40",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "78",
+   "sectie": "7.2.9 Te ruime afwijking?",
+   "tekst": "e. De Autoriteit persoonsgegevens merkt op dat ten aanzien van artikel 36 van de Uitvoeringswet (thans artikel 40 van de Uitvoeringswet) op basis van de wettekst en de toelichting onduidelijk zou zijn of profilering toegestaan is. Kennelijk heeft de toelichting hier tot enige onduidelijkheid geleid. De verordening biedt ruimte om af te wijken van het recht om niet te worden onderworpen aan geautomatiseerde besluitvorming, waaronder profilering. Een van deze afwijkingsgronden is wanneer dit noodzakelijk is voor de totstandkoming of uitvoering van een overeenkomst, of wanneer hiervoor toestemming is verleend. In dat kader is dus ook profilering mogelijk. Mogelijkheden voor het gebruik van deze afwijkingsgrond zijn in paragraaf 4.5 van het algemeen deel van de memorie van toelichting beschreven. Wanneer dit noodzakelijk is voor de uitvoering van een overeenkomst of wanneer hiervoor toestemming is verleend, is geautomatiseerde besluitvorming, waaronder profilering, rechtstreeks op basis van artikel 22 van de verordening toegestaan. In het artikelsgewijze deel van de memorie van toelichting is nader ingegaan op de nationaalwettelijke bepaling op basis waarvan kan worden afgeweken van het verbod. De nationaalwettelijke basis heeft slechts betrekking op geautomatiseerde besluitvorming, en niet op profilering. De toelichting is op dit punt verduidelijkt.",
+   "score": 0.9,
+   "kern": [
+    [
+     3,
+     448
+    ]
+   ]
+  },
+  {
+   "id": "wl-edcf52d6814a",
+   "artikel": "40",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "82",
+   "sectie": "7.2.13 Andere punten die nog moeten worden uitgevoerd",
+   "tekst": "d. De Autoriteit persoonsgegevens maakt enkele opmerkingen over geautomatiseerde besluitvorming en profilering. Zij stelt dat de beperkingen ten aanzien van bijzondere categorieën van persoonsgegevens en de beperkingen ten aanzien van kinderen niet zijn verwerkt in artikel 36 (thans artikel 40) van de Uitvoeringswet. Het eerste genoemde element geldt rechtstreeks op grond van de verordening (artikel 22, vierde lid, van de verordening), en behoeft derhalve geen regeling in de Uitvoeringswet. Wel is dit in de artikelsgewijze toelichting bij artikel 40 van de Uitvoeringswet benadrukt.",
+   "score": 0.8,
+   "kern": [
+    [
+     319,
+     588
+    ]
+   ]
+  },
+  {
+   "id": "wl-358250c29fb0",
+   "artikel": "40",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "77",
+   "sectie": "7.2.8 Overschrijf-/omzettingsverbod",
+   "tekst": "b. Ten aanzien van artikel 36 (thans 40) over geautomatiseerde verwerkingen van de Uitvoeringswet merkt de Autoriteit persoonsgegevens op dat in artikel 22, eerste en vierde lid, reeds voorzien is in hetgeen was opgenomen in het aan hen voorgelegde artikel 36, derde lid. Het huidige artikel 40 is hierop aangepast.",
+   "score": 0.6
+  },
+  {
+   "id": "wl-8090b2eacbea",
+   "artikel": "40",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "47",
+   "sectie": "4.5 Geautomatiseerde individuele besluitvorming, waaronder profilering",
+   "tekst": "Daarnaast biedt de verordening de ruimte om af te wijken wanneer dit is toegestaan bij Unierechtelijke of lidstaatrechtelijke bepaling. Het is wenselijk om hiervan gebruik te maken. In de artikelsgewijze toelichting bij artikel 40 is de voorgestelde bepaling in de Uitvoeringswet nader toegelicht.",
+   "score": 0.5
+  },
+  {
+   "id": "wl-cb9c50102e62",
+   "artikel": "40",
+   "leden": [],
+   "document": "kst-34851-7",
+   "pagina": "4",
+   "sectie": "1 Inleiding",
+   "tekst": "Nog problematischer is dat er lacunes in de regelgeving ontstaan. De AVG vergt immers op belangrijke onderdelen nationale uitvoeringsregelgeving. De UAVG voorziet daarin. De volgende casus kan dienen als voorbeeld van wat er dan mis zou gaan. Krachtens artikel 22 AVG heeft de betrokkene het recht niet te worden onderworpen aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit. Artikel 40 UAVG voorziet in een uitzondering. Als de UAVG niet op 25 mei 2018 in werking treedt, zal louter geautomatiseerde besluitvorming zonder menselijke tussenkomst vanaf die datum in beginsel niet meer zijn toegestaan. Concreet zou dat bijvoorbeeld betekenen dat bij de Belastingdienst geen geautomatiseerde besluitvorming meer kan plaatsvinden en uitkeringsinstanties geen uitkeringen meer zouden kunnen verstrekken.",
+   "score": 0.5,
+   "kern": [
+    [
+     243,
+     619
+    ]
+   ]
+  },
+  {
+   "id": "wl-fdc4953e7db6",
+   "artikel": "40",
+   "leden": [],
+   "document": "kst-34851-D",
+   "pagina": "24",
+   "tekst": "Nog problematischer is dat er lacunes in de regelgeving ontstaan. De AVG vergt op belangrijke onderdelen nationale uitvoeringsregelgeving en de UAVG voorziet daarin. Een voorbeeld daarvan is artikel 40 UAVG, dat voorziet in een uitzondering op het in artikel 22 AVG verankerde recht niet te worden onderworpen aan een uitsluitend op geautomatiseerde verwerking gebaseerd besluit. Als de UAVG niet op 25 mei 2018 in werking treedt, zal geautomatiseerde besluitvorming zonder menselijke tussenkomst vanaf die datum in beginsel niet meer zijn toegestaan. Dit zou ertoe kunnen leiden dat bij de Belastingdienst geen geautomatiseerde besluitvorming meer kan plaatsvinden en dat uitkeringsinstanties geen uitkeringen meer kunnen verstrekken.",
+   "score": 0.5,
+   "kern": [
+    [
+     166,
+     551
+    ]
+   ]
+  },
+  {
    "id": "wl-7304c079d721",
    "artikel": "41",
    "leden": [],
@@ -1662,6 +2709,158 @@
    "score": 1.0
   },
   {
+   "id": "wl-cf78b6761bc4",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "48",
+   "sectie": "4.6 Beperkingen van de rechten van betrokkene en de meldplicht bij een inbreuk",
+   "tekst": "De vraag of in het concrete geval een uitzondering gerechtvaardigd is, zal door de verwerkingsverantwoordelijke zelf moeten worden afgewogen op grond van artikel 41 van de Uitvoeringswet. In dat opzicht wordt aangesloten bij artikel 43 van de Wbp. Het tweede lid van de voorgestelde bepaling in de Uitvoeringswet dwingt de verwerkingsverantwoordelijke ertoe om een zorgvuldige afweging te maken, door voor te schrijven met welke elementen van gegevensverwerkingen hij rekening moet houden. Hij zal van geval tot geval moeten bepalen op welke verplichting een uitzondering wordt gemaakt. Het is overigens niet zo dat alle elementen die worden genoemd in het tweede lid in alle gevallen, waarin deze belangenafweging gemaakt wordt aan de orde moeten komen. Het is primair aan de verwerkingsverantwoordelijke om te bepalen welke elementen in concrete gevallen relevant zijn om mee te wegen.",
+   "score": 0.95,
+   "kern": [
+    [
+     0,
+     247
+    ]
+   ]
+  },
+  {
+   "id": "wl-623b1c530cb5",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "48",
+   "sectie": "4.6 Beperkingen van de rechten van betrokkene en de meldplicht bij een inbreuk",
+   "tekst": "Gelet op het belang van de rechten van betrokkene, de meldplicht en de beginselen dienen verwerkingsverantwoordelijken alleen van de bevoegdheid om af te wijken gebruik te maken indien dit strikt noodzakelijk is en op proportionele wijze gebeurt. Net als onder artikel 43 van de Wbp geldt voor de toepasselijkheid van deze gronden dus een strikt noodzakelijkheidscriterium (vergelijk artikel 8, tweede lid, van het EVRM en artikel 52, eerste lid, van het Handvest). De bepaling biedt dus een mogelijkheid om alleen in individuele zaken af te wijken van de rechten die gelden op grond van de verordening, indien dit strikt noodzakelijk is met het oog op de in artikel 23 van de verordening genoemde belangen. Een categorische beperking van de rechten van betrokkene kan, wanneer dit noodzakelijk en evenredig is in een democratische samenleving, daarentegen niet op artikel 41 worden gebaseerd maar alleen eventueel in sectorspecifieke wetgeving worden opgenomen.",
+   "score": 0.95,
+   "kern": [
+    [
+     708,
+     962
+    ]
+   ]
+  },
+  {
+   "id": "wl-fb5d4efc2690",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "47",
+   "sectie": "4.6 Beperkingen van de rechten van betrokkene en de meldplicht bij een inbreuk",
+   "tekst": "In de uitvoering van artikel 23 van de verordening is opnieuw sprake van de gelaagdheid van regelgeving, die hierboven reeds is besproken: in sectorspecifieke regelingen kunnen specifieke voorschriften worden opgenomen waarin de rechten van betrokkene worden beperkt. Daarnaast is met artikel 41 in de Uitvoeringswet een algemene regeling opgenomen, op grond waarvan de verwerkingsverantwoordelijke zelf een belangenafweging kan maken inzake het afwijken van bepaalde rechten van de betrokkene indien dit noodzakelijk is met het oog op de in dat artikel genoemde algemene belangen.",
+   "score": 0.9,
+   "kern": [
+    [
+     268,
+     581
+    ]
+   ]
+  },
+  {
+   "id": "wl-51feb0c807b4",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "6",
+   "sectie": "1 Inleiding",
+   "tekst": "Overigens is de regeling van het huidige artikel 41 met nadruk een vangnetbepaling. De rechten van betrokkenen kunnen slechts worden beperkt, indien dit in een bepaald geval noodzakelijk en evenredig is ter waarborging van de in artikel 23 van de AVG genoemde doelstellingen. Door de verwerkingsverantwoordelijke die een beroep doet op dit artikel, zal dit moeten worden aangetoond.",
+   "score": 0.9
+  },
+  {
+   "id": "wl-314235e666e2",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "48",
+   "sectie": "4.6 Beperkingen van de rechten van betrokkene en de meldplicht bij een inbreuk",
+   "tekst": "In de Uitvoeringswet wordt hierom het hierboven al aangestipte artikel 41 voorgesteld dat voorziet in de mogelijkheid om uitzonderingen te maken op de rechten van betrokkene en de meldplicht bij een inbreuk, met het oog op de in artikel 23, eerste lid, van de verordening genoemde belangen. Deze bepaling is tot op zekere hoogte een equivalent van artikel 43 van de Wbp.",
+   "score": 0.85
+  },
+  {
+   "id": "wl-4aa10ec1d889",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "49",
+   "sectie": "4.6 Beperkingen van de rechten van betrokkene en de meldplicht bij een inbreuk",
+   "tekst": "Ook toezichthouders die persoonsgegevens verzamelen in het kader van bestuursrechtelijk toezicht zullen in concrete gevallen een afweging moeten maken of in voorkomende gevallen afgeweken zal moeten worden van de rechten van betrokkene bij verwerking van persoonsgegevens. Het kan bijvoorbeeld zo zijn dat bij de verwerking van persoonsgegevens in het kader van toezicht een belangrijk economisch belang wordt gediend als bedoeld in artikel 41, eerste lid, onderdeel e, van de Uitvoeringswet. Het is allereerst aan de verwerkingsverantwoordelijke om deze belangenafweging te maken. In concrete gevallen kan de Autoriteit persoonsgegevens oordelen dat deze afweging onjuist is gemaakt, en de rechten van de betrokkene zijn geschonden. Uiteindelijk zal het, wanneer het oordeel van de Autoriteit persoonsgegevens wordt aangevochten, aan de rechter zijn om hier een finaal oordeel over te geven.",
+   "score": 0.85,
+   "kern": [
+    [
+     273,
+     492
+    ]
+   ]
+  },
+  {
+   "id": "wl-cbabb8d348f0",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "78",
+   "sectie": "7.2.9 Te ruime afwijking?",
+   "tekst": "f. Ten aanzien van artikel 37 (thans 41) van de Uitvoeringswet merkt de Autoriteit persoonsgegevens op dat het artikel handhaafbaar en uitvoerbaar is. Wel adviseert ze om de toelichting aan te vullen ten aanzien van de «nieuwe belangen» zoals openbare veiligheid, genoemd in onderdelen c en d. Juist omdat het bij deze uitzonderingsmogelijkheid altijd alleen om incidentele uitzonderingen kan gaan, is het niet mogelijk om vooraf in te schatten in welke situaties gebruikgemaakt zal worden van de ruimte die artikel 41 biedt om af te wijken van de rechten van betrokkene. Dit zal telkens in de praktijk een zorgvuldige afweging vergen.",
+   "score": 0.8,
+   "kern": [
+    [
+     151,
+     571
+    ]
+   ]
+  },
+  {
+   "id": "wl-a36a9621b372",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "56",
+   "sectie": "5.2.5 Meldplicht inbreuk in verband met persoonsgegevens",
+   "tekst": "Het is dus naast artikel 34 van de verordening van belang dat artikel 41 van de Uitvoeringswet in samenhang met artikel 23 van de verordening voorziet in de mogelijkheid om de plicht om te melden aan betrokkene te beperken. Hierop is hierboven reeds ingegaan en tevens zij verwezen naar de artikelsgewijze toelichting bij artikel 41 en 42 van de Uitvoeringswet.",
+   "score": 0.75
+  },
+  {
+   "id": "wl-5d9c4c10bc21",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "65",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "Artikel 41 van de Uitvoeringswet AVG geeft een algemene regeling om de rechten bedoeld in artikel 12 tot en met 21 en artikel 34 AVG buiten toepassing te laten voor zover dit noodzakelijk en evenredig is ter waarborging van de in dat artikel genoemde belangen. In artikel 5.3.1 wordt daar een specifieke invulling wordt gegeven. Voor zover de verwerkingsverantwoordelijke hier toepassing aan geeft, geldt daarbij het bepaalde in artikel 41, tweede lid van de Uitvoeringswet.",
+   "score": 0.6,
+   "kern": [
+    [
+     261,
+     474
+    ]
+   ]
+  },
+  {
+   "id": "wl-4d74d3ab31b8",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "6",
+   "sectie": "3.2 Advies Autoriteit persoonsgegevens en samenhangende reacties",
+   "tekst": "De AP gaat ook in op de voorgestelde wijzigingen ten aanzien van artikel 41 UAVG, waarbij een vierde en vijfde lid worden ingevoegd. Dat artikel biedt verwerkingsverantwoordelijken de mogelijkheid om, bij wijze van vangnet, onder voorwaarden af te wijken van rechten van betrokkenen. De in de internetconsultatie voorgestelde artikelleden bevatten een regeling om, indien een verwerkingsverantwoordelijke gebruik maakt van de bevoegdheid de rechten van betrokkene in te perken, hij dit, voorzien van een dragende motivering, schriftelijk meedeelt aan de betrokkene, onder gelijktijdige toezending aan de AP. De AP moet vervolgens periodiek deze afschriften ter beschikking stellen aan Onze Minister.",
+   "score": 0.55,
+   "kern": [
+    [
+     0,
+     283
+    ]
+   ]
+  },
+  {
+   "id": "wl-d1569c41f34d",
+   "artikel": "41",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "56",
+   "sectie": "5.2.5 Meldplicht inbreuk in verband met persoonsgegevens",
+   "tekst": "d) melding afbreuk zou doen aan een zwaarwegend belang (artikel 41 van de Uitvoeringswet).",
+   "score": 0.5
+  },
+  {
    "id": "wl-5d7af4256d92",
    "artikel": "42",
    "leden": [],
@@ -1670,6 +2869,120 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 42",
    "tekst": "Artikel 34a van de Wbp bevat in het negende en elfde lid een tweetal uitzonderingen op de meldplicht datalekken. Allereerst is, in het negende lid, de meldplicht, zowel jegens de Autoriteit persoonsgegevens als jegens de betrokkene niet van toepassing indien de verwerkingsverantwoordelijke in zijn hoedanigheid als aanbieder van een openbare elektronische communicatiedienst een kennisgeving heeft gedaan bedoeld in artikel 11.3a, eerste en tweede lid, van de Telecommunicatiewet. Deze meldplicht heeft een basis in artikel 4, derde lid, van de herziene richtlijn 2002/58/EG. De reden voor de uitzondering in de Wbp is het voorkomen van dubbelingen in de meldplicht aan de betrokkene respectievelijk aan verschillende toezichthouders.\n\nIn artikel 95 van de verordening is reeds voorzien in een bepaling die voorkomt dat er sprake is van dubbele meldplichten voor aanbieders van een openbare elektronische communicatiedienst. Hierdoor is artikel 34a, negende lid, van de Wbp overbodig geworden.\n\nHet elfde lid van artikel 34a van de Wbp sluit de meldplicht aan betrokkene uit voor financiële ondernemingen bedoeld in de Wft. Deze uitzondering kan worden gecontinueerd in de Uitvoeringswet op grond van de ruimte die artikel 23, eerste lid, onderdeel e, van de verordening daarvoor biedt. Conform het tweede lid van artikel 23 van de verordening is de toepassing van deze uitzondering beperkt tot een specifieke beperking voor een specifieke categorie van verwerkingsverantwoordelijken.",
    "score": 1.0
+  },
+  {
+   "id": "wl-94fdf3f0d13e",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-34813-11",
+   "pagina": "52",
+   "sectie": "10 Bescherming van persoonsgegevens",
+   "tekst": "De leden van de fracties van de CDA en GroenLinks vragen naar de gevolgen van een datalek. Dit zijn kwesties die in de AVG zijn geregeld. Zoals gezegd is de AVG ook van toepassing op de verwerking van persoonsgegevens voor het verlenen van betaaldiensten. Zo bepaalt artikel 33 AVG dat de verwerkingsverantwoordelijke melding maakt van een inbreuk op het recht op bescherming van persoonsgegevens aan de toezichthoudende autoriteit (in Nederland: de AP). Voor financiële ondernemingen geldt in voorkomende gevallen een meldplicht aan DNB of de AFM. Financiële ondernemingen, waaronder betaaldienstverleners, zijn uitgezonderd van de verplichting van artikel 34 AVG (artikel 42 UAVG), als gevolg waarvan zij niet verplicht zijn elk datalek ook te melden aan de betrokken klanten, met het oog op voorkoming van onnodige paniek. De zorgplicht van de financiële onderneming brengt echter mee dat zij, als dat mogelijk is, haar klanten informeert. Dit doet zij nu al bij incidenten onder de Wet op het financieel toezicht en dat zal niet anders zijn ten aanzien van datalekken onder dit wetsvoorstel. Daarnaast geldt dat ingevolge PSD II DNB in kennis moet worden gesteld van elk groot beveiligingsincident. Indien dit incident gevolgen kan hebben voor de financiële belangen van de betaaldienstgebruikers moeten ook de betaaldienstgebruikers onverwijld in kennis worden gesteld van het incident en moet aan hen worden meegedeeld hoe zij de mogelijk schadelijke gevolgen van het incident kunnen beperken.",
+   "score": 0.9,
+   "kern": [
+    [
+     455,
+     825
+    ]
+   ]
+  },
+  {
+   "id": "wl-ef83d5176ffd",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "78",
+   "sectie": "7.2.9 Te ruime afwijking?",
+   "tekst": "Artikel 23, tweede lid, van de verordening stelt dat «de wettelijke maatregelen specifieke bepalingen bevatten met betrekking tot, in voorkomend geval, ten minste», en dan volgt een opsomming. De Engelse tekst luidt op dit punt «where relevant». Dit geeft aan dat er ruimte is voor de nationale wetgever om af te wegen of het zinvol is om specifieke bepalingen hierbij op te nemen. In artikel 42 zijn elementen van het tweede lid geïncorporeerd in de tekst. Zo geldt de beperking alleen ten aanzien van de verplichting van artikel 34 verordening (conform artikel 23, tweede lid, onderdeel c, van de verordening) en alleen ten aanzien van financiële ondernemingen (conform artikel 23, tweede lid, onderdeel e, van de verordening).",
+   "score": 0.9,
+   "kern": [
+    [
+     382,
+     729
+    ]
+   ]
+  },
+  {
+   "id": "wl-2b434e6c05e2",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "9",
+   "sectie": "3.2 Advies Autoriteit persoonsgegevens en samenhangende reacties",
+   "tekst": "De AP adviseert de uitzondering op de meldplicht datalekken van artikel 42 UAVG te beperken tot banken, omdat de reikwijdte van het begrip financiële onderneming uit de Wet op het financieel toezicht (Wft) te breed is en een categorie ondernemingen kent, waarvoor het risico op een «bankrun» bij een meldplicht datalekken niet aanwezig zou zijn. Het is een reeds lang onder de Wft bestaande praktijk dat een financiële onderneming incidenten wel moet melden aan de financieel toezichthouders, maar niet aan betrokkene. Dit is niet alleen bij banken te risicovol om dwingend te worden voorgeschreven. De zorgplicht van de financiële onderneming zal echter waarborgen dat zij ook zonder dat dit dwingend wordt voorgeschreven haar verantwoordelijkheid jegens haar cliënten zal nemen. De regering volgt dit advies van de AP dan ook niet op.",
+   "score": 0.85,
+   "kern": [
+    [
+     0,
+     345
+    ]
+   ]
+  },
+  {
+   "id": "wl-f6b26ef8b2a6",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "20",
+   "sectie": "3 Advies en consultatie",
+   "tekst": "32. Verder zien de leden van de GroenLinks-fractie dat de AP in haar consultatiereactie stelt dat de werking van art. 42 UAVG momenteel te breed is, en dat deze beperkt zou moeten worden tot de financiële ondernemingen waar daadwerkelijk een risico op bankrun bestaat. In reactie hierop schrijft de regering in de memorie van toelichting: «reeds lang onder de Wft bestaande praktijk [is] dat een financiële onderneming incidenten wel moet melden aan de financieel toezichthouders, maar niet aan betrokkene. Dit is niet alleen bij banken te risicovol om dwingend te worden voorgeschreven». Waarom is de regering van mening dat dit te risicovol is om dwingend voor te schrijven? Uit welke concrete aanwijzingen blijkt dat het nodig is om zo een grote groep geheel uit te zonderen van deze meldplicht?",
+   "score": 0.85,
+   "kern": [
+    [
+     4,
+     268
+    ]
+   ]
+  },
+  {
+   "id": "wl-c2451685a154",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-34851-16",
+   "pagina": "1",
+   "tekst": "Onder de huidige Wet bescherming persoonsgegevens, te weten in artikel 34a lid 11 Wbp, worden financiële ondernemingen uitgezonderd van de meldingsplicht aan betrokkenen. Deze uitzondering voor financiële ondernemingen als bedoeld in de Wet op het financieel toezicht op het melden van een datalek aan betrokkenen is ook in de Uitvoeringswet Algemene Verordening Gegevensbescherming geregeld, te weten in artikel 42. Uit de geschiedenis van de totstandkoming van deze uitzondering voor datalekken in de financiële sector blijkt dat dergelijke kennisgevingen aan betrokkenen – mede tegen de achtergrond van de financiële crisis – destijds te risicovol werden bevonden om dwingend te worden voorgeschreven. Daarnaast werd er destijds van uitgegaan dat de zorgplicht van een financiële onderneming zou waarborgen dat zij ook zonder dat dit dwingend wordt voorgeschreven haar verantwoordelijkheid jegens haar cliënten in rechtstreeks contact met die cliënten zou nemen.",
+   "score": 0.75,
+   "kern": [
+    [
+     0,
+     416
+    ]
+   ]
+  },
+  {
+   "id": "wl-dfd56d210904",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-34851-D",
+   "pagina": "27",
+   "tekst": "Artikel 42 van het wetsvoorstel is identiek aan het elfde lid van artikel 34a Wbp. Gezien het strak gehanteerde uitgangspunt van beleidsneutrale implementatie is ervoor gekozen om deze bepaling ook in het wetsvoorstel weer op te nemen. Ik zie echter op dit moment ook geen aanleiding om deze regel te heroverwegen.",
+   "score": 0.6
+  },
+  {
+   "id": "wl-bb49a8c16a9f",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "20",
+   "sectie": "3 Advies en consultatie",
+   "tekst": "Naar aanleiding van de consultatiereactie van de AP over de werking en reikwijdte van artikel 42 UAVG heeft de Minister van Financiën samen met De Nederlandsche Bank (DNB) een eerste verkenning uitgevoerd naar de mogelijkheden om de reikwijdte van artikel 42 UAVG te beperken. Daaruit is een divers beeld naar voren gekomen dat verder onderzocht dient te worden. Dit punt kan worden meegenomen in een volgend wetsvoorstel ter wijziging van de UAVG.",
+   "score": 0.6
+  },
+  {
+   "id": "wl-d1036145bb38",
+   "artikel": "42",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "47",
+   "sectie": "4.6 Beperkingen van de rechten van betrokkene en de meldplicht bij een inbreuk",
+   "tekst": "Een voorbeeld van een sectorspecifieke regeling is te vinden in de Wet BRP, die een eigen systematiek kent voor beperking van de rechten van betrokkene. Deze beperkingen worden dwingend voorgeschreven, waardoor de verwerkingsverantwoordelijke hierin zelf geen afweging hoeft te maken, of zelfs mag maken, voor ieder individueel geval. Deze beperkingen zijn hiermee voorzienbaar voor de betrokkene. Een ander voorbeeld van deze categorische afwijking is het huidige artikel 34a, negende en elfde lid, van de Wbp, waarin een aantal specifieke uitzonderingen voor de meldplicht bij een inbreuk op de beveiliging zijn opgenomen. Ook dit is een structurele, categorische afwijking van de hoofdregel, waarvoor het niet opportuun is om de verwerkingsverantwoordelijke telkens zelf een afweging te laten maken. In de artikelsgewijze toelichting bij artikel 42 wordt nader ingegaan op het continueren van deze bepalingen.",
+   "score": 0.55,
+   "kern": [
+    [
+     625,
+     912
+    ]
+   ]
   },
   {
    "id": "wl-f8749ae24fae",
@@ -1702,6 +3015,67 @@
    "score": 1.0
   },
   {
+   "id": "wl-bbc379bbaf7b",
+   "artikel": "43",
+   "leden": [],
+   "document": "kst-34851-D",
+   "pagina": "15",
+   "tekst": "In de UAVG wordt de journalistieke exceptie geregeld. In Europees verband moet het begrip journalistiek ruim worden opgevat. De Europese wetgever wijst er in overweging 153 van de AVG expliciet op dat, gelet op het belang van het recht van vrijheid van meningsuiting in elke democratische samenleving, begrippen die betrekking hebben op die vrijheid, zoals journalistiek, ruim dienen te worden uitgelegd. Om die reden biedt artikel 85 van de AVG de nationale wetgever de mogelijkheid om ook voor verwerkingen voor academische, literaire en artistieke doeleinden uitzonderingen of afwijkingen vast te stellen. Daarbij moet onder meer worden gedacht aan gegevensverwerkingen die plaatsvinden bij universiteiten, bibliotheken en musea. Op grond van artikel 85 AVG, is in artikel 43 UAVG geregeld dat de UAVG en het grootste deel van de AVG zijn uitgezonderd voor gegevensverwerkingen voor uitsluitend journalistieke doeleinden of ten behoeve van academische, artistieke of literaire uitdrukkingsvormen. Dat betekent feitelijk dat enkel een aantal algemene beginselen en basale verplichtingen voor de verwerkingsverantwoordelijke van toepassingen zijn op gegevensverwerkingen in het kader van de genoemde doelen, zoals het beginsel van proportionaliteit en de verplichting om gegevens op passende wijze te beveiligen. Nederland geeft zodoende reeds een zeer ruime invulling aan de mogelijkheid om in nationale wetgeving uitzonderingen te regelen voor de journalistieke praktijk. Een verdere verruiming van de journalistieke exceptie zou op gespannen voet staan met de AVG, omdat de AVG vereist dat het recht van uitingsvrijheid en het recht op privacy met elkaar «in evenwicht» worden gebracht. Daarbij geldt het principe dat tussen deze rechten in beginsel geen rangorde bestaat en dat geen van beide rechten voorrang heeft op de ander. In de AVG heeft de Europese wetgever bepaald dat afwijkingen of uitzonderingen kunnen worden vastgesteld van bepaalde bepalingen van de AVG, voor zover dat noodzakelijk is voor journalistieke doeleinden. Het is dan ook niet aannemelijk dat deze een totaaluitsluiting van de materiële normen voor persoonsgegevensbescherming heeft willen toestaan. Een verdere uitbreiding van de journalistieke exceptie, waarbij ook de meest basale beginselen en normen van de AVG worden uitgesloten, zorgt voor een disbalans tussen beide rechten. Het recht op privacy wordt dan immers in het geheel niet meer gewaarborgd, terwijl een inbreuk op de privacy altijd in een redelijke verhouding dient te staan tot het daarmee gediende doel van de gegevensverwerking. Overigens is van belang te constateren dat er voor is gekozen om het huidige regime voor journalistieke gegevensverwerkingen zoveel mogelijk te handhaven (zie tevens de beantwoording van vraag 19).",
+   "score": 0.95,
+   "kern": [
+    [
+     733,
+     999
+    ]
+   ]
+  },
+  {
+   "id": "wl-57eaeb4a27be",
+   "artikel": "43",
+   "leden": [],
+   "document": "kst-34851-D",
+   "pagina": "26",
+   "tekst": "Bij een aantal partijen in het veld is de zorg ontstaan dat de AVG een beperking van de journalistieke ruimte met zich meebrengt, omdat de AVG ten aanzien van een aantal onderwerpen strengere regels stelt ten opzichte van de Wbp. De regering deelt deze zorg niet, omdat de belangrijkste wijzigingen die de AVG met zich meebrengt niet van toepassing zijn op de journalistieke praktijk. De betreffende bepalingen zijn namelijk uitgezonderd voor gegevensverwerkingen in het kader van journalistieke doeleinden. Het gaat daarbij met name om de versterking van de rechten van betrokkenen en de versteviging van de bevoegdheden voor de toezichthouder, waaronder de bevoegdheid om boetes op te leggen. Op grond van de journalistieke exceptie in artikel 43 UAVG zijn de rechten van betrokkenen echter categoraal uitgezonderd voor de journalistiek en is de toezichthouder niet bevoegd handhavend op te treden. Vanuit het oogpunt van beleidsneutrale implementatie is ervoor gekozen om het huidige regime voor journalistieke gegevensverwerkingen zoveel mogelijk te handhaven. Dat betekent dat de journalistieke exceptie bijna geheel overeenkomt met de bestaande ruimte onder de Wbp. Uitsluitend daar waar de ontwikkelingen in de jurisprudentie of de huidige praktijk daartoe noodzaak geven, is de ruimte voor de journalistiek verbreed. Zo kan een eenmaal verkregen toestemming door een betrokkene voor gegevensverwerking, bijvoorbeeld voor het publiceren of uitzenden van een gegeven interview, in beginsel niet worden ingetrokken. Voor nadere informatie over de journalistieke exceptie verwijs ik ook naar het antwoord op vraag 11. In het debat in de Tweede Kamer heb ik aangegeven dat ik dit onderwerp serieus neem, ervan overtuigd ben dat het nu goed is geregeld, maar dat ik dit onderwerp mee zal nemen in de brief die ik na de zomer zal sturen aan de Tweede Kamer en aan Uw kamer over wat we meer of anders kunnen doen als het gaat om de beleidsruimte die we nog hebben binnen de Europese wet- en regelgeving.",
+   "score": 0.9,
+   "kern": [
+    [
+     695,
+     1064
+    ]
+   ]
+  },
+  {
+   "id": "wl-a38a0769b7cf",
+   "artikel": "43",
+   "leden": [],
+   "document": "kst-34851-D",
+   "pagina": "7",
+   "tekst": "De UAVG bepaalt in artikel 43 dat deze wet niet van toepassing is op de verwerking van persoonsgegevens voor uitsluitend journalistieke doeleinden en ten behoeve van uitsluitend academische, artistieke of literaire uitdrukkingsvormen. Het gebruik van het woord «uitsluitend» geeft de leden van de VVD-fractie aanleiding tot de vraag aan de regering of dergelijke nauw omlijnde doeleinden en uitdrukkingsvormen eigenlijk alleen kenbaar zijn op basis van publicatie. Zij vragen de regering dan ook op welke wijze journalistieke, academische, artistieke of literaire voorbereidingshandelingen voor een publicatie waarbij persoonsgegevens worden uitgewisseld, worden uitgezonderd van de toepassing van de verordening en de UAVG.",
+   "score": 0.6,
+   "kern": [
+    [
+     0,
+     234
+    ]
+   ]
+  },
+  {
+   "id": "wl-f9e2a8381b99",
+   "artikel": "43",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "49",
+   "sectie": "4.7 Vrijheid van meningsuiting en van informatie",
+   "tekst": "Wanneer persoonsgegevens voor journalistieke doeleinden of ten behoeve van academische, artistieke of literaire uitdrukkingsvormen worden verwerkt, kan er sprake zijn van een botsing tussen enerzijds het recht op bescherming van persoonsgegevens en anderzijds de vrijheid van meningsuiting en van informatie. Het is dan ook onwenselijk om de verordening onverkort van toepassing te laten zijn op journalistieke, academische, artistieke of literaire activiteiten. Op basis van het tweede lid van artikel 85, van de verordening zijn de lidstaten derhalve verplicht om te voorzien in uitzonderingen of afwijkingen van de verordening voor deze specifieke categorieën gegevensverwerkingen. Daarbij geldt het in de jurisprudentie bevestigde uitgangspunt dat er tussen grondrechten geen rangorde bestaat: in algemene zin heeft geen van beide rechten voorrang. Het is aan de nationale wetgever om af te wegen welke uitzonderingen moeten worden gecreëerd om de grondrechten met elkaar te verzoenen. In de artikelsgewijze toelichting bij artikel 43 wordt uitgebreid nader ingegaan op de wijze waarop aan deze bepaling invulling is gegeven.",
+   "score": 0.55,
+   "kern": [
+    [
+     685,
+     1129
+    ]
+   ]
+  },
+  {
    "id": "wl-e1a3d48a2a0f",
    "artikel": "44",
    "leden": [],
@@ -1710,6 +3084,16 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 44",
    "tekst": "Dit artikel bevat een specifieke regeling inzake de verwerking van persoonsgegevens met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden, die zijn grondslag vindt in artikel 89 van de verordening (zie ook overweging 157). Op grond van artikel 89, tweede lid, van de verordening kan bij lidstatelijk recht worden voorzien in afwijkingen van bepaalde rechten van de verordening, te weten de rechten van de artikelen 15, 16, 18 en 21, bij verwerking van persoonsgegevens met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden. Bij de artikelen 15 en 16 van de verordening gaat het om het recht van inzage van de betrokkene en het recht op rectificatie. Artikel 18 van de verordening ziet op de beperking van de verwerking. Artikel 21 van de verordening betreft het recht van bezwaar, voorheen het recht van verzet.\n\nArtikel 44 van de Wbp kende een specifieke regeling voor instellingen of diensten voor alleen wetenschappelijk onderzoek of statistiek, die konden weigeren om aan een verzoek om inzage te voldoen. Het recht op rectificatie, dat in het verlengde ligt van het recht op inzage, kon hiermee ook worden geweigerd. Deze bepaling implementeerde artikel 13, tweede lid, van richtlijn 95/46/EG. Hoewel de bepaling van de verordening verschilt in de formulering, is de strekking gelijkblijvend. Op het eerste gezicht lijkt het zelfs of artikel 89 van de verordening meer ruimte biedt voor afwijking, nu artikel 13, tweede lid, van richtlijn 95/46/EG bepaalde dat mocht worden afgeweken van de opgenomen rechten wanneer de verwerking «uitsluitend met het oog op wetenschappelijk onderzoek» geschiedt. Het begrip «uitsluitend» is niet teruggekeerd in de tekst van de verordening. Tegelijkertijd staat de verordening afwijking slechts toe wanneer de afwijkingen noodzakelijk zijn. Ook wetssystematisch is het juist om, gelet op het belang van de rechten van betrokkene, eventuele wettelijke uitzonderingen op deze rechten, zo precies mogelijk te formuleren. Voorgesteld wordt om de bestaande bepaling van artikel 44, eerste lid, van de Wbp te continueren.\n\nIn het voorgestelde artikel 44 wordt de mogelijkheid geboden om de artikelen 15 en 16 van de verordening uit te sluiten. Ook artikel 18 van de verordening, het recht op beperking van de verwerking, is in de voorgestelde regeling uitgesloten. Artikel 21 van de verordening, het recht van bezwaar, is daarentegen niet uitgesloten, hoewel de verordening hier ruimte voor biedt. Dit recht is ook onder de Wbp ook niet uitgesloten bij wetenschappelijk onderzoek en er is geen aanleiding om dit in deze Uitvoeringswet wel te doen. De formulering van artikel 44 van de Wbp is, behoudens een taalkundige correctie, ongewijzigd gehandhaafd. Materieel is hiermee ook op dit punt sprake van beleidsneutrale implementatie.\n\nHet artikel biedt een grondslag voor afwijking van de rechten van betrokkene. Het is aan de verwerkingsverantwoordelijke om in concrete gevallen af te wegen of en in hoeverre van deze mogelijkheid gebruik zal worden gemaakt. Er is dus geen verplichting voor de verwerkingsverantwoordelijke om van de genoemde rechten af te wijken.",
    "score": 1.0
+  },
+  {
+   "id": "wl-489c6864859e",
+   "artikel": "44",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "50",
+   "sectie": "4.8 Verwerkingen ten behoeve van wetenschappelijk of historisch onderzoek of met een statistisch oogmerk",
+   "tekst": "Op grond van artikel 89, tweede lid, van de verordening kan worden afgeweken van een aantal in de verordening opgenomen rechten, te weten de artikelen 15, 16, 18 en 21. Ook van deze mogelijkheid is geclausuleerd gebruik gemaakt, overeenkomstig de bestaande bepaling van artikel 44, eerste lid, van de Wbp. Voor een verdere toelichting zij verwezen naar de artikelsgewijze toelichting bij artikel 44 van de Uitvoeringswet.",
+   "score": 0.75
   },
   {
    "id": "wl-272db5888d91",
@@ -1742,6 +3126,56 @@
    "score": 1.0
   },
   {
+   "id": "wl-bf175ec41a1b",
+   "artikel": "45",
+   "leden": [],
+   "document": "kst-36264-7",
+   "pagina": "3",
+   "tekst": "Zoals in de nota naar aanleiding van het verslag is aangegeven is artikel 45, eerste lid, van de UAVG enkel van toepassing indien sprake is van archiefcollecties van blijvende waarde voor het algemeen belang, die worden beheerd (i) door archiefbewaarplaatsen in de zin van de Archiefwet 1995 of (ii) door – kortgezegd – andere voor het publiek toegankelijke instellingen die geen winstoogmerk hebben en waarvan de activiteiten in hoofdzaak uit publieke middelen worden bekostigd. Met het vereiste dat sprake moet zijn van «archiefcollecties van blijvende waarde voor het algemeen belang» wordt mede tot uitdrukking gebracht dat het niet kan gaan om documenten die nog voor de primaire taakvervulling worden gebruikt. Artikel 45, eerste lid, is daarom inderdaad uitsluitend van toepassing ten aanzien van persoonsgegevens die voor blijvende bewaring berusten bij een archiefbewaarplaats in de zin van de Archiefwet of bij een andere publiek toegankelijke archiefinstelling.",
+   "score": 0.95,
+   "kern": [
+    [
+     0,
+     479
+    ]
+   ]
+  },
+  {
+   "id": "wl-c0cc73c4fd15",
+   "artikel": "45",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "51",
+   "sectie": "4.9 Archivering in het algemeen belang",
+   "tekst": "Er is voor gekozen om op grond van artikel 89, derde lid, van de verordening een aantal uitzonderingen op te nemen in de Uitvoeringswet voor verwerking van persoonsgegevens die deel uitmaken van archiefbescheiden die berusten in een archiefbewaarplaats. Daarbij wordt aangesloten bij de begrippen zoals deze gedefinieerd zijn in de Archiefwet 1995. Voor een nadere toelichting bij deze bepaling zij verwezen naar de artikelsgewijze toelichting bij artikel 45.",
+   "score": 0.9,
+   "kern": [
+    [
+     254,
+     459
+    ]
+   ]
+  },
+  {
+   "id": "wl-ad0333ae2c0c",
+   "artikel": "45",
+   "leden": [],
+   "document": "kst-36264-7",
+   "pagina": "3",
+   "tekst": "Door de oorspronkelijke formulering kan hierover onduidelijkheid ontstaan. Gelet daarop is artikel 45, eerste lid, verduidelijkt, zodat helder is dat het bij toepassing van artikel 45 altijd moet gaan om archiefcollecties van blijvende waarde voor het algemeen belang.",
+   "score": 0.9
+  },
+  {
+   "id": "wl-8c005751c358",
+   "artikel": "45",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "3",
+   "sectie": "2 Hoofdlijnen van het voorstel",
+   "tekst": "• De in artikel 45 UAVG geregelde uitzondering voor archiefbewaarplaatsen om rechten van betrokkenen te moeten honoreren als het recht op correctie of het recht op vernietiging gaat ook gelden voor andere voor het publiek toegankelijke instellingen die archieven van blijvende waarde voor het algemeen en historisch belang beheren en die geen winstoogmerk hebben (artikel I, onderdeel R)",
+   "score": 0.8
+  },
+  {
    "id": "wl-0862a6c7824f",
    "artikel": "46",
    "leden": [],
@@ -1772,6 +3206,64 @@
    "score": 1.0
   },
   {
+   "id": "wl-7b18a6caa15e",
+   "artikel": "46",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "51",
+   "sectie": "4.10 Verwerking van het nationaal identificatienummer",
+   "tekst": "Artikel 87 van de verordening geeft een grondslag om bij lidstatelijk recht specifieke voorwaarden te stellen aan de verwerking van een nationaal identificatienummer. Artikel 46 van de Uitvoeringswet regelt dat een nummer dat ter identificatie van een persoon bij wet is voorgeschreven, bij de verwerking van persoonsgegevens slechts gebruikt wordt ter uitvoering van de betreffende wet dan wel voor doeleinden bij de wet bepaald. In feite is dit een kapstokbepaling, op basis waarvan in andere wetten invulling kan worden gegeven aan dergelijke nummers.",
+   "score": 0.95,
+   "kern": [
+    [
+     167,
+     554
+    ]
+   ]
+  },
+  {
+   "id": "wl-566130133b43",
+   "artikel": "46",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "52",
+   "sectie": "4.10 Verwerking van het nationaal identificatienummer",
+   "tekst": "In de praktijk bestaat soms de wens het BSN ook voor andere doelen te gebruiken dan ter uitvoering van de wet waarin het voorschrift over het nummer is opgenomen. Dit is alleen gerechtvaardigd als aan twee vereisten is voldaan. Ten eerste geldt het algemene vereiste dat persoonsgegevens alleen verder mogen worden verwerkt als dat verenigbaar is met de doeleinden waarvoor ze zijn verkregen. Ten tweede bepaalt artikel 46 van de Uitvoeringswet dat verwerking van persoonsnummers voor andere doeleinden dan de uitvoering van de betreffende wet alleen mogelijk is voor zover dat bij de wet is bepaald. Dit is een aanvullende eis op die van verenigbaarheid omdat het gebruik van persoonsnummers extra risico’s met zich kan brengen voor de bescherming van de persoonlijke levenssfeer, zoals bijvoorbeeld identiteitsfraude. Eventuele andere gebruiksdoelen dienen derhalve door de formele wetgever zelf te worden vastgesteld. Er komt ten aanzien van de verdere verwerking van het BSN geen eigen afweging toe aan de verwerkingsverantwoordelijke. Hiermee is in de Uitvoeringswet gebruik gemaakt van de nationale ruimte die de verordening biedt om specifieke voorwaarden te stellen aan de verwerking van een nationaal identificatienummer op grond van artikel 6, tweede lid, en 87 van de verordening.",
+   "score": 0.95,
+   "kern": [
+    [
+     228,
+     600
+    ]
+   ]
+  },
+  {
+   "id": "wl-9590184e82d1",
+   "artikel": "46",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "47",
+   "sectie": "3.5 Aanpassingen ten opzichte van de internetconsultatieversie",
+   "tekst": "De curator heeft in de praktijk regelmatig te maken met bijzondere categorieën van persoonsgegevens of gegevens van strafrechtelijke aard en nummers die dienen ter identificatie van personen, zoals het bsn. Volgens artikel 46 UAVG mogen deze gegevens en nummers slechts gebruikt worden ter uitvoering van een wet, dan wel, bij wet bepaalde doeleinden. Niet in alle gevallen die in het vorige lid zijn opgenomen is het verwerken van bovenstaande categorieën van persoonsgegevens nodig. Zo zou het opnemen hiervan in het faillissementsverslag dat in het CIR terecht komt, geen redelijk doel dienen. Bovendien is verwerking van deze persoonsgegevens op grond van artikel 9 AVG alleen toegestaan als sprake is van een zwaarwegend algemeen belang. Er moet dan sprake zijn van meer specifieke belangen die, gelet op de mogelijke maatschappelijke gevolgen als daarmee geen rekening wordt gehouden, dermate zwaarwegend zijn dat gegevensverwerking op basis van artikel 9 AVG is toegestaan. Dat gaat in beginsel verder dan dat een bepaalde gegevensverwerking in het belang is van de gezamenlijke schuldeisers. Het moet gaan om verwerkingen zonder welke het faillissement niet kan worden afgewikkeld of er ernstig nadeel optreedt voor de gezamenlijke schuldeisers. Het kan bijvoorbeeld gaan om verwerking van gegevens betreffende de administratie of het inventariseren van de schulden. Zonder deze handelingen kan geen compleet overzicht worden opgesteld van de uitstaande schulden en vorderingen en kan het faillissement niet naar behoren worden afgewikkeld. Het kan ook gaan om zwaarwegende belangen zoals het kunnen behouden van een aanzienlijke omvang werkgelegenheid of het borgen van de continuïteit van bepaalde vitale maatschappelijke dienstverlening, zoals het geven van onderwijs. Denk aan de situatie dat leerlingdossiers in een failliete onderwijsinstelling niet kunnen worden overgedragen aan een andere onderwijsinstelling, waardoor leerlingen gedurende enige tijd scholing zou worden onthouden",
+   "score": 0.8,
+   "kern": [
+    [
+     0,
+     351
+    ]
+   ]
+  },
+  {
+   "id": "wl-74e509c6f902",
+   "artikel": "46",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "66",
+   "sectie": "3.5 Aanpassingen ten opzichte van de internetconsultatieversie",
+   "tekst": "Om duidelijk te maken dat de raad de nummers ter identificatie van personen die bij wet zijn voorgeschreven mag verwerken is ervoor gekozen om een verwijzing naar artikel 46 UAVG en niet naar artikel 87 AVG op te nemen.",
+   "score": 0.6
+  },
+  {
    "id": "wl-c8ff69cb9d70",
    "artikel": "47",
    "leden": [],
@@ -1780,6 +3272,63 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 47",
    "tekst": "In dit artikel wordt een uitzondering gecreëerd op enkele rechten voor betrokkenen voor bij wet ingestelde openbare registers. Deze rechten zijn ook uitgezonderd onder artikel 36 en 40 van de Wbp maar bijvoorbeeld ook in specifieke sectorwetgeving zoals artikel 107a, eerste lid, van de Kadasterwet zoals die luidde voor inwerkingtreding van de Aanpassingswet Algemene verordening gegevensbescherming, en dit kan worden gehandhaafd op basis van de ruimte die artikel 23 van de verordening biedt voor afwijking van bepaalde rechten van betrokkene in dit geval ter waarborging van een «belangrijke doelstelling van algemeen belang» (artikel 23, eerste lid, onderdeel e, van de verordening). Overweging 73 van de verordening expliciteert dat het houden van openbare registers die nodig zijn om redenen van algemeen belang, een reden kan zijn om beperkingen te stellen aan specifieke rechten van betrokkenen.\n\nIn het artikel is een uitzondering opgenomen op het recht van inzage van betrokkene (artikel 15 van de verordening), het recht op rectificatie (artikel 16 van de verordening), het recht op beperking van de verwerking (artikel 18 van de verordening), de kennisgevingsplicht inzake rectificatie of wissing van persoonsgegevens of verwerkingsbeperking (artikel 19 van de verordening) en het recht op bezwaar (artikel 21 van de verordening). Overigens is ook het recht op wissing van gegevens (artikel 17 van de verordening) niet van toepassing indien de verwerking nodig is voor het nakomen van een wettelijke verplichting of een wettelijke taak. Dit is aan de orde bij openbare registers die bij wet zijn ingesteld.\n\nOpenbare registers vervullen een specifieke functie. De registers bevatten kwalitatief hoogwaardige gegevens over bijvoorbeeld personen of zaken, verrichtingen of gebeurtenissen. De registers zijn bij wet erkend als de enig officieel erkende registratie voor de desbetreffende gegevens. Bepaalde registers zijn bij wet als basisregistratie aangemerkt, zoals de basisregistraties adressen en gebouwen, de basisregistratie kadaster en het Handelsregister, die bij gelijknamige wetten zijn ingesteld. Het gebruik van gegevens uit basisregistraties is door alle overheidsinstellingen verplicht en de gegevens mogen worden gebruikt zonder nader onderzoek bij de uitvoering van publiekrechtelijke taken. Gelet daarop is het van het grootste belang dat de gegevens accuraat en volledig zijn. De taak die openbare registers ten behoeve van het algemeen belang vervullen, rechtvaardigt een uitzondering op de algemene rechten van betrokkenen, zoals bijvoorbeeld ten aanzien van het recht op wissing van gegevens. Teneinde hierover geen onduidelijkheid te laten bestaan, is dit expliciet opgenomen in de Uitvoeringswet.\n\nOverigens kennen de openbare registers die bij wet zijn ingesteld, een eigen regime ten aanzien van inzage en wijzigen van gegevens. Een voorbeeld is titel 1 van hoofdstuk 7 van de Kadasterwet, waarin de inzageprocedure is geregeld hetgeen als nadere uitwerking van artikel 15 van de verordening zal blijven gelden. In de Kadasterwet is tevens voorzien in een onkostenvergoeding in de gevallen dat een verzoek om inzage wordt gedaan (de artikelen 108 en 109 van de Kadasterwet). Aangezien het Kadaster een met een publieke taak belaste instelling is en ter bestrijding van de kosten van de uitvoering van de publieke taak vergoedingen in rekening mag brengen, dient de onkostenvergoeding aangemerkt te worden als nadere uitwerking of verbijzondering van het geregelde in artikel 15, derde lid, van de verordening. Daarmee is sprake van een bijzondere procedure en aldus een uitzondering op het recht op inzage als beschreven in artikel 15 van de verordening (recht op inzage). Overigens wordt het recht van inzage door het Kadaster reeds ingevuld door de mogelijkheid voor de betrokkene om (gratis) via MijnOverheid.nl een deel van de eigen gegevens in te zien van hetgeen het Kadaster in de basisregistratie kadaster van de desbetreffende persoon heeft geregistreerd. Gegevens uit de basisregistraties adressen en gebouwen, het gemeentelijke beperkingenregister en de gemeentelijke beperkingenregistratie – deze laatste twee zijn ingesteld bij de Wet kenbaarheid publiekrechtelijke beperkingen onroerende zaken – zijn in beginsel ook openbaar, waardoor sprake is van een bijzondere procedure in de zin van artikel 47 van de Uitvoeringswet en een uitzondering op het algemene recht van inzage voor die openbare registers aan de orde is.\n\nHoofdstuk 6 van de Handelsregisterwet 2007 is een voorbeeld van een eigen regime ten aanzien van het wijzigen van gegevens. De artikelen 7s en 7t van de Kadasterwet zijn in die zin ook een bijzondere regeling die een gerechtvaardigde afwijking vormen op het recht tot wijzigen van gegevens onder de verordening (artikel 16). In genoemde artikelen is geregeld dat er ambtshalve of op verzoek correctie of herstel kan plaatsvinden van gegevens in de basisregistratie kadaster. In artikel 33 in samenhang met artikel 42 van de Kadasterwet is geregeld dat er verbeteringen kunnen worden ingeschreven op reeds ingeschreven stukken in de openbare registers van het Kadaster.\n\nDe uitzondering op het recht van beperking van de verwerking (artikel 18 van de verordening) is voor de openbare registers terug te vinden in de artikelen 7n, 7o en 7r van de Kadasterwet waarin geregeld is dat ten behoeve van de gegevens in de basisregistratie kadaster een terugmelding kan worden gedaan indien een gegeven niet juist (b)lijkt te zijn. Gedurende de periode dat het gegeven wordt onderzocht, staat het gegeven «in onderzoek» (en dit is als zodanig ook kenbaar in de basisregistratie kadaster). Voor bestuursorganen betekent dit dat zij het betreffende gegeven niet verplicht hoeven te gebruiken. Voor andere gebruikers is het signaal dat er nader onderzoek nodig is of kan zijn naar de juistheid van het gegeven.\n\nVoor wat betreft de kennisgevingsplicht inzake rectificatie gelden voor de registers van het Kadaster de bijzondere procedures als bedoeld in de artikelen 7t, vierde lid, en 7n, zesde lid, van de Kadasterwet. In deze artikelen is geregeld dat het Kadaster de betrokkene informeert over de wijziging van een gegeven. Deze in de Kadasterwet vastgelegde informatieverplichtingen kunnen als bijzondere procedure beschouwd worden waarmee artikel 16 van de verordening buiten toepassing gelaten kan worden voor de basisregistratie kadaster.\n\nDe uitzondering op het recht van bezwaar komt overeen met artikel 40, vierde lid, van de Wbp en voorgesteld wordt om vanwege een beleidsneutrale invulling dit over te nemen in de Uitvoeringswet. Voor openbare registers geldt dat de wetgever reeds heeft beslist dat er in het belang van het rechtsverkeer sprake dient te zijn van bepaalde registers met een nauwkeurig omschreven inhoud die door een ieder moeten kunnen worden geraadpleegd.",
    "score": 1.0
+  },
+  {
+   "id": "wl-b7dcbecb800d",
+   "artikel": "47",
+   "leden": [],
+   "document": "kst-34851-8",
+   "pagina": "4",
+   "tekst": "Artikel 47 regelt enkele uitzonderingen op de rechten van betrokkenen voor bij wet ingestelde openbare registers op grond van artikel 23, eerste lid, onderdeel e, AVG. De wijziging van het voorgestelde artikel 47 betreft een tweetal kleine correcties. Zoals in de artikelsgewijze toelichting op artikel 47 al vermeld staat, is het recht op wissing van gegevens (artikel 17 AVG) niet van toepassing, indien de verwerking nodig is voor het nakomen van een wettelijke verplichting of een wettelijke taak. Dit volgt rechtstreeks uit artikel 17, derde lid, onderdeel b, AVG. Daarom hoort artikel 17 niet in artikel 47 van het wetsvoorstel opgenomen te worden. Daarnaast was de uitzondering op het recht van bezwaar (artikel 21 AVG) niet geheel beleidsneutraal verwerkt in artikel 47 van het wetsvoorstel. Artikel 40, vierde lid, Wbp bepaalt nu ongeclausuleerd dat dit recht niet van toepassing is op openbare registers die bij de wet zijn ingesteld. Een vergelijkbare bepaling wordt nu weer in artikel 47 van dit wetsvoorstel opgenomen.",
+   "score": 0.95,
+   "kern": [
+    [
+     570,
+     944
+    ]
+   ]
+  },
+  {
+   "id": "wl-303be5666876",
+   "artikel": "47",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "50",
+   "sectie": "3 Advies en consultatie",
+   "tekst": "In artikel 47, eerste lid van de UAVG wordt artikel 15 van de AVG, waarin het recht op inzage is geregeld, reeds genoemd en daarmee is al geregeld dat er een bijzondere procedure nodig is.",
+   "score": 0.9
+  },
+  {
+   "id": "wl-347b464d6926",
+   "artikel": "47",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "37",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "Wat betreft het advies van de Autoriteit persoonsgegevens met betrekking tot artikel 4, tweede lid, van de Wet basisregistratie adressen en gebouwen, dat bepaalt dat artikel 35 van de Wbp niet van toepassing is en deze wijziging kan (moeten) worden bezien in het licht van het voorgestelde artikel 43 van de Uitvoeringswet (nu artikel 47 van de Uitvoeringswet), maar dat een toelichting daarop ontbreekt, is dit verhelderd in het wetsvoorstel. Dit geldt niet alleen voor dit artikel, maar ook voor andere wetten, zoals de Wet kenbaarheid publiekrechtelijke beperkingen onroerende zaken. Het recht op inzage was reeds uitgezonderd voor de basisregistraties adressen en gebouwen. Die uitzondering blijft in stand, omdat de basisregistraties naar hun aard openbaar zijn. Zo er al persoonsgegevens zijn opgenomen in de basisregistraties adressen en gebouwen, is het niet nodig en voor burgemeester en wethouders onredelijk bezwarend om een apart informatierecht op te nemen (Kamerstukken II 2006/07, 30 968, nr. 3, p. 29). Er is in hoofdstuk 5 van de Wet basisregistraties adressen en gebouwen (artt. 32–36) ook sprake van een bijzondere procedure van inzage in de zin van artikel 47 UAVG, op basis waarvan artikel 15 AVG niet van toepassing is op de desbetreffende basisregistraties.",
+   "score": 0.8,
+   "kern": [
+    [
+     1019,
+     1280
+    ]
+   ]
+  },
+  {
+   "id": "wl-378d3770738a",
+   "artikel": "47",
+   "leden": [],
+   "document": "kst-36264-6",
+   "pagina": "50",
+   "sectie": "3 Advies en consultatie",
+   "tekst": "96. Met betrekking tot artikel 47 UAVG hebben de leden van de fractie van GroenLinks nog enkele vragen. Momenteel kan het inzagerecht (art. 15 AVG) worden uitgezonderd bij openbare registers, zonder dat het nodig is dat de wettelijke regeling van het desbetreffende register voorziet in inzage van de gegevens door de betrokkene (art. 47, eerste lid UAVG). Ook is het voor betrokkenen praktisch niet mogelijk om te achterhalen wie hun persoonsgegevens geraadpleegd hebben uit de registers. Hoe zou de regering het voorstel beoordelen om ook «inzage» toe te voegen aan de bij wet te regelen bijzondere procedures genoemd in art. 47, eerste lid UAVG?",
+   "score": 0.7,
+   "kern": [
+    [
+     4,
+     356
+    ]
+   ]
   },
   {
    "id": "wl-321ae412d8d1",
@@ -1884,6 +3433,48 @@
    "score": 1.0
   },
   {
+   "id": "wl-6e6001d21313",
+   "artikel": "47a",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "9",
+   "sectie": "3 ARTIKEL I. Uitvoeringswet Algemene verordening gegevensbescherming",
+   "tekst": "Buiten de reikwijdte van het voorgestelde artikel 47a UAVG vallen ten eerste de permanente adviescolleges zoals bedoeld in artikel 4 van de Kaderwet adviescolleges. Voor zover zij persoonsgegevens verwerken, kan de grondslag daarvoor geregeld worden in de wet waarmee het permanente adviescollege is ingesteld. Ten tweede vallen adviescolleges die niet als hoofdtaak hebben het geven van advies zoals bedoeld in artikel 1, onderdeel a, Kaderwet adviescolleges, niet onder het voorgestelde artikel 47a UAVG. En ten derde geldt dat ook voor specifieke adviescolleges en commissies die niet onder de Kaderwet adviescolleges vallen en ook niet onder de Wet vergoedingen adviescolleges en commissies. Te denken valt dan aan de Wetenschappelijke Raad voor het Regeringsbeleid, de Sociaal-Economische Raad.",
+   "score": 0.95,
+   "kern": [
+    [
+     0,
+     310
+    ]
+   ]
+  },
+  {
+   "id": "wl-7c105a4166a2",
+   "artikel": "47a",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "3",
+   "sectie": "2 Hoofdlijnen van het voorstel",
+   "tekst": "• Voor het geval dat een tijdelijke onafhankelijke commissie of een eenmalig adviescollege wordt ingesteld, met als opdracht om voortvarend onderzoek te doen naar een specifiek en afgebakend onderwerp van aanmerkelijk maatschappelijk belang waarbij persoonsgegevens moeten worden verwerkt, wordt in de UAVG bepaald dat in de ministeriële regeling ter instelling van deze commissie of dit adviescollege tevens een aantal onderwerpen met betrekking tot de verwerking van persoonsgegevens regelt (artikel I, onderdeel T).",
+   "score": 0.85
+  },
+  {
+   "id": "wl-272114569a87",
+   "artikel": "47a",
+   "leden": [],
+   "document": "kst-36264-C",
+   "pagina": "9",
+   "sectie": "3 ARTIKEL I. Uitvoeringswet Algemene verordening gegevensbescherming",
+   "tekst": "De leden van de ChristenUnie-fractie hebben kennisgenomen van het voorgestelde artikel 47a van de UAVG. Deze leden onderschrijven het voornemen om een verwerkingsgrondslag te creëren voor de verwerking van persoonsgegevens door tijdelijke commissies zoals bedoeld in de Wet vergoedingen adviescolleges en commissies en tijdelijke adviescolleges als bedoeld in de Kaderwet adviescolleges, die bij koninklijkbesluit, ministerieel besluit of ministeriële regeling worden ingesteld. Zij verzoeken de regering om te verduidelijken welke commissies of adviescolleges buiten de reikwijdte van deze bepaling zullen vallen.",
+   "score": 0.6,
+   "kern": [
+    [
+     0,
+     103
+    ]
+   ]
+  },
+  {
    "id": "wl-213092cf1d6d",
    "artikel": "48",
    "leden": [],
@@ -1904,6 +3495,76 @@
    "score": 1.0
   },
   {
+   "id": "wl-c9653cb78c15",
+   "artikel": "48",
+   "leden": [],
+   "document": "kst-34851-8",
+   "pagina": "4",
+   "tekst": "De kern van het overgangsrecht is vervat in artikel 48, eerste tot en met elfde lid. Daarnaast kent ook artikel 45, negende lid, AVG nog een bepaling van overgangsrecht: de besluiten die Commissie op grond van artikel 25, zesde lid, van richtlijn 95/46/EG heeft vastgesteld (verklaring van passend beschermingsniveau), blijven van kracht totdat zij worden vervangen door een adequaatheidsbesluit als bedoeld in artikel 45, derde lid, AVG of worden ingetrokken op grond van artikel 45, vijfde lid, AVG.",
+   "score": 0.75,
+   "kern": [
+    [
+     0,
+     84
+    ]
+   ]
+  },
+  {
+   "id": "wl-f80cc0a7a08c",
+   "artikel": "48",
+   "leden": [],
+   "document": "kst-34851-8",
+   "pagina": "4",
+   "tekst": "Artikel 48, elfde lid, wordt op een tweetal technische punten verbeterd. Onder verklaring omtrent rechtmatigheid kan zowel een positieve als een negatieve verklaring worden verstaan. Uiteraard dienen alleen positieve verklaringen onder de Uitvoeringswet te worden aangemerkt als een vergunning. Dit wordt verduidelijkt door in de gewijzigde tekst te spreken van een verklaring van rechtmatigheid. Voorts is de onjuiste verwijzing naar artikel 32, vierde lid, Wbp vervangen door een verwijzing naar artikel 32, vijfde lid, Wbp.",
+   "score": 0.7,
+   "kern": [
+    [
+     73,
+     396
+    ]
+   ]
+  },
+  {
+   "id": "wl-c99e0e73765f",
+   "artikel": "48",
+   "leden": [],
+   "document": "kst-34851-8",
+   "pagina": "4",
+   "tekst": "Het voorgaande neemt niet weg dat het denkbaar is dat technische details nog regeling behoeven. Met het oog hierop is een twaalfde lid, inhoudende een delegatiebepaling, toegevoegd aan artikel 48. Van deze mogelijkheid zal terughoudend gebruik worden gemaakt.",
+   "score": 0.7
+  },
+  {
+   "id": "wl-4cc24467ccaf",
+   "artikel": "48a",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "66",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "Op grond van artikel 48a van de Uitvoeringswet algemene verordening gegevensbescherming wordt de Autoriteit persoonsgegevens rechtspersoonlijkheid toegekend. In dat artikel wordt tevens een aantal organisatorische ingrepen geregeld die de overgang van personeel, rechten, bezittingen en verplichtingen van de rechtspersoon Staat der Nederlanden op de Autoriteit persoonsgegevens beoogt te realiseren. In artikel 48a, derde lid, wordt de overgang geregeld van de ambtenaren van het secretariaat, bedoeld in artikel 10, eerste lid, van de Uitvoeringswet algemene verordening gegevensbescherming naar de Autoriteit persoonsgegevens. Artikel 10.1, onderdeel E, van deze wet voegt hieraan toe dat de rechtspositie van deze ambtenaren als geheel ten minste gelijkwaardig is aan de rechtspositie die voor hen gold vóór de overgang. Met deze toevoeging wordt buiten twijfel gesteld dat de rechtspositie van de ambtenaren van het secretariaat van gelijkwaardig niveau blijft. Wel is vanaf het moment dat de Autoriteit persoonsgegevens rechtspersoonlijkheid heeft, de Autoriteit persoonsgegevens het bevoegd gezag. Dit betekent dat de bevoegdheden die het bevoegd gezag heeft ten aanzien van het eigen personeel, uitgeoefend zullen worden door de Autoriteit persoonsgegevens. Zo is bijvoorbeeld vanaf dat moment de Autoriteit persoonsgegevens bevoegd om op grond van artikel 61a ARAR een insidersregeling voor het eigen personeel vast te stellen. Op grond van artikel 15, eerste lid, Kaderwet zelfstandige bestuursorganen moet «Autoriteit persoonsgegevens» dan immers worden gelezen daar waar in die bepaling «Onze Minister» staat.",
+   "score": 0.95,
+   "kern": [
+    [
+     401,
+     824
+    ]
+   ]
+  },
+  {
+   "id": "wl-44a76b34400a",
+   "artikel": "48a",
+   "leden": [],
+   "document": "kst-34851-9",
+   "pagina": "3",
+   "tekst": "Het toekennen van rechtspersoonlijkheid vergt een organisatorische ingreep: zo moeten mogelijk vermogensbestanddelen worden gewaardeerd en overgaan. Met onderdeel C wordt een voorziening getroffen ingeval deze organisatorische omzetting niet zijn beslag kan krijgen vóór de datum van implementatie van de AVG. In dat geval wordt artikel 48a uitgesteld van inwerkingtreding. Artikel 53 van de Uitvoeringswet Algemene verordening gegevensbescherming biedt de mogelijkheid van gedifferentieerde inwerkingtreding. Met het eerste lid van artikel 48a wordt voorzien in een wijziging van artikel 6, waarmee de eigen rechtspersoonlijkheid wettelijk wordt geregeld. In artikel 11, eerste lid, wordt een hiermee verband houdende technische wijziging doorgevoerd (artikel 48a, tweede lid). Het derde tot en met achtste lid van artikel 48a bevatten standaardbepalingen die verband houden met het verkrijgen van eigen rechtspersoonlijkheid. Indien ook artikel 48a op dezelfde datum inwerking treedt als de artikelen 6 en 11, zorgt de volgorde van de artikelen van de Uitvoeringswet Algemene verordening gegevensbescherming ervoor dat eerst de artikelen 6 en 11 worden vastgesteld en dat deze bepalingen direct daarna overeenkomstig artikel 48a worden aangepast.",
+   "score": 0.9,
+   "kern": [
+    [
+     310,
+     656
+    ]
+   ]
+  },
+  {
    "id": "wl-ce4661e6399b",
    "artikel": "48b",
    "leden": [],
@@ -1912,6 +3573,16 @@
    "sectie": "Artikelsgewijze toelichting: Onderdeel V",
    "tekst": "Deze bepaling behelst eerbiedigende werking ter zake van de op basis van het tweede lid van artikel 46 UAVG (oud) vastgestelde algemene maatregelen van bestuur. Ingevolge onderdeel S van artikel I van het onderhavige wetsvoorstel wordt het tweede lid van artikel 46 geschrapt. Zie de toelichting bij dat artikel.\n\nHet wordt onwenselijk geacht om de grondslag aan de ingevolge het tweede lid van artikel 46 UAVG (oud) reeds vastgestelde algemene maatregelen van bestuur te laten ontvallen. Daartoe is overgangsrecht nodig en dient deze bepaling. Concreet gaat het om het Besluit digitalisering burgerlijk procesrecht en bestuursprocesrecht, het Besluit Jeugdwet, het Besluit opleidingseisen en deskundigheidsgebied physician assistent, het Besluit tegemoetkoming specifieke zorgkosten en het tijdelijk Besluit nummergebruik overheidstoegangsvoorziening. Bij gelegenheid van toekomstige regulering van de onderwerpen in deze algemene maatregelen van bestuur, zal bezien worden of verankering in een nieuwe specifieke wettelijke grondslag in de rede ligt.",
    "score": 1.0
+  },
+  {
+   "id": "wl-191da52b1f69",
+   "artikel": "48b",
+   "leden": [],
+   "document": "kst-36264-3",
+   "pagina": "34",
+   "sectie": "Toelichting bij artikel 46 (waar de toelichting naar verwijst)",
+   "tekst": "Aanleiding voor het laten vervallen van het tweede lid, is dat het eerste en tweede lid van artikel 46 (oud) in hun onderlinge verhouding vragen bleken op te roepen. Met name rees telkens de vraag of een algemene maatregel van bestuur, waarin regels worden gesteld over het gebruik van het burgerservicenummer (bsn), een specifieke wettelijke grondslag behoeft, dan wel of de UAVG als zodanig die grondslag biedt. De UAVG maakt mogelijk dat beide typen grondslagen kunnen worden gehanteerd. De onduidelijkheid die dit creëert is, gelet op het primaat van de wetgever alsmede de zich ontwikkelende functie en (rechts)gevolgen van het bsn in het maatschappelijke verkeer – in samenhang met (elektronische) identificatie en toegang tot publieke diensten – niet langer wenselijk. Voorgesteld wordt daarom om de afweging inzake het gebruik van het bsn, met name waar het gaat om het toestaan van het verwerken en uitwisselen van bsn door private organisaties, te maken in een (domein)specifieke wet.\n\nArtikel 46 (nieuw) maakt duidelijk dat voortaan regels over bsn-gebruik steeds een specifieke formeel wettelijke grondslag behoeven. Het artikel is daarmee beter in lijn met artikel 1, onderdeel d, punt 2, van de Wet algemene bepalingen burgerservicenummer, dat het gebruik van het bsn door andere dan overheidsorganen mogelijk maakt, voor zover deze werkzaamheden verrichten waarbij het gebruik van het bsn bij of krachtens wet is voorgeschreven. Wel kan bijvoorbeeld in een dergelijke formele wet worden bepaald, dat bij algemene maatregel van bestuur organisaties kunnen worden aangewezen die ter uitvoering van de desbetreffende wet het bsn verwerken. Vanzelfsprekend moet dit dragend gemotiveerd worden.\n\nVoor de algemene maatregelen van bestuur die ten tijde van het tot stand komen van deze wet reeds waren gebaseerd op het tweede lid, zij verwezen naar het voorgestelde overgangsrechtelijke artikel 48b (zie onderdeel V van artikel I met bijbehorende toelichting).\n\nIn de gevallen waarin het noodzakelijk is om bsn te verwerken, bestaat de mogelijkheid om dit in sectorale wetgeving te regelen. Dit is passend gelet op het primaat van de wetgever alsmede de zich ontwikkelende functie en (rechts)gevolgen van het bsn in het maatschappelijke verkeer. De overige reacties vallen buiten het bereik van de verzamelwet.",
+   "score": 0.85
   },
   {
    "id": "wl-49cad2333df5",
@@ -1934,6 +3605,37 @@
    "score": 1.0
   },
   {
+   "id": "wl-e74d69f4fac9",
+   "artikel": "50",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "82",
+   "sectie": "7.2.13 Andere punten die nog moeten worden uitgevoerd",
+   "tekst": "Dit advies is, mede naar aanleiding van het eensluidende advies van de Afdeling advisering van de Raad van State, overgenomen. Artikel 97 van de verordening bevat een evaluatiebepaling maar deze betreft alleen de verordening zelf. In de Uitvoeringswet worden weliswaar geen zelfstandige beleidsdoelen nagestreefd maar aangezien er wel sprake is van keuzes die in onderhavige Uitvoeringswet worden gemaakt (ter nadere invulling van de beslisruimte die de verordening aan de nationale wetgever laat of juist de keuze om van een dergelijke mogelijkheid geen gebruik te maken), ligt een evaluatie van deze keuzes voor de hand. In artikel 50 van de Uitvoeringswet is daartoe een evaluatiebepaling opgenomen.",
+   "score": 0.9,
+   "kern": [
+    [
+     623,
+     702
+    ]
+   ]
+  },
+  {
+   "id": "wl-3a5415fb25e7",
+   "artikel": "50",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "4",
+   "tekst": "Daar waar de verordening nog wel ruimte laat voor nationale keuzes, of met het oog op een nadere invulling van regels, is er uitdrukkelijk voor gekozen om in de Uitvoeringswet voort te bouwen op het huidige normenkader uit richtlijn 95/46/EG en de Wbp. Enerzijds omdat als gevolg van de inwerkingtreding van de verordening op 25 mei 2018 de tijd ontbreekt om op dit moment een geheel nieuw kader te ontwikkelen. Anderzijds om de overgang van de oude naar de nieuwe situatie zo soepel mogelijk te laten verlopen. Hoe kleiner die verschillen zijn, des te vloeiender de overgang van het huidige naar het nieuwe regime. Bovendien is het zinvol om eerst een aantal jaren ervaring op te doen met de verordening alvorens ook op die punten waar nog keuzevrijheid bestaat, af te gaan wijken van het bestaande kader. De in artikel 50 van de Uitvoeringswet voorziene evaluatie van de effecten van de nationale keuzes is ook met het oog daarop opgenomen.",
+   "score": 0.85,
+   "kern": [
+    [
+     512,
+     942
+    ]
+   ]
+  },
+  {
    "id": "wl-f5bef67bbcf7",
    "artikel": "51",
    "leden": [],
@@ -1942,6 +3644,38 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 51",
    "tekst": "In dit artikel wordt de Wbp ingetrokken. Waar bepalingen van de Wbp inhoudelijk zijn overgenomen in onderhavige Uitvoeringswet, is dit in de artikelsgewijze toelichting vermeld.",
    "score": 1.0
+  },
+  {
+   "id": "wl-088a24e9b12c",
+   "artikel": "51",
+   "leden": [],
+   "document": "kst-34939-3",
+   "pagina": "67",
+   "sectie": "5 Advies Autoriteit persoonsgegevens",
+   "tekst": "De Wet politiegegevens (Wpg) en de Wet justitiële en strafvorderlijke gegevens (Wjsg) bevatten enkele artikelen waarin wordt verwezen naar artikelen van de Wet bescherming persoonsgegevens. De verwijzingen hebben betrekking op, onder meer, de inzet van een verwerker, de aansprakelijkheid voor schade jegens de benadeelde, de taken en bevoegdheden van de Autoriteit persoonsgegevens en de benoeming van een functionaris gegevensbescherming. Voor de Wpg betreft dit de artikelen 1, onderdelen h. en m., 4, zesde lid, 28, tweede lid, 29, tweede lid, 35, tweede en derde lid, 36, tweede lid, en 36c, eerste lid, onderdeel a, Wpg alsmede de artikelen 1, onderdelen g. en k., 7, derde lid, 22, tweede lid, 23, tweede lid, 27, tweede en vierde lid, 38, derde lid, 39b, derde lid, 39n, tweede lid, en 47, tweede lid, Wjsg. Voor de Wjsg betreft dit de artikelen 1, onderdelen g. en k., 7, derde lid, 22, tweede lid, 23, tweede lid, 27, tweede en vierde lid, 38, derde lid, 39b, derde lid, 39n, tweede lid, en 47, tweede lid, Wjsg. Met de Uitvoeringswet Algemene verordening gegevensbescherming (UAvg) wordt de Wet bescherming persoonsgegevens ingetrokken (Artikel 51, UAvg). Zodra de UAvg van kracht is, wordt in de Wpg verwezen naar een wet die niet meer van kracht is.",
+   "score": 0.65,
+   "kern": [
+    [
+     816,
+     1262
+    ]
+   ]
+  },
+  {
+   "id": "wl-9776b8dba2f1",
+   "artikel": "51",
+   "leden": [],
+   "document": "kst-34851-3",
+   "pagina": "82",
+   "sectie": "7.2.13 Andere punten die nog moeten worden uitgevoerd",
+   "tekst": "c. De Autoriteit persoonsgegevens verwijst naar het advies inzake de uitvoering van het bepaalde in het arrest Schrems. Met betrekking tot de verwerking van het Schrems-arrest inzake doorgifte van persoonsgegevens aan derde landen in de Nederlandse wetgeving, wordt opgemerkt dat een nieuw artikel 20 in de Uitvoeringswet is opgenomen. Dit nieuwe artikel voorziet in de verzoekschriftprocedure zoals die voor de Autoriteit persoonsgegevens wordt voorgesteld in het bij de Tweede Kamer aanhangige wetsvoorstel tot wijziging van de Wbp naar aanleiding van het genoemde arrest. Aangezien met de inwerkingtreding van onderhavige Uitvoeringswet de Wbp zal worden ingetrokken (artikel 51) is het noodzakelijk dat deze verzoekschriftprocedure ook in de Uitvoeringswet wordt overgenomen.",
+   "score": 0.6,
+   "kern": [
+    [
+     336,
+     779
+    ]
+   ]
   },
   {
    "id": "wl-05c8f01e9040",
@@ -1962,6 +3696,21 @@
    "sectie": "Artikelsgewijze toelichting: Artikel 53",
    "tekst": "Dit artikel voorziet in de inwerkingtreding bij koninklijk besluit. Het is van groot belang dat de Uitvoeringswet op 25 mei 2018 in werking treedt omdat op die datum de verordening van toepassing wordt.",
    "score": 1.0
+  },
+  {
+   "id": "wl-a32d9d451084",
+   "artikel": "53",
+   "leden": [],
+   "document": "kst-34851-9",
+   "pagina": "3",
+   "tekst": "Het toekennen van rechtspersoonlijkheid vergt een organisatorische ingreep: zo moeten mogelijk vermogensbestanddelen worden gewaardeerd en overgaan. Met onderdeel C wordt een voorziening getroffen ingeval deze organisatorische omzetting niet zijn beslag kan krijgen vóór de datum van implementatie van de AVG. In dat geval wordt artikel 48a uitgesteld van inwerkingtreding. Artikel 53 van de Uitvoeringswet Algemene verordening gegevensbescherming biedt de mogelijkheid van gedifferentieerde inwerkingtreding. Met het eerste lid van artikel 48a wordt voorzien in een wijziging van artikel 6, waarmee de eigen rechtspersoonlijkheid wettelijk wordt geregeld. In artikel 11, eerste lid, wordt een hiermee verband houdende technische wijziging doorgevoerd (artikel 48a, tweede lid). Het derde tot en met achtste lid van artikel 48a bevatten standaardbepalingen die verband houden met het verkrijgen van eigen rechtspersoonlijkheid. Indien ook artikel 48a op dezelfde datum inwerking treedt als de artikelen 6 en 11, zorgt de volgorde van de artikelen van de Uitvoeringswet Algemene verordening gegevensbescherming ervoor dat eerst de artikelen 6 en 11 worden vastgesteld en dat deze bepalingen direct daarna overeenkomstig artikel 48a worden aangepast.",
+   "score": 0.85,
+   "kern": [
+    [
+     928,
+     1248
+    ]
+   ]
   },
   {
    "id": "wl-d9533b1e387d",
